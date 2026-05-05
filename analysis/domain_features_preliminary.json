@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "version": "preliminary_hand_curated_v1",
+    "date": "2026-05-02",
+    "method": "Hand-curated by analyzing domain definitions and sample questions; pending refinement via LLM-as-judge",
+    "feature_definitions_doc": "analysis/feature_judge_protocol.md",
+    "scale": "All features in [0, 1] where 1.0 = high",
+    "axes": {
+      "D": "Decomposability — can be split into independent parallel sub-tasks",
+      "V": "Verifiability — answer can be deterministically/automatically checked",
+      "K": "Knowledge concentration — relies on narrow specialized domain knowledge",
+      "S": "Solution diversity — multiple valid solution paths exist"
+    }
+  },
+  "domains": {
+    "legal": {
+      "dataset": "legalbench_3000",
+      "task_type": "binary_classification (categorical labels: Relevant/Irrelevant/Yes/No)",
+      "D": 0.20,
+      "V": 0.80,
+      "K": 0.90,
+      "S": 0.20,
+      "rationale": {
+        "D": "Single legal-text passage → single categorical label. Cannot be split into independent sub-tasks. Decomposing rarely helps because the legal interpretation is integrative.",
+        "V": "Categorical labels (binary or short categories) → string match works. Some ambiguity in label boundary (e.g., Relevant vs Irrelevant edge cases) brings it below 1.0.",
+        "K": "Privacy law, contract law, etc. require specific legal domain expertise (statutes, precedents, doctrine). Highest K of any domain we test.",
+        "S": "Path to label is essentially unique: read text → categorize. Voting between agents adds little because they all run the same procedure."
+      },
+      "predicted_curve": "decreasing",
+      "data_match": "✅ Both GPT-4o and Claude show monotonic decreasing curves (Legal data is clean enough to trust)"
+    },
+    "medical": {
+      "dataset": "medqa_5000",
+      "task_type": "MCQ-4 (clinical vignette → diagnostic decision)",
+      "D": 0.30,
+      "V": 0.90,
+      "K": 0.80,
+      "S": 0.30,
+      "rationale": {
+        "D": "Clinical vignettes require integrative reasoning across symptoms, history, labs, demographics. Some sub-tasks possible (option-by-option ruling out, differential diagnosis listing) but core reasoning is unitary.",
+        "V": "4-option MCQ with single correct answer letter → deterministic match. Slight imperfection because some questions have multiple defensible answers per medical literature.",
+        "K": "Heavy USMLE-style medical knowledge: pathophysiology, pharmacology, clinical guidelines.",
+        "S": "Differential diagnosis offers some diversity — multiple valid reasoning paths can converge on same answer letter."
+      },
+      "predicted_curve": "decreasing or flat",
+      "data_match": "⚠️ GPT-4o data flat (28.5%→25.8%); Claude shows increasing but 1-agent has only n=150 (insufficient). Need re-experiment."
+    },
+    "code": {
+      "dataset": "humaneval_1000 (combined HumanEval + extensions)",
+      "task_type": "free_form (function body generation, validated by unit tests)",
+      "D": 0.70,
+      "V": 1.00,
+      "K": 0.50,
+      "S": 0.70,
+      "rationale": {
+        "D": "Functions can be decomposed into helper functions; multiple agents can specialize in (1) signature understanding, (2) algorithm choice, (3) edge case handling, (4) test case generation. Most decomposable of all 5.",
+        "V": "Unit tests give exact pass/fail. Highest V (=1.0) of all domains — only domain with execution-based verification.",
+        "K": "Programming patterns are broad but each problem doesn't require very deep narrow knowledge. Mostly algorithmic + Python idioms.",
+        "S": "Multiple valid algorithms typically exist (sort-based, scan-based, etc.). Voting/consensus among agents can identify failures."
+      },
+      "predicted_curve": "increasing",
+      "data_match": "❌ Current data contaminated by empty-pred matching bug. Re-experiment required (T1.0 in EXPERIMENTS_NEEDED.md)."
+    },
+    "logic": {
+      "dataset": "mmlu_logic_1500 (formal_logic + philosophy + logical_fallacies)",
+      "task_type": "MCQ-4 (argument identification, fallacy detection)",
+      "D": 0.40,
+      "V": 0.90,
+      "K": 0.40,
+      "S": 0.40,
+      "rationale": {
+        "D": "Argument structure can sometimes be decomposed (premise-by-premise validity check) but conclusions are often integrative. Mid-range D.",
+        "V": "4-option MCQ → deterministic match. Slight imperfection in fallacy categorization.",
+        "K": "Formal logic and philosophical reasoning are taught in undergraduate philosophy — moderately specialized but not as narrow as medicine/law.",
+        "S": "Multiple inferential paths can lead to same answer (direct vs by elimination)."
+      },
+      "predicted_curve": "inverted_U or flat (peak at 2)",
+      "data_match": "⚠️ Claude shows weak inverted-U (peak at 2-agent: 22.27%); GPT-4o noisier especially with 4-agent partial data."
+    },
+    "long_context": {
+      "dataset": "quality_902 (passage QA, MCQ-4)",
+      "task_type": "MCQ-4 over long passages (avg 22,500 chars context)",
+      "D": 0.60,
+      "V": 0.90,
+      "K": 0.20,
+      "S": 0.40,
+      "rationale": {
+        "D": "Long passages can be split between agents (e.g., one reads first half, another second half, then synthesize). Decomposability is genuinely useful here.",
+        "V": "4-option MCQ → deterministic match.",
+        "K": "Answer is in the provided passage; minimal external knowledge required. Lowest K of all domains.",
+        "S": "Multiple textual cues can support same answer; voting among agents reading same passage gives moderate diversity."
+      },
+      "predicted_curve": "inverted_U (clear peak at 2)",
+      "data_match": "✅ Claude shows strong 2-peak (3.33% → 19.73% → 7.43% → 1.55%). Trust pending truncation impact verification."
+    }
+  },
+  "_summary_table": {
+    "header": ["domain", "D", "V", "K", "S", "predicted_shape", "current_data_match"],
+    "rows": [
+      ["legal",        0.20, 0.80, 0.90, 0.20, "decreasing",   "match"],
+      ["medical",      0.30, 0.90, 0.80, 0.30, "decreasing",   "uncertain (data quality)"],
+      ["logic",        0.40, 0.90, 0.40, 0.40, "inverted_U",   "weak match"],
+      ["long_context", 0.60, 0.90, 0.20, 0.40, "inverted_U",   "match"],
+      ["code",         0.70, 1.00, 0.50, 0.70, "increasing",   "data invalidated; needs re-experiment"]
+    ]
+  },
+  "_pending": [
+    "LLM-as-judge refinement (domain-level): GPT-4o + Claude judges, 3 reps each",
+    "LLM-as-judge refinement (question-level): 200 sample questions per domain, per-question scoring",
+    "Inter-judge agreement (ICC, Pearson)",
+    "Refit predicted_curve mapping after refined scores"
+  ]
+}

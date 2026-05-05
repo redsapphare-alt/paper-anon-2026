@@ -1,0 +1,150 @@
+{
+  "features_used": [
+    "D",
+    "V",
+    "K",
+    "S"
+  ],
+  "primary_features": [
+    "V",
+    "K"
+  ],
+  "hypothesis_H1": {
+    "rule": "shape = decreasing if K>=0.6 else inverted_U",
+    "matches": 7,
+    "total": 8,
+    "accuracy": 0.875,
+    "per_row": [
+      {
+        "domain": "legal",
+        "model": "claude_sonnet_4_6",
+        "K": 0.8000000000000002,
+        "shape_predicted_H1": "decreasing",
+        "shape_observed": "decreasing",
+        "h1_match": true
+      },
+      {
+        "domain": "legal",
+        "model": "gpt_4o",
+        "K": 0.8000000000000002,
+        "shape_predicted_H1": "decreasing",
+        "shape_observed": "decreasing",
+        "h1_match": true
+      },
+      {
+        "domain": "logic",
+        "model": "claude_sonnet_4_6",
+        "K": 0.5,
+        "shape_predicted_H1": "inverted_U",
+        "shape_observed": "inverted_U",
+        "h1_match": true
+      },
+      {
+        "domain": "logic",
+        "model": "gpt_4o",
+        "K": 0.5,
+        "shape_predicted_H1": "inverted_U",
+        "shape_observed": "inverted_U",
+        "h1_match": true
+      },
+      {
+        "domain": "long_context",
+        "model": "claude_sonnet_4_6",
+        "K": 0.1,
+        "shape_predicted_H1": "inverted_U",
+        "shape_observed": "inverted_U",
+        "h1_match": true
+      },
+      {
+        "domain": "long_context",
+        "model": "gpt_4o",
+        "K": 0.1,
+        "shape_predicted_H1": "inverted_U",
+        "shape_observed": "inverted_U",
+        "h1_match": true
+      },
+      {
+        "domain": "medical",
+        "model": "claude_sonnet_4_6",
+        "K": 0.8833333333333333,
+        "shape_predicted_H1": "decreasing",
+        "shape_observed": "flat",
+        "h1_match": false
+      },
+      {
+        "domain": "medical",
+        "model": "gpt_4o",
+        "K": 0.8833333333333333,
+        "shape_predicted_H1": "decreasing",
+        "shape_observed": "decreasing_weak",
+        "h1_match": true
+      }
+    ]
+  },
+  "hypothesis_H2": {
+    "rule": "peak = 1 if K>=0.6 else 2",
+    "mae": 0.375,
+    "exact_match_rate": 0.875,
+    "within_1_rate": 0.875,
+    "n": 8
+  },
+  "excluded_cells": [
+    [
+      "code",
+      "claude_sonnet_4_6",
+      1
+    ],
+    [
+      "code",
+      "claude_sonnet_4_6",
+      2
+    ],
+    [
+      "code",
+      "claude_sonnet_4_6",
+      3
+    ],
+    [
+      "code",
+      "claude_sonnet_4_6",
+      4
+    ],
+    [
+      "code",
+      "gpt_4o",
+      1
+    ],
+    [
+      "code",
+      "gpt_4o",
+      2
+    ],
+    [
+      "code",
+      "gpt_4o",
+      3
+    ],
+    [
+      "code",
+      "gpt_4o",
+      4
+    ],
+    [
+      "logic",
+      "gpt_4o",
+      4
+    ],
+    [
+      "medical",
+      "claude_sonnet_4_6",
+      1
+    ]
+  ],
+  "caveats": [
+    "Code domain entirely excluded due to T0.1 (empty-pred matching bug).",
+    "medical/claude/1-agent excluded (n=150 only).",
+    "Some cells have pred_truncated_at_200 (T0.2) — included if not severely affecting matching.",
+    "Sample size small (4 domains × 2 models = 8 trustable rows). LOO-CV on small data.",
+    "Question-level Gemini+GPT judging in progress for richer feature signal."
+  ]
+}

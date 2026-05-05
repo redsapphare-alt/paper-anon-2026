@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "quality_train_1878",
+    "question": "Why doesn't the Earth shoot the spaceship out of the sky?",
+    "context_length_chars": 14456,
+    "context_preview": "SECOND LANDING\nBy FLOYD WALLACE\nA gentle fancy for the Christmas Season—an\n oft-told tale with a wistful twistful of Something\n that left the Earth with a wing and a prayer.\nEarth\n was so far away that\n it wasn't visible. Even the\n sun was only a twinkle. But this\n vast distance did not mean that\n isolation could endure forever.\n Instruments within the ship intercepted\n radio broadcasts and,\n within the hour, early TV signals.\n Machines compiled dictionaries\n and grammars and began\n translating …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2486",
+    "question": "What is the purpose of a comanalysis?",
+    "context_length_chars": 28215,
+    "context_preview": "Transcriber’s note:\nThis story was published in\n Galaxy\n magazine, June 1960.\n Extensive research did not uncover any evidence that the U.S. copyright on this publication was renewed.\n[p\n 135\n ]\n\n By CHARLES V. DE VET\nmonkey on his back\nUnder the cloud of cast-off identities\n  \n lay the shape of another man—\n  \n was it himself?\nIllustrated by DILLON\nHE was walking endlessly\n down a long, glass-walled\n corridor. Bright sunlight\n slanted in through one wall, on the\n blue knapsack across his should…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1974",
+    "question": "What do Paul and Rupert share in common?",
+    "context_length_chars": 11263,
+    "context_preview": "One can't be too cautious about the\n  \n people one meets in Tangier. They're all\n  \n weirdies of one kind or another.\n  \n Me? Oh,\nI'm A Stranger\n \nHere Myself\nBy MACK REYNOLDS\nThe\n Place de France is the\n town's hub. It marks the end\n of Boulevard Pasteur, the main\n drag of the westernized part of\n the city, and the beginning of\n Rue de la Liberté, which leads\n down to the Grand Socco and\n the medina. In a three-minute\n walk from the Place de France\n you can go from an ultra-modern,\n California-…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1510",
+    "question": "Which of these do the Circuit City and UHaul stories have most in common?",
+    "context_length_chars": 11119,
+    "context_preview": "It's Time To Keelhaul U-Haul! \n\n         Like all superheroes worthy of the title, the Shopping Avenger has an Achilles' heel. In the case of the Shopping Avenger, his Achilles' heel is not animal, vegetable, or mineral but something less tangible. \n\n         An explanation: Last week, the magazine you are currently reading forced the Shopping Avenger at gunpoint to read a series of treacle-filled self-help books, and then to . The Shopping Avenger, who can withstand radiation, extreme heat and …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1317",
+    "question": "How does the author feel about the film, Elizabeth?",
+    "context_length_chars": 11658,
+    "context_preview": "Warrior Queens \n\n                         Elizabeth is a lurid paraphrase of the old Groucho Marx line about Doris Day: \"I knew the Virgin Queen before she was a virgin.\" As the movie tells it, she was a sylvan, redheaded princess (Cate Blanchett) given to gamboling with her fella (Joseph Fiennes) between periods of internment in the Tower of London on charges of conspiring to overthrow her half-sister, the heatedly Catholic Queen Mary (Kathy Burke). The daughter of the second wife of Henry VIII…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1083",
+    "question": "Why doesn't Charlie want to go with Laura and Mickey?",
+    "context_length_chars": 26546,
+    "context_preview": "Spacemen Die at Home\nBy EDWARD W. LUDWIG\n\n\n Illustrated by THORNE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction October 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOne man's retreat is another's prison ... and\n \nit takes a heap of flying to make a hulk a home!\nForty days of heaven and forty nights of hell. That's the way it's\n been, Laura. But how can I make you understand? How can I tell you\n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1652",
+    "question": "Which of the following terms DOES NOT describe the reviewer's tone toward the director and screenwriter of \"Fight Club\"?",
+    "context_length_chars": 11341,
+    "context_preview": "Boys Do Bleed \n\n         Fight Club is silly stuff, sensationalism that mistakes itself for satire, but it's also a brash and transporting piece of moviemaking, like Raging Bull on acid. The film opens with--literally--a surge of adrenalin, which travels through the bloodstream and into the brain of its protagonist, Jack (Edward Norton), who's viewed, as the camera pulls out of his insides, with a gun stuck in his mouth. How'd he get into this pickle? He's going to tell you, breezily, and the di…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1436",
+    "question": "What isn't something mentioned in multiple events?",
+    "context_length_chars": 14995,
+    "context_preview": "Eleven-Twelfths of 1999 In Review \n\n         When Chatterbox invited readers to nominate events, significant deaths, good and bad movies, etc., for 1999--a year likely to get little attention in the coming weeks, as news organizations choose instead to review the entire century or millennium--the response was overwhelming. Chatterbox had promised to publish his official \"1999 In Review\" item before Thanksgiving, but some distant memory of a scruple persuaded him to wait till November was over. N…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1046",
+    "question": "Why did Gabe tell the girl that he was with that he had never before seen the nondescript man, though the two clearly knew each other?",
+    "context_length_chars": 28844,
+    "context_preview": "Bodyguard\nBy CHRISTOPHER GRIMM\n\n\n Illustrated by CAVAT\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1956.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen overwhelming danger is constantly present,of course\n \na man is entitled to have a bodyguard. The annoyance was that\n \nhe had to do it himself ... and his body would not cooperate!\nThe man at the bar was exceptionally handsome, and he kne…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1506",
+    "question": "What do Circuit City and Southwest have in common?",
+    "context_length_chars": 11119,
+    "context_preview": "It's Time To Keelhaul U-Haul! \n\n         Like all superheroes worthy of the title, the Shopping Avenger has an Achilles' heel. In the case of the Shopping Avenger, his Achilles' heel is not animal, vegetable, or mineral but something less tangible. \n\n         An explanation: Last week, the magazine you are currently reading forced the Shopping Avenger at gunpoint to read a series of treacle-filled self-help books, and then to . The Shopping Avenger, who can withstand radiation, extreme heat and …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1209",
+    "question": "Why was O'Leary sharing his concerns with the warden?",
+    "context_length_chars": 29181,
+    "context_preview": "My Lady Greensleeves\nBy FREDERIK POHL\n\n\n Illustrated by GAUGHAN\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1957.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThis guard smelled trouble and it could be\n \ncounted on to come—for a nose for trouble\n \nwas one of the many talents bred here!\nI\n\n\n His name was Liam O'Leary and there was something stinking in his\n nostrils. It was the smell of tro…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1376",
+    "question": "What is something that isn't true about the man who saved Gabe?",
+    "context_length_chars": 28844,
+    "context_preview": "Bodyguard\nBy CHRISTOPHER GRIMM\n\n\n Illustrated by CAVAT\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1956.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen overwhelming danger is constantly present,of course\n \na man is entitled to have a bodyguard. The annoyance was that\n \nhe had to do it himself ... and his body would not cooperate!\nThe man at the bar was exceptionally handsome, and he kne…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2176",
+    "question": "What is the role of Budapest in open access generally?",
+    "context_length_chars": 34556,
+    "context_preview": "What Is Open Access?\nShifting from ink on paper to digital text suddenly allows us to make perfect copies of our work. Shifting from isolated computers to a globe-spanning network of connected computers suddenly allows us to share perfect copies of our work with a worldwide audience at essentially no cost. About thirty years ago this kind of free global sharing became something new under the sun. Before that, it would have sounded like a quixotic dream.\nDigital technologies have created more tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1646",
+    "question": "The reviewer shares the following similar criticism of Princess Mononoke and Roberta Guaspari:",
+    "context_length_chars": 11873,
+    "context_preview": "Machines in the Garden \n\n         In the animated ecological epic                    Princess Mononoke                , the camera travels over landscapes with a clear, steady gaze, like a Zen hang glider. The images have none of the comin'-at-ya pop-surrealism of American cartoons, many of which have characters that spring out of the frame like jack-in-the-boxes. The Japanese director, Hayao Miyazaki, who spent three years on Princess Mononoke and is reported to have done 70 percent of its pain…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1862",
+    "question": "Where is Matt from?",
+    "context_length_chars": 18174,
+    "context_preview": "ACCIDENTAL DEATH\nBY PETER BAILY\nThe most\n dangerous of weapons\n  \n is the one you don't know is loaded.\nIllustrated by Schoenherr\nThe\n wind howled out of\n the northwest, blind\n with snow and barbed\n with ice crystals. All\n the way up the half-mile\n precipice it fingered and wrenched\n away at groaning ice-slabs. It\n screamed over the top, whirled snow\n in a dervish dance around the hollow\n there, piled snow into the long furrow\n plowed ruler-straight through\n streamlined hummocks of snow.\n\n\n The …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_617",
+    "question": "Which wouldn't the author use to describe Herrnstein and Murray?",
+    "context_length_chars": 16707,
+    "context_preview": "The Bell Curve Flattened \n\n         Charles Murray is a publicity genius, and the publication of his and Richard Herrnstein's book, The Bell Curve: Intelligence and Class Structure in American Life , in the fall of 1994 was his masterpiece. \n\n         Virtually all ambitious trade hardcover books are preceded by an edition of 100 to 200 flimsy \"galley proofs.\" These are sent out to people who might generate buzz for the book: blurbists, bookers for television talk shows, editors, and--most impor…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1659",
+    "question": "What likely happens to Thaddeus after the story ends?",
+    "context_length_chars": 17133,
+    "context_preview": "Transcriber's Note: This etext was produced from Astounding Science Fiction November 1959. Extensive research did not uncover any evidence that the U.S. copyright on this publication was renewed.\nA FILBERT IS A NUT\nBY RICK RAPHAEL\nThat the gentleman in question was a nut was beyond question. He was an institutionalized\n psychotic. He was nutty enough to think he could make an atom bomb out of modeling clay!\nIllustrated by Freas\nMiss Abercrombie, the manual therapist patted the old man on the\n sh…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_402",
+    "question": "Although Billy-boy questioned his decision of letting Grannie Annie leave with Baker in the kit car, what put his mind at ease?",
+    "context_length_chars": 28337,
+    "context_preview": "DOUBLE TROUBLE\nby CARL JACOBI\nGrannie Annie, that waspish science-fiction\n\n writer, was in a jam again. What with red-spot\n\n fever, talking cockatoos and flagpole trees,\n\n I was running in circles—especially since\n\n Grannie became twins every now and then.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Spring 1945.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWe had left the offices of\nInterstellar Voice\nthre…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1064",
+    "question": "How does Mia feel about Extrone?",
+    "context_length_chars": 32689,
+    "context_preview": "HUNT the HUNTER\nBY KRIS NEVILLE\n\n\n Illustrated by ELIZABETH MacINTYRE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction June 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOf course using live bait is the best\n\n way to lure dangerous alien animals ...\n\n unless it turns out that you are the bait!\n\"We're somewhat to the south, I think,\" Ri said, bending over the crude\n field map. \"That ridge,\" he point…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1903",
+    "question": "What term best describes Phil's personality change from the introduction of the story to the conclusion?",
+    "context_length_chars": 11993,
+    "context_preview": "Transcriber's Note: This etext was produced from Astounding Science\n Fiction December 1955. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.\nBREAKAWAY\nBY STANLEY GIMBLE\nIllustrated by Freas\nShe surely got her wish ... but there was some question about getting\n what she wanted.\nPhil Conover pulled the zipper of his flight suit up the front of his\n long, thin body and came into the living room. His face, usually serious\n and quietly handsome…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1441",
+    "question": "What is not something the article mentioned?",
+    "context_length_chars": 16992,
+    "context_preview": "Is &lt;A NAME= \n\n         Gambling's would-be federal regulators--the National Gambling Impact Study Commission--went to Las Vegas this week to hold hearings. In today's dispatch, we learn how gambling's foes seek to demonize wagering as a pernicious tobaccolike vice. In yesterday's dispatch, gambling's foes learn the folly of having brought their anti-sin crusade to an adult Disneyland. \n\n         Tuesday's overpowering show of force by the Nevada gambling aristocracy has had at least one audib…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2022",
+    "question": "What is the significance of the story's title?",
+    "context_length_chars": 15224,
+    "context_preview": "FEBRUARY STRAWBERRIES\nBy JIM HARMON\nHow much is the impossible worth?\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nLinton lay down his steel fork beside the massively solid transparency\n of the restaurant water glass.\n\n\n \"Isn't that Rogers Snead at that table?\" he heard himself say stupidly.\n\n\n Howell, the man across the table from him, lo…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1590",
+    "question": "How does the author feel about Music of the Heart?",
+    "context_length_chars": 11873,
+    "context_preview": "Machines in the Garden \n\n         In the animated ecological epic                    Princess Mononoke                , the camera travels over landscapes with a clear, steady gaze, like a Zen hang glider. The images have none of the comin'-at-ya pop-surrealism of American cartoons, many of which have characters that spring out of the frame like jack-in-the-boxes. The Japanese director, Hayao Miyazaki, who spent three years on Princess Mononoke and is reported to have done 70 percent of its pain…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_812",
+    "question": "What is the significance of including all the costs and price tags in the article?",
+    "context_length_chars": 12507,
+    "context_preview": "Let Si Get This \n\n         During a typical lunch time at the Royalton Hotel restaurant in midtown Manhattan, The                 New Yorker 's Tina Brown might be installed at her usual table, and Vogue 's Anna Wintour might be at her usual table (chewing on her usual meal--a $25 hamburger). Vanity Fair 's Graydon Carter might be there too, although he has transferred his main allegiance to a place called Patroon. Filling out the room are other editors, publicists, and writers from these magazi…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1427",
+    "question": "What isn't something Harris claims he'll do?",
+    "context_length_chars": 13367,
+    "context_preview": "eBabe \n\n         This week, soft-porn entrepreneur Ron Harris began auctioning the eggs of fashion models on the Internet. His site, ronsangels.com (named after the 1970s' babe show Charlie's Angels ), invites visitors to \"bid on eggs from beautiful, healthy and intelligent women.\" Like Dr. Richard Seed, who recently declared his intention to clone human beings, Harris has attracted the attention of the media and politicians who are \"looking into\" whether he can be stopped. Most people agree tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2243",
+    "question": "What did the Hanseatic League exchange other than commodities?",
+    "context_length_chars": 12384,
+    "context_preview": "What cities in the post-Brexit era could learn from a 14th-century trading bloc\nAs you fly from the country now known as Germany to Britain, the coastal geography of northern European cities gently unfurls. You can see where the sea smacks into them, or where yawning estuaries unfold like funnels between green and brown city and choppy blue water. You can track the snaking rivers and canals that form unrepentant umbilical connections to the settlements set a little further inland.  \n\n By their n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2300",
+    "question": "Why are the webfoots chasing Stinson and Sybtl?",
+    "context_length_chars": 32474,
+    "context_preview": "THE GOD NEXT DOOR\nBy BILL DOEDE\n\n\n Illustrated by IVIE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Magazine August 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe sand-thing was powerful, lonely and\n \nstrange. No doubt it was a god—but who wasn't?\nStinson lay still in the sand where he fell, gloating over the success\n of his arrival.\n\n\n He touched the pencil-line scar behind his ear where the cylinder was\n …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1060",
+    "question": "Why is Jerome in search of the museum in the futuristic civilization?",
+    "context_length_chars": 27244,
+    "context_preview": "... and it comes out here\nBy LESTER DEL REY\n\n\n Illustrated by DON SIBLEY\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThere is one fact no sane man can quarrel\n\n with ... everything has a beginning and an end.\n\n But some men aren't sane; thus it isn't always so!\nNo, you're wrong. I'm not your father's ghost, even if I do look a bit\n like hi…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1972",
+    "question": "How does Rupert accidentally reveal his identity to Paul?",
+    "context_length_chars": 11263,
+    "context_preview": "One can't be too cautious about the\n  \n people one meets in Tangier. They're all\n  \n weirdies of one kind or another.\n  \n Me? Oh,\nI'm A Stranger\n \nHere Myself\nBy MACK REYNOLDS\nThe\n Place de France is the\n town's hub. It marks the end\n of Boulevard Pasteur, the main\n drag of the westernized part of\n the city, and the beginning of\n Rue de la Liberté, which leads\n down to the Grand Socco and\n the medina. In a three-minute\n walk from the Place de France\n you can go from an ultra-modern,\n California-…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1183",
+    "question": "The tone of the story, especially towards its end, is delivered very simplistically, in an almost child-like fashion.  This is to show that the story",
+    "context_length_chars": 33643,
+    "context_preview": "The Sense of Wonder\nBy MILTON LESSER\n\n\n Illustrated by HARRY ROSENBAUM\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction September 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen nobody aboard ship remembers where it's\n\n going, how can they tell when it has arrived?\nEvery day for a week now, Rikud had come to the viewport to watch\n the great changeless sweep of space. He could not quite explain t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1524",
+    "question": "What might John intend to do to the captain?",
+    "context_length_chars": 30959,
+    "context_preview": "VOYAGE TO FAR N'JURD\nBy KRIS NEVILLE\n\n\n Illustrated by MACK\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Magazine April 1963.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey would never live to see the trip's\n \nend. So they made a few changes in their way\n \nof life—and many in their way of death!\nI\n\n\n \"I don't see why we have to be here,\" a crewman said. \"He ain't liable\n to say anything.\"\n\n\n \"He shore better,\" t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_909",
+    "question": "According to the film reviewer, which of the following actors emerges as the central character? ",
+    "context_length_chars": 12258,
+    "context_preview": "War and Pieces \n\n         No movie in the last decade has succeeded in psyching out critics and audiences as fully as the powerful, rambling war epic The Thin Red Line , Terrence Malick's return to cinema after 20 years. I've sat through it twice and am still trying to sort out my responses, which run from awe to mockery and back. Like Saving Private Ryan , the picture wallops you in the gut with brilliant, splattery battle montages and Goyaesque images of hell on earth. But Malick, a certified …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1401",
+    "question": "What isn't a reason that Ri turned on Mia?",
+    "context_length_chars": 32689,
+    "context_preview": "HUNT the HUNTER\nBY KRIS NEVILLE\n\n\n Illustrated by ELIZABETH MacINTYRE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction June 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOf course using live bait is the best\n\n way to lure dangerous alien animals ...\n\n unless it turns out that you are the bait!\n\"We're somewhat to the south, I think,\" Ri said, bending over the crude\n field map. \"That ridge,\" he point…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_46",
+    "question": "Why did Si choose to visit Manhattan and the Kudos Room?",
+    "context_length_chars": 27789,
+    "context_preview": "SPACEMAN ON A SPREE\nBY MACK REYNOLDS\n\n\n Illustrated by Nodel\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of Tomorrow June 1963\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhat's more important—Man's conquest\n\n of space, or one spaceman's life?\nI\n\n\n They gave him a gold watch. It was meant to be symbolical, of course.\n In the old tradition. It was in the way of an antique, being one of the\n timepieces made generat…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1297",
+    "question": "What would the author say about the impact of swearing on our current society?",
+    "context_length_chars": 10884,
+    "context_preview": "Maledict\noratory\nThe high costs of low language. \n\n         Sunday, Jan. 14, 1996: A day that will live in--well, not infamy, exactly. Blasphemy would be closer to it. \n\n         Early that afternoon, the Pittsburgh Steelers defeated the Indianapolis Colts to win the American Football Conference championship. Linebacker Greg Lloyd, accepting the trophy in front of a national television audience, responded with enthusiasm. \"Let's see if we can bring this damn thing back here next year,\" he said, …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1308",
+    "question": "Who is the least lovable character in The Thin Red Line?",
+    "context_length_chars": 12258,
+    "context_preview": "War and Pieces \n\n         No movie in the last decade has succeeded in psyching out critics and audiences as fully as the powerful, rambling war epic The Thin Red Line , Terrence Malick's return to cinema after 20 years. I've sat through it twice and am still trying to sort out my responses, which run from awe to mockery and back. Like Saving Private Ryan , the picture wallops you in the gut with brilliant, splattery battle montages and Goyaesque images of hell on earth. But Malick, a certified …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_922",
+    "question": "What critique does the film reviewer give to the actor who plays the rock star protagonist of \"Velvet Goldmine\"?",
+    "context_length_chars": 11658,
+    "context_preview": "Warrior Queens \n\n                         Elizabeth is a lurid paraphrase of the old Groucho Marx line about Doris Day: \"I knew the Virgin Queen before she was a virgin.\" As the movie tells it, she was a sylvan, redheaded princess (Cate Blanchett) given to gamboling with her fella (Joseph Fiennes) between periods of internment in the Tower of London on charges of conspiring to overthrow her half-sister, the heatedly Catholic Queen Mary (Kathy Burke). The daughter of the second wife of Henry VIII…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2312",
+    "question": "How does Alice feel about delivering the baby on the space station?",
+    "context_length_chars": 16244,
+    "context_preview": "SPATIAL DELIVERY\nBY RANDALL GARRETT\nWomen on space station assignments\n \nshouldn't get pregnant. But there's a first\n \ntime for everything. Here's the story of\n \nsuch a time——and an historic situation.\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, October 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOne thousand seventy-five miles above the wrinkled surface of Earth, a\n woman was in pain.\n\n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1502",
+    "question": "What is the goal of this column?",
+    "context_length_chars": 11119,
+    "context_preview": "It's Time To Keelhaul U-Haul! \n\n         Like all superheroes worthy of the title, the Shopping Avenger has an Achilles' heel. In the case of the Shopping Avenger, his Achilles' heel is not animal, vegetable, or mineral but something less tangible. \n\n         An explanation: Last week, the magazine you are currently reading forced the Shopping Avenger at gunpoint to read a series of treacle-filled self-help books, and then to . The Shopping Avenger, who can withstand radiation, extreme heat and …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1147",
+    "question": "What is NOT a technological advancement involved in this story?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1610",
+    "question": "What is the most likely reason for Mrs. Sarah Glubbes calling her neutroid a baby?",
+    "context_length_chars": 35286,
+    "context_preview": "Conditionally Human\nBy WALTER M. MILLER, JR.\n\n\n Illustrated by DAVID STONE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1952.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey were such cute synthetic creatures, it\n \nwas impossible not to love them. Of course,\n \nthat was precisely why they were dangerous!\nThere was no use hanging around after breakfast. His wife was in a hurt\n mood, and he …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1743",
+    "question": "What would have happened if Charley had not been on the ship?",
+    "context_length_chars": 18174,
+    "context_preview": "ACCIDENTAL DEATH\nBY PETER BAILY\nThe most\n dangerous of weapons\n  \n is the one you don't know is loaded.\nIllustrated by Schoenherr\nThe\n wind howled out of\n the northwest, blind\n with snow and barbed\n with ice crystals. All\n the way up the half-mile\n precipice it fingered and wrenched\n away at groaning ice-slabs. It\n screamed over the top, whirled snow\n in a dervish dance around the hollow\n there, piled snow into the long furrow\n plowed ruler-straight through\n streamlined hummocks of snow.\n\n\n The …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1325",
+    "question": "Which is probably the author's favorite movie?",
+    "context_length_chars": 11658,
+    "context_preview": "Warrior Queens \n\n                         Elizabeth is a lurid paraphrase of the old Groucho Marx line about Doris Day: \"I knew the Virgin Queen before she was a virgin.\" As the movie tells it, she was a sylvan, redheaded princess (Cate Blanchett) given to gamboling with her fella (Joseph Fiennes) between periods of internment in the Tower of London on charges of conspiring to overthrow her half-sister, the heatedly Catholic Queen Mary (Kathy Burke). The daughter of the second wife of Henry VIII…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2175",
+    "question": "Why is academic work considered low-hanging fruit?",
+    "context_length_chars": 34556,
+    "context_preview": "What Is Open Access?\nShifting from ink on paper to digital text suddenly allows us to make perfect copies of our work. Shifting from isolated computers to a globe-spanning network of connected computers suddenly allows us to share perfect copies of our work with a worldwide audience at essentially no cost. About thirty years ago this kind of free global sharing became something new under the sun. Before that, it would have sounded like a quixotic dream.\nDigital technologies have created more tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_634",
+    "question": "Who is with Red when Wayne enters the Four Aces Club? \n",
+    "context_length_chars": 20907,
+    "context_preview": "THE RECRUIT\nBY BRYCE WALTON\nIt was dirty work, but it would\n\n make him a man. And kids had a\n\n right to grow up—some of them!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, July 1962.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWayne, unseen, sneered down from the head of the stairs.\n\n\n The old man with his thick neck, thick cigar, evening highball, potgut\n and bald head without a brain in it.…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_964",
+    "question": "Why is an EX an ideal employee?",
+    "context_length_chars": 33089,
+    "context_preview": "Going straight meant crooked planning. He'd\n \nnever make it unless he somehow managed to\nPICK A CRIME\nBy RICHARD R. SMITH\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction May 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe girl was tall, wide-eyed and brunette. She had the right curves in\n the right places and would have been beautiful if her nose had been\n smaller,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1177",
+    "question": "The changes that Ninian make in Martin's life",
+    "context_length_chars": 31426,
+    "context_preview": "THE MAN OUTSIDE\nBy EVELYN E. SMITH\n\n\n Illustrated by DILLON\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction August 1957.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nNo one, least of all Martin, could dispute\n \nthat a man's life should be guarded by his\n \nkin—but by those who hadn't been born yet?\nNobody in the neighborhood was surprised when Martin's mother\n disappeared and Ninian came to take care of…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_186",
+    "question": "Why did Jimmy Tremaine visit his hometown?",
+    "context_length_chars": 27700,
+    "context_preview": "THE LONG REMEMBERED THUNDER\nBY KEITH LAUMER\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of Tomorrow April 1963\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nHe was as ancient as time—and as strange as\n\n his own frightful battle against incredible odds!\nI\n\n\n In his room at the Elsby Commercial Hotel, Tremaine opened his luggage\n and took out a small tool kit, used a screwdriver to remove the bottom\n cover plate from…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1798",
+    "question": "What is the relationship between Paul and Rupert?",
+    "context_length_chars": 11263,
+    "context_preview": "One can't be too cautious about the\n  \n people one meets in Tangier. They're all\n  \n weirdies of one kind or another.\n  \n Me? Oh,\nI'm A Stranger\n \nHere Myself\nBy MACK REYNOLDS\nThe\n Place de France is the\n town's hub. It marks the end\n of Boulevard Pasteur, the main\n drag of the westernized part of\n the city, and the beginning of\n Rue de la Liberté, which leads\n down to the Grand Socco and\n the medina. In a three-minute\n walk from the Place de France\n you can go from an ultra-modern,\n California-…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_542",
+    "question": "What and where is Ganymede?",
+    "context_length_chars": 28320,
+    "context_preview": "TOLLIVER'S ORBIT\nwas slow—but it wasn't boring. And\n\n it would get you there—as long as\n\n you weren't going anywhere anyhow!\nBy H. B. FYFE\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nJohnny Tolliver scowled across the desk at his superior. His black\n thatch was ruffled, as if he had been rubbed the wrong way.\n\n\n \"I didn't ask you to c…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1108",
+    "question": "Why say gaming instead of gambling?",
+    "context_length_chars": 16992,
+    "context_preview": "Is &lt;A NAME= \n\n         Gambling's would-be federal regulators--the National Gambling Impact Study Commission--went to Las Vegas this week to hold hearings. In today's dispatch, we learn how gambling's foes seek to demonize wagering as a pernicious tobaccolike vice. In yesterday's dispatch, gambling's foes learn the folly of having brought their anti-sin crusade to an adult Disneyland. \n\n         Tuesday's overpowering show of force by the Nevada gambling aristocracy has had at least one audib…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_712",
+    "question": "What is the meaning of Fiss’s title? \n",
+    "context_length_chars": 12867,
+    "context_preview": "Shut Up, He Explained \n\n         Owen Fiss is a professor at the Yale Law School and a highly regarded scholar of constitutional law. The subject of this short book is the present direction of the law governing the freedom of speech. What Professor Fiss has to say about it is worth attending to not merely because of his prominence in the field but because his argument is planted in the common assumptive ground of a lot of contemporary academic thought about the bankruptcy of individualism. The t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1965",
+    "question": "What is ironic about Eric and Nada's desire to return to nature?",
+    "context_length_chars": 29375,
+    "context_preview": "Transcriber's Note:\nThis etext was produced from\nAmazing Stories\nDecember 1961 and\n was first published in\nAmazing Stories\nNovember 1930. Extensive\n research did not uncover any evidence that the U.S. copyright on\n this publication was renewed. Minor spelling and\n typographical errors have been corrected without note.\nA Classic Reprint from AMAZING STORIES, November, 1930\nCopyright 1931, by Experimenter Publications Inc.\nThe Cosmic Express\nBy JACK WILLIAMSON\nIntroduction by Sam Moskowitz\nThe\nyea…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2262",
+    "question": "When does Creative Commons get complicated?",
+    "context_length_chars": 16829,
+    "context_preview": "Just another free soul\nIn his foreword to the book, Lessig writes that you understand your subjects “by learning to see them in a certain way.” What is that certain way?\nI think I’m trying to get a mental image of a person, certain\n expressions, or what I think that person is about. I’m trying to capture\n what I think they look like, which is many times a minority of their\n typical expressions, or their typical stance. So, if I’m taking pictures\n of Larry [Lessig], I want to have his signature h…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1633",
+    "question": "The reviewer implies that the following demographic might relate most strongly to the film, \"American Beauty\":",
+    "context_length_chars": 11098,
+    "context_preview": "A Good Year for the Roses? \n\n         Early in American Beauty , Lester Burnham (Kevin Spacey), a weary reporter for a media magazine, masturbates in the shower while informing us in voice-over that we're witnessing the highlight of his day. He peers through tired eyes out the window at his manicured suburban tract-house lawn, where his wife, Carolyn (Annette Bening)--whose gardening clogs, he points out, are color-coordinated with the handles of her shears--snips roses (American beauties) and t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2492",
+    "question": "According to the author, what made open trade so accessible in the 14th century?",
+    "context_length_chars": 12384,
+    "context_preview": "What cities in the post-Brexit era could learn from a 14th-century trading bloc\nAs you fly from the country now known as Germany to Britain, the coastal geography of northern European cities gently unfurls. You can see where the sea smacks into them, or where yawning estuaries unfold like funnels between green and brown city and choppy blue water. You can track the snaking rivers and canals that form unrepentant umbilical connections to the settlements set a little further inland.  \n\n By their n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1126",
+    "question": "How good were test subjects at labeling the beers in round two?",
+    "context_length_chars": 15818,
+    "context_preview": "More Booze You Can Use \n\n         When we last heard from them, the members of the \n\n               Slate                 beer-testing team were coping with lagers and trying to see if they could taste the 3-to-1 price difference between the most- and least-expensive brands. (Click for a wrap-up of the first round of beer tasting.) The answer was: They found one beer they really liked, Samuel Adams Boston Lager , and one they really hated, imported Grolsch from Holland. Both were expensive beers…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_493",
+    "question": "Why does the author say the pope does not respect freedom of other?",
+    "context_length_chars": 12838,
+    "context_preview": "Human Clones: Why Not? \n\n         If you can clone a sheep, you can almost certainly clone a human being. Some of the most powerful people in the world have felt compelled to act against this threat. President Clinton swiftly imposed a ban on federal funding for human-cloning research. Bills are in the works in both houses of Congress to outlaw human cloning--a step urged on all governments by the pope himself. Cloning humans is taken to be either 1) a fundamentally evil thing that must be stopp…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_911",
+    "question": "According to the film reviewer, what is the central irony of Malick's directorial performance? Convincing at chaos but gummed up when he ruminates on order",
+    "context_length_chars": 12258,
+    "context_preview": "War and Pieces \n\n         No movie in the last decade has succeeded in psyching out critics and audiences as fully as the powerful, rambling war epic The Thin Red Line , Terrence Malick's return to cinema after 20 years. I've sat through it twice and am still trying to sort out my responses, which run from awe to mockery and back. Like Saving Private Ryan , the picture wallops you in the gut with brilliant, splattery battle montages and Goyaesque images of hell on earth. But Malick, a certified …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1472",
+    "question": "What is the first mate trying to express when he says \"You all want me ta die uv old age\"?",
+    "context_length_chars": 30959,
+    "context_preview": "VOYAGE TO FAR N'JURD\nBy KRIS NEVILLE\n\n\n Illustrated by MACK\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Magazine April 1963.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey would never live to see the trip's\n \nend. So they made a few changes in their way\n \nof life—and many in their way of death!\nI\n\n\n \"I don't see why we have to be here,\" a crewman said. \"He ain't liable\n to say anything.\"\n\n\n \"He shore better,\" t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1635",
+    "question": "Based on the reviewer's description of Carolyn, a viewer might assume that she values all of the following EXCEPT:",
+    "context_length_chars": 11098,
+    "context_preview": "A Good Year for the Roses? \n\n         Early in American Beauty , Lester Burnham (Kevin Spacey), a weary reporter for a media magazine, masturbates in the shower while informing us in voice-over that we're witnessing the highlight of his day. He peers through tired eyes out the window at his manicured suburban tract-house lawn, where his wife, Carolyn (Annette Bening)--whose gardening clogs, he points out, are color-coordinated with the handles of her shears--snips roses (American beauties) and t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_917",
+    "question": "What positive critique does the film reviewer offer Blanchett? pulling off the transition from hapless young woman to coolly ruthless monarch with uncommon subtlety",
+    "context_length_chars": 11658,
+    "context_preview": "Warrior Queens \n\n                         Elizabeth is a lurid paraphrase of the old Groucho Marx line about Doris Day: \"I knew the Virgin Queen before she was a virgin.\" As the movie tells it, she was a sylvan, redheaded princess (Cate Blanchett) given to gamboling with her fella (Joseph Fiennes) between periods of internment in the Tower of London on charges of conspiring to overthrow her half-sister, the heatedly Catholic Queen Mary (Kathy Burke). The daughter of the second wife of Henry VIII…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1464",
+    "question": "Why is Doc insistent about an order when the narrator returns from eating?",
+    "context_length_chars": 29119,
+    "context_preview": "Confidence Game\nBy JIM HARMON\n\n\n Illustrated by EPSTEIN\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction June 1957.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nI admit it: I didn't know if I was coming or\n \ngoing—but I know that if I stuck to the old\n \nman, I was a comer ... even if he was a goner!\nDoc had this solemn human by the throat when I caught up with him.\n\n\n \"Tonight,\" Doc was saying in his ol…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_877",
+    "question": "What affliction is the narrator most likely suffering from?",
+    "context_length_chars": 27465,
+    "context_preview": "Charity Case\nBy JIM HARMON\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction December 1959.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nCertainly I see things that aren't there\n \nand don't say what my voice says—but how\n \ncan I prove that I don't have my health?\nWhen he began his talk with \"You got your health, don't you?\" it\n touched those spots inside me. That was when I…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2201",
+    "question": "Why does Meyerhoff arrest Zeckler?",
+    "context_length_chars": 33253,
+    "context_preview": "Letter\n\n of\n\n the\n\n Law\nby Alan E. Nourse\nThe\n place was dark and damp, and smelled like moldy leaves.\n Meyerhoff followed the huge, bear-like Altairian guard\n down the slippery flagstones of the corridor, sniffing the\n dead, musty air with distaste. He drew his carefully tailored\n Terran-styled jacket closer about his shoulders, shivering as his\n eyes avoided the black, yawning cell-holes they were passing.\n His foot slipped on the slimy flags from time to time, and\n finally he paused to wipe t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2334",
+    "question": "How did Wikipedia eclipse all commercial encyclopedias except Britannica?",
+    "context_length_chars": 15861,
+    "context_preview": "COMPLEXITY AND HUMANITY\nWe have all seen the images. Volunteers pitching in. People working day\n and night; coming up with the most ingenious, improvised solutions to\n everything from food and shelter to communications and security. Working\n together; patching up the fabric that is rent. Disaster, natural or\n otherwise, is a breakdown of systems. For a time, chaos reigns. For a\n time, what will happen in the next five minutes, five hours, and five\n days is unknown. All we have to rely on are our…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1569",
+    "question": "Why didn't Moran kill Harper?",
+    "context_length_chars": 30653,
+    "context_preview": "PLANET of DREAD\nBy MURRAY LEINSTER\nIllustrator ADKINS\n[Transcriber's Note: This etext was produced from Fantastic Stories of\n Imagination May 1962. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.]\nI.\nMoran cut apart the yard-long monstrosity with a slash of flame.\n The thing presumably died, but it continued to writhe senselessly.\n He turned to see other horrors crawling toward him. Then he knew he\n was being marooned on a planet of endle…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_321",
+    "question": "What's the most unexpected result of the disaster? ",
+    "context_length_chars": 25788,
+    "context_preview": "THE GREAT NEBRASKA SEA\nBy ALLAN DANZIG\n\n\n Illustrated by WOOD\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Magazine August 1963.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nIt has happened a hundred times in the long history\n \nof Earth—and, sooner or later, will happen again!\nEveryone—all the geologists, at any rate—had known about the Kiowa\n Fault for years. That was before there was anything very interesting\n to…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_396",
+    "question": "What can be inferred about the destination decision at the end of the passsage?",
+    "context_length_chars": 26860,
+    "context_preview": "THE FROZEN PLANET\nBy Keith Laumer\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\n\"It is rather unusual,\" Magnan said, \"to assign an officer of your rank\n to courier duty, but this is an unusual mission.\"\n\n\n Retief sat relaxed and said nothing. Just before the silence grew\n awkward, Magnan went on.\n\n\n \"There are four planets in the group,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_985",
+    "question": "Why does everyone begin to starve and grow thirsty?",
+    "context_length_chars": 33643,
+    "context_preview": "The Sense of Wonder\nBy MILTON LESSER\n\n\n Illustrated by HARRY ROSENBAUM\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction September 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen nobody aboard ship remembers where it's\n\n going, how can they tell when it has arrived?\nEvery day for a week now, Rikud had come to the viewport to watch\n the great changeless sweep of space. He could not quite explain t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_761",
+    "question": "Was the gas incident deadly?",
+    "context_length_chars": 27869,
+    "context_preview": "SILENCE IS—DEADLY\nBy Bertrand L. Shurtleff\nRadio is an absolute necessity in modern\n\n organization—and particularly in modern\n\n naval organization. If you could silence all\n\n radio—silence of that sort would be deadly!\n\n\n [Transcriber's Note: This etext was produced from\n\n Astounding Science-Fiction April 1942.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe hurried\nrat-a-tat\nof knuckles hammered on the cabin door.\n Commander Bob …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_689",
+    "question": "Who is putting on the chess tournament? Why?\n",
+    "context_length_chars": 29666,
+    "context_preview": "THE 64-SQUARE MADHOUSE\nby FRITZ LEIBER\nThe machine was not perfect. It\n\n could be tricked. It could make\n\n mistakes. And—it could learn!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, May 1962.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nSilently, so as not to shock anyone with illusions about well dressed\n young women, Sandra Lea Grayling cursed the day she had persuaded the\nChicago Space Mir…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_15",
+    "question": "Why does Adam refuse to play checkers? ",
+    "context_length_chars": 18826,
+    "context_preview": "IT WAS A DULL, ROUTINE LITTLE\n\n WORLD. IT DIDN'T EVEN HAVE A\n\n CITY. EVERYTHING IT HAD WAS\nIN THE GARDEN\nBY R. A. LAFFERTY\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe protozoic recorder chirped like a bird. Not only would there be\n life traces on that little moon, but it would be a lively place. So\n they skipped several steps in the p…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_950",
+    "question": "What most attracts Halden to Meredith?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2508",
+    "question": "Which terms best describe the medical field's response to new development of medical technology?",
+    "context_length_chars": 17264,
+    "context_preview": "Obstetrics for beginners\nIt's my first go at delivering a baby by caesarean section – and the foetal head is impacted, jammed in its mother's pelvis. To be honest I'm struggling. \n\n Incisions have been made in the lower part of the mother's abdomen and womb. I've pushed my gloved hand inside and managed to slide my fingers between the baby's head and the surrounding uterine tissue. But it's difficult. The baby is tightly wedged in. I've had to push hard to get my hand to the far side of its head…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1932",
+    "question": "What is the main risk of Sir Robert's command to charge into Saladin's frontline?",
+    "context_length_chars": 16750,
+    "context_preview": "... After a Few Words ...\nby Seaton McKettrig\nIllustrated by Summer\n[Transcriber's Note: This etext was produced from Analog October 1962.\n Extensive research did not uncover any evidence that the U.S. copyright\n on this publication was renewed.]\nThis is a science-fiction story. History is a science; the other\n part is, as all Americans know, the most fictional field we have\n today.\nHe settled himself comfortably in his seat, and carefully put the helmet\n on, pulling it down firmly until it was …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_966",
+    "question": "Why does Hendricks help Joe?",
+    "context_length_chars": 33089,
+    "context_preview": "Going straight meant crooked planning. He'd\n \nnever make it unless he somehow managed to\nPICK A CRIME\nBy RICHARD R. SMITH\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction May 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe girl was tall, wide-eyed and brunette. She had the right curves in\n the right places and would have been beautiful if her nose had been\n smaller,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2374",
+    "question": "Why does Linton murder Greta after just resurrecting her?",
+    "context_length_chars": 15224,
+    "context_preview": "FEBRUARY STRAWBERRIES\nBy JIM HARMON\nHow much is the impossible worth?\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nLinton lay down his steel fork beside the massively solid transparency\n of the restaurant water glass.\n\n\n \"Isn't that Rogers Snead at that table?\" he heard himself say stupidly.\n\n\n Howell, the man across the table from him, lo…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1015",
+    "question": "What did Templin and Eckert find odd about the children they encountered?",
+    "context_length_chars": 29294,
+    "context_preview": "THE FIRE and THE SWORD\nBy FRANK M. ROBINSON\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction August 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nNothing could have seemed pleasanter than that\n\n peaceful planet. Then why was a non-suicidal\n\n man driven to suicide there? Yet it made sense.\nWhy do people commit suicide?\nTemplin tightened his safety belt and lay back on the acce…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1433",
+    "question": "Who is writing this?",
+    "context_length_chars": 14995,
+    "context_preview": "Eleven-Twelfths of 1999 In Review \n\n         When Chatterbox invited readers to nominate events, significant deaths, good and bad movies, etc., for 1999--a year likely to get little attention in the coming weeks, as news organizations choose instead to review the entire century or millennium--the response was overwhelming. Chatterbox had promised to publish his official \"1999 In Review\" item before Thanksgiving, but some distant memory of a scruple persuaded him to wait till November was over. N…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1063",
+    "question": "How does Ri feel about Extrone?",
+    "context_length_chars": 32689,
+    "context_preview": "HUNT the HUNTER\nBY KRIS NEVILLE\n\n\n Illustrated by ELIZABETH MacINTYRE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction June 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOf course using live bait is the best\n\n way to lure dangerous alien animals ...\n\n unless it turns out that you are the bait!\n\"We're somewhat to the south, I think,\" Ri said, bending over the crude\n field map. \"That ridge,\" he point…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1871",
+    "question": "Why do the Karna demand the conference begin in three days?",
+    "context_length_chars": 18891,
+    "context_preview": "IN CASE OF FIRE\nBy RANDALL GARRETT\nThere are times when a broken tool is better\n than a sound one, or a twisted personality\n more useful than a whole one. For\n instance, a whole beer bottle isn't half\n the weapon that half a beer bottle is ...\nIllustrated by Martinez\nIn his\n office apartment,\n on the top floor of the\n Terran Embassy Building\n in Occeq City, Bertrand\n Malloy leafed\n casually through the dossiers of the\n four new men who had been assigned\n to him. They were typical of the kind\n of…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_191",
+    "question": "Why is Tremaine considered the best person to conduct this investigation?",
+    "context_length_chars": 27700,
+    "context_preview": "THE LONG REMEMBERED THUNDER\nBY KEITH LAUMER\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of Tomorrow April 1963\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nHe was as ancient as time—and as strange as\n\n his own frightful battle against incredible odds!\nI\n\n\n In his room at the Elsby Commercial Hotel, Tremaine opened his luggage\n and took out a small tool kit, used a screwdriver to remove the bottom\n cover plate from…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_279",
+    "question": "What best describes a Formian body?",
+    "context_length_chars": 29120,
+    "context_preview": "THE\n\n RADIO\n\n PLANET\nRalph Milne Farley\nI\n“It’s too bad that Myles Cabot can’t see this!”\n I exclaimed, as my eye fell on the following item:\nSIGNALS FROM MARS FAIL TO REACH HARVARD\nCambridge, Massachusetts, Wednesday. The Harvard\n College Radio Station has for several weeks been in receipt\n of fragmentary signals of extraordinarily long wave-length,\n Professor Hammond announced yesterday. So far as it has\n been possible to test the direction of the source of these\n waves, it appears that the di…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_67",
+    "question": "Why was the Old Serpent satisfied that the crew would be returning to try and take their paradise?",
+    "context_length_chars": 18826,
+    "context_preview": "IT WAS A DULL, ROUTINE LITTLE\n\n WORLD. IT DIDN'T EVEN HAVE A\n\n CITY. EVERYTHING IT HAD WAS\nIN THE GARDEN\nBY R. A. LAFFERTY\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe protozoic recorder chirped like a bird. Not only would there be\n life traces on that little moon, but it would be a lively place. So\n they skipped several steps in the p…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_389",
+    "question": "What is the underlying defence that the writer has in defence of cloning?",
+    "context_length_chars": 12838,
+    "context_preview": "Human Clones: Why Not? \n\n         If you can clone a sheep, you can almost certainly clone a human being. Some of the most powerful people in the world have felt compelled to act against this threat. President Clinton swiftly imposed a ban on federal funding for human-cloning research. Bills are in the works in both houses of Congress to outlaw human cloning--a step urged on all governments by the pope himself. Cloning humans is taken to be either 1) a fundamentally evil thing that must be stopp…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_962",
+    "question": "Why does Joe want to be an EX?",
+    "context_length_chars": 33089,
+    "context_preview": "Going straight meant crooked planning. He'd\n \nnever make it unless he somehow managed to\nPICK A CRIME\nBy RICHARD R. SMITH\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction May 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe girl was tall, wide-eyed and brunette. She had the right curves in\n the right places and would have been beautiful if her nose had been\n smaller,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1096",
+    "question": "Does the author think Harris is serious about selling eggs?",
+    "context_length_chars": 13367,
+    "context_preview": "eBabe \n\n         This week, soft-porn entrepreneur Ron Harris began auctioning the eggs of fashion models on the Internet. His site, ronsangels.com (named after the 1970s' babe show Charlie's Angels ), invites visitors to \"bid on eggs from beautiful, healthy and intelligent women.\" Like Dr. Richard Seed, who recently declared his intention to clone human beings, Harris has attracted the attention of the media and politicians who are \"looking into\" whether he can be stopped. Most people agree tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_947",
+    "question": "What most attracts Meredith to Halden?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_127",
+    "question": "If you had to recommend this reading to someone else, of the following options who do you think would most enjoy it?",
+    "context_length_chars": 28362,
+    "context_preview": "THE GIANTS RETURN\nBy ROBERT ABERNATHY\nEarth set itself grimly to meet them with\n\n corrosive fire, determined to blast them\n\n back to the stars. But they erred in thinking\n\n the Old Ones were too big to be clever.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Fall 1949.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nIn the last hours the star ahead had grown brighter by many magnitudes,\n and had changed its col…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2085",
+    "question": "What does the author think of physiognomy?",
+    "context_length_chars": 14385,
+    "context_preview": "Face value\nWhen the BBC broadcast the recent documentary by Louis Theroux that looked back at the time he spent in the company of Jimmy Savile, there was disbelief across social media that no one had stepped in to stop Savile from committing his crimes. Some blamed the BBC, some blamed those in Savile's immediate circle, but others blamed a simple error of human judgment.  \n\n \"He literally couldn't look more like a paedophile,\" read one post – one of many to state a supposedly incontrovertible t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1148",
+    "question": "Of the following options, what traits best describe Purnie?",
+    "context_length_chars": 29679,
+    "context_preview": "BEACH SCENE\nBy MARSHALL KING\n\n\n Illustrated by WOOD\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Magazine October 1960.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nIt was a fine day at the beach\n \nfor Purnie's game—but his new\n \nfriends played very rough!\nPurnie ran laughing and shouting through the forest until he could run\n no more. He fell headlong into a patch of blue moss and whooped with\n delight in having t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_42",
+    "question": "Why did the Department hope that Si would continue for three more space missions?",
+    "context_length_chars": 27789,
+    "context_preview": "SPACEMAN ON A SPREE\nBY MACK REYNOLDS\n\n\n Illustrated by Nodel\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of Tomorrow June 1963\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhat's more important—Man's conquest\n\n of space, or one spaceman's life?\nI\n\n\n They gave him a gold watch. It was meant to be symbolical, of course.\n In the old tradition. It was in the way of an antique, being one of the\n timepieces made generat…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1573",
+    "question": "Why have humans been carrying beetles around the galaxy?",
+    "context_length_chars": 30653,
+    "context_preview": "PLANET of DREAD\nBy MURRAY LEINSTER\nIllustrator ADKINS\n[Transcriber's Note: This etext was produced from Fantastic Stories of\n Imagination May 1962. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.]\nI.\nMoran cut apart the yard-long monstrosity with a slash of flame.\n The thing presumably died, but it continued to writhe senselessly.\n He turned to see other horrors crawling toward him. Then he knew he\n was being marooned on a planet of endle…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1546",
+    "question": "Why does the writer evoke the NASA by saying that \"there was word from the pad that the launch sequence was initiating\"?",
+    "context_length_chars": 10878,
+    "context_preview": "More Bang for the Buck \n\n         A friend of mine offers a theory about why Bill Clinton's poll numbers stayed so high throughout the Lewinsky scandal: The news made it possible for serious-minded people to spend lots of time--at the office and over lunch--talking about semen stains, vaginal insertions, and blow jobs. And the people were grateful. \n\n         That's probably because they're not getting all that much themselves. A recent University of Chicago survey of 10,000 adults found that Am…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1867",
+    "question": "Does Earth want peace with Karn?",
+    "context_length_chars": 18891,
+    "context_preview": "IN CASE OF FIRE\nBy RANDALL GARRETT\nThere are times when a broken tool is better\n than a sound one, or a twisted personality\n more useful than a whole one. For\n instance, a whole beer bottle isn't half\n the weapon that half a beer bottle is ...\nIllustrated by Martinez\nIn his\n office apartment,\n on the top floor of the\n Terran Embassy Building\n in Occeq City, Bertrand\n Malloy leafed\n casually through the dossiers of the\n four new men who had been assigned\n to him. They were typical of the kind\n of…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_296",
+    "question": "Why is Retief being sent to Jorgenson's Worlds?",
+    "context_length_chars": 26860,
+    "context_preview": "THE FROZEN PLANET\nBy Keith Laumer\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\n\"It is rather unusual,\" Magnan said, \"to assign an officer of your rank\n to courier duty, but this is an unusual mission.\"\n\n\n Retief sat relaxed and said nothing. Just before the silence grew\n awkward, Magnan went on.\n\n\n \"There are four planets in the group,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_224",
+    "question": "What shocked Myles the most when he woke up on the beach?",
+    "context_length_chars": 29120,
+    "context_preview": "THE\n\n RADIO\n\n PLANET\nRalph Milne Farley\nI\n“It’s too bad that Myles Cabot can’t see this!”\n I exclaimed, as my eye fell on the following item:\nSIGNALS FROM MARS FAIL TO REACH HARVARD\nCambridge, Massachusetts, Wednesday. The Harvard\n College Radio Station has for several weeks been in receipt\n of fragmentary signals of extraordinarily long wave-length,\n Professor Hammond announced yesterday. So far as it has\n been possible to test the direction of the source of these\n waves, it appears that the di…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1750",
+    "question": "How does Bertrand Malloy feel about sending the team of man in his place?",
+    "context_length_chars": 18891,
+    "context_preview": "IN CASE OF FIRE\nBy RANDALL GARRETT\nThere are times when a broken tool is better\n than a sound one, or a twisted personality\n more useful than a whole one. For\n instance, a whole beer bottle isn't half\n the weapon that half a beer bottle is ...\nIllustrated by Martinez\nIn his\n office apartment,\n on the top floor of the\n Terran Embassy Building\n in Occeq City, Bertrand\n Malloy leafed\n casually through the dossiers of the\n four new men who had been assigned\n to him. They were typical of the kind\n of…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_373",
+    "question": "Why is Rolf's weapon so valuable in the fights with the Furry?",
+    "context_length_chars": 29842,
+    "context_preview": "THE HAIRY ONES\nby BASIL WELLS\nMarooned on a world within a world, aided\n\n by a slim girl and an old warrior, Patrolman\n\n Sisko Rolf was fighting his greatest\n\n battle—to bring life to dying Mars.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Winter 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\n\"The outlaw ships are attacking!\" Old Garmon Nash's harsh voice snapped\n like a thunderclap in the cramped rock…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_997",
+    "question": "Why did Miss Jervis think that Don worked for the government?",
+    "context_length_chars": 29225,
+    "context_preview": "And Then the Town Took Off\nby RICHARD WILSON\nACE BOOKS, INC.\n\n 23 West 47th Street, New York 36, N.Y.\nAND THEN THE TOWN TOOK OFF\nCopyright ©, 1960, by Ace Books, Inc.\n\n All Rights Reserved\nFor\nFelicitas K. Wilson\nTHE SIOUX SPACEMAN\n\n Copyright ©, 1960, by Ace Books, Inc.\nPrinted in U.S.A.\nTHE CITY THAT RAN OFF THE MAP\nThe town of Superior, Ohio, certainly was living up to its name! In what\n was undoubtedly the most spectacular feat of the century, it simply\n picked itself up one night and rose t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_961",
+    "question": "Why is Joe trying to get drunk?",
+    "context_length_chars": 33089,
+    "context_preview": "Going straight meant crooked planning. He'd\n \nnever make it unless he somehow managed to\nPICK A CRIME\nBy RICHARD R. SMITH\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction May 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe girl was tall, wide-eyed and brunette. She had the right curves in\n the right places and would have been beautiful if her nose had been\n smaller,…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1983",
+    "question": "Terry's mother uses the following metaphors to describe the sky except for ______.",
+    "context_length_chars": 10600,
+    "context_preview": "STAR MOTHER\nBy ROBERT F. YOUNG\nA touching story of the most\n enduring love in all eternity.\nThat\n night her son was the\n first star.\n\n\n She stood motionless in the\n garden, one hand pressed against\n her heart, watching him rise\n above the fields where he had\n played as a boy, where he had\n worked as a young man; and she\n wondered whether he was thinking\n of those fields now, whether\n he was thinking of her standing\n alone in the April night with her\n memories; whether he was\n thinking of the ver…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_697",
+    "question": "What is the meaning of the lag between Herell’s radio and the Jodrell Bank? \n",
+    "context_length_chars": 31452,
+    "context_preview": "THE FIVE HELLS OF ORION\nBY FREDERICK POHL\nOut in the great gas cloud of the Orion\n\n Nebula McCray found an ally—and a foe!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, January 1963.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nHis name was Herrell McCray and he was scared.\n\n\n As best he could tell, he was in a sort of room no bigger than a prison\n cell. Perhaps it was a prison cell. Whatever …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_945",
+    "question": "In the story, it is stated that \"the integrity of the Ribboneers was not to be questioned\" -- what potentially negative implications might this have?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1576",
+    "question": "How does Moran feel about the crew of the Nadine?",
+    "context_length_chars": 30653,
+    "context_preview": "PLANET of DREAD\nBy MURRAY LEINSTER\nIllustrator ADKINS\n[Transcriber's Note: This etext was produced from Fantastic Stories of\n Imagination May 1962. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.]\nI.\nMoran cut apart the yard-long monstrosity with a slash of flame.\n The thing presumably died, but it continued to writhe senselessly.\n He turned to see other horrors crawling toward him. Then he knew he\n was being marooned on a planet of endle…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1709",
+    "question": "Which of these does Dr. Niemand believe to be true about the cause of the attacks?",
+    "context_length_chars": 24120,
+    "context_preview": "DISTURBING SUN\nBy PHILIP LATHAM\nIllustrated by Freas\n[Transcriber's Note: This etext was produced from Astounding Science\n Fiction May 1959. Extensive research did not uncover any evidence that\n the U.S. copyright on this publication was renewed.]\nThis, be it understood, is fiction—nothing but fiction—and not,\n under any circumstances, to be considered as having any truth\n whatever to it. It's obviously utterly impossible ... isn't it?\nAn interview with Dr. I. M. Niemand, Director of the Psychop…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_381",
+    "question": "What best summarizes what the author has to say about William Shawn? ",
+    "context_length_chars": 12112,
+    "context_preview": "Goings On About Town \n\n         One of the funniest moments in Brendan Gill's 1975 memoir, Here at \"The New Yorker ,\" comes during a luncheon at the now vanished Ritz in Manhattan. At the table are Gill; William Shawn, then editor of The New Yorker ; and the reclusive English writer Henry Green. Green's new novel, Loving , has just received a very favorable review in The New Yorker . Shawn--\"with his usual hushed delicacy of speech and manner\"--inquires of the novelist whether he could possibly …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2047",
+    "question": "Which is most true about how the volunteers are seen by the rest of their society?",
+    "context_length_chars": 18626,
+    "context_preview": "The Birds and the Bees\nBY DAVE E. FISHER\nWhich goes to prove that, in some\n \ninstances, being heroic is easy!\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, August 1957.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nI was wandering among the tall grass of the slopes, listening to the\n soft whistling of the wind; allowing the grass to caress my toga and\n thighs. It was a day soft and clear; a day ac…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_873",
+    "question": "The humans in the fourth dimension acquire all of the following remarkable abilities EXCEPT for:",
+    "context_length_chars": 28940,
+    "context_preview": "JUDAS RAM\nBY SAM MERWIN, Jr.\n\n\n Illustrated by JAMES VINCENT\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction December 1950.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe house was furnished with all\n\n luxuries, including women. If it only\n\n had a lease that could be broken—\nRoger Tennant, crossing the lawn, could see two of the three wings\n of the house, which radiated spoke-like from its heptagonal…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1688",
+    "question": "Why does Mr. Oyster want to hire Simon and Betty?",
+    "context_length_chars": 25213,
+    "context_preview": "UNBORN\n\n TOMORROW\nBY MACK REYNOLDS\nUnfortunately\n, there was only\n one thing he could bring back\n from the wonderful future ...\n and though he didn't want to\n ... nevertheless he did....\nIllustrated by Freas\n\n\n Betty\n looked up from\n her magazine. She said\n mildly, \"You're late.\"\n\n\n \"Don't yell at me, I\n feel awful,\" Simon told\n her. He sat down at his desk, passed\n his tongue over his teeth in distaste,\n groaned, fumbled in a drawer for the\n aspirin bottle.\n\n\n He looked over at Betty and said,\n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1571",
+    "question": "What is the mission of the crew?",
+    "context_length_chars": 30653,
+    "context_preview": "PLANET of DREAD\nBy MURRAY LEINSTER\nIllustrator ADKINS\n[Transcriber's Note: This etext was produced from Fantastic Stories of\n Imagination May 1962. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.]\nI.\nMoran cut apart the yard-long monstrosity with a slash of flame.\n The thing presumably died, but it continued to writhe senselessly.\n He turned to see other horrors crawling toward him. Then he knew he\n was being marooned on a planet of endle…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1558",
+    "question": "Why does Mrs. Glubbes shoot the doctor?",
+    "context_length_chars": 35286,
+    "context_preview": "Conditionally Human\nBy WALTER M. MILLER, JR.\n\n\n Illustrated by DAVID STONE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1952.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey were such cute synthetic creatures, it\n \nwas impossible not to love them. Of course,\n \nthat was precisely why they were dangerous!\nThere was no use hanging around after breakfast. His wife was in a hurt\n mood, and he …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2460",
+    "question": "What makes the far side of the moon intolerable?",
+    "context_length_chars": 34568,
+    "context_preview": "SCRIMSHAW\nThe old man\n just wanted to get back his\n memory—and the methods he used were\n gently hellish, from the viewpoint of the\n others....\nBY MURRAY LEINSTER\nIllustrated by Freas\n\n\n Pop Young was the one known\n man who could stand life on the\n surface of the Moon's far side, and,\n therefore, he occupied the shack on\n the Big Crack's edge, above the\n mining colony there. Some people\n said that no normal man could do\n it, and mentioned the scar of a\n ghastly head-wound to explain his\n ability.…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1223",
+    "question": "How did Giles feel about family in the beginning?",
+    "context_length_chars": 31964,
+    "context_preview": "The\nDwindling\nYears\nHe didn’t expect to be last—but\n neither did he anticipate\n the horror of being the first!\nBy LESTER DEL REY\nIllustrated by JOHNS\nNEARLY TWO hundred\n years of habit carried the\n chairman of Exodus Corporation\n through the morning ritual\n of crossing the executive\n floor. Giles made the expected\n comments, smiled the proper\n smiles and greeted his staff by\n the right names, but it was purely\n automatic. Somehow, thinking\n had grown difficult in the mornings\n recently.\nInside h…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2241",
+    "question": "What is a potential risk of cities seceding from their nation-states?",
+    "context_length_chars": 12384,
+    "context_preview": "What cities in the post-Brexit era could learn from a 14th-century trading bloc\nAs you fly from the country now known as Germany to Britain, the coastal geography of northern European cities gently unfurls. You can see where the sea smacks into them, or where yawning estuaries unfold like funnels between green and brown city and choppy blue water. You can track the snaking rivers and canals that form unrepentant umbilical connections to the settlements set a little further inland.  \n\n By their n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2465",
+    "question": "What effect does Sattell's proximity have on Pop?",
+    "context_length_chars": 34568,
+    "context_preview": "SCRIMSHAW\nThe old man\n just wanted to get back his\n memory—and the methods he used were\n gently hellish, from the viewpoint of the\n others....\nBY MURRAY LEINSTER\nIllustrated by Freas\n\n\n Pop Young was the one known\n man who could stand life on the\n surface of the Moon's far side, and,\n therefore, he occupied the shack on\n the Big Crack's edge, above the\n mining colony there. Some people\n said that no normal man could do\n it, and mentioned the scar of a\n ghastly head-wound to explain his\n ability.…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1280",
+    "question": "Who didn't William say strange things to?",
+    "context_length_chars": 27465,
+    "context_preview": "Charity Case\nBy JIM HARMON\n\n\n Illustrated by DICK FRANCIS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction December 1959.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nCertainly I see things that aren't there\n \nand don't say what my voice says—but how\n \ncan I prove that I don't have my health?\nWhen he began his talk with \"You got your health, don't you?\" it\n touched those spots inside me. That was when I…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_115",
+    "question": "If it did, how do you think Brian's opinion on the rebellion changed throughout the passage?",
+    "context_length_chars": 29426,
+    "context_preview": "MONOPOLY\nBy Vic Phillips and Scott Roberts\nSheer efficiency and good management can\n\n make a monopoly grow into being. And once\n\n it grows, someone with a tyrant mind is\n\n going to try to use it as a weapon if he can—\n\n\n [Transcriber's Note: This etext was produced from\n\n Astounding Science-Fiction April 1942.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\n\"That all, chief? Gonna quit now?\"\n\n\n Brian Hanson looked disgustedly at Pete …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_608",
+    "question": "Why had Betty really come to Ganymede?",
+    "context_length_chars": 28320,
+    "context_preview": "TOLLIVER'S ORBIT\nwas slow—but it wasn't boring. And\n\n it would get you there—as long as\n\n you weren't going anywhere anyhow!\nBy H. B. FYFE\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nJohnny Tolliver scowled across the desk at his superior. His black\n thatch was ruffled, as if he had been rubbed the wrong way.\n\n\n \"I didn't ask you to c…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2495",
+    "question": "According to the author, how should progressive urban cities function differently than states?",
+    "context_length_chars": 12384,
+    "context_preview": "What cities in the post-Brexit era could learn from a 14th-century trading bloc\nAs you fly from the country now known as Germany to Britain, the coastal geography of northern European cities gently unfurls. You can see where the sea smacks into them, or where yawning estuaries unfold like funnels between green and brown city and choppy blue water. You can track the snaking rivers and canals that form unrepentant umbilical connections to the settlements set a little further inland.  \n\n By their n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1446",
+    "question": "Which word least describes Tom Grey?",
+    "context_length_chars": 16992,
+    "context_preview": "Is &lt;A NAME= \n\n         Gambling's would-be federal regulators--the National Gambling Impact Study Commission--went to Las Vegas this week to hold hearings. In today's dispatch, we learn how gambling's foes seek to demonize wagering as a pernicious tobaccolike vice. In yesterday's dispatch, gambling's foes learn the folly of having brought their anti-sin crusade to an adult Disneyland. \n\n         Tuesday's overpowering show of force by the Nevada gambling aristocracy has had at least one audib…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_986",
+    "question": "What does Rikud's victory represent?",
+    "context_length_chars": 33643,
+    "context_preview": "The Sense of Wonder\nBy MILTON LESSER\n\n\n Illustrated by HARRY ROSENBAUM\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction September 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen nobody aboard ship remembers where it's\n\n going, how can they tell when it has arrived?\nEvery day for a week now, Rikud had come to the viewport to watch\n the great changeless sweep of space. He could not quite explain t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_577",
+    "question": "What isn't true of the red-headed girl?",
+    "context_length_chars": 28203,
+    "context_preview": "Red Witch of Mercury\nBy EMMETT McDOWELL\nDeath was Jaro Moynahan's stock in trade, and\n\n every planet had known his touch. But now, on\n\n Mercury, he was selling his guns into the\n\n weirdest of all his exploits—gambling his life\n\n against the soft touch of a woman's lips.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Summer 1945.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOn the stage of\nMercury Sam's Garden…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_406",
+    "question": "How did Grannie Annie avoid the actions of Antlers Park?",
+    "context_length_chars": 28337,
+    "context_preview": "DOUBLE TROUBLE\nby CARL JACOBI\nGrannie Annie, that waspish science-fiction\n\n writer, was in a jam again. What with red-spot\n\n fever, talking cockatoos and flagpole trees,\n\n I was running in circles—especially since\n\n Grannie became twins every now and then.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Spring 1945.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWe had left the offices of\nInterstellar Voice\nthre…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_948",
+    "question": "Within the setting of the story, what makes one character more attractive than the other?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_347",
+    "question": "Before his departure, Peter recalls a line from a film. Why does it come to mind for him?",
+    "context_length_chars": 28207,
+    "context_preview": "THE AVENGER\nBy STUART FLEMING\nKarson was creating a superman to fight the weird\n\n super-monsters who had invaded Earth. But he was\n\n forgetting one tiny thing—like calls to like.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Spring 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nPeter Karson was dead. He had been dead for some time now, but\n the dark blood was still oozing from the crushed ruin of his fac…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2347",
+    "question": "In which chapter can we find more on OA policies?",
+    "context_length_chars": 34556,
+    "context_preview": "What Is Open Access?\nShifting from ink on paper to digital text suddenly allows us to make perfect copies of our work. Shifting from isolated computers to a globe-spanning network of connected computers suddenly allows us to share perfect copies of our work with a worldwide audience at essentially no cost. About thirty years ago this kind of free global sharing became something new under the sun. Before that, it would have sounded like a quixotic dream.\nDigital technologies have created more tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1299",
+    "question": "What wouldn't the author agree with?",
+    "context_length_chars": 10884,
+    "context_preview": "Maledict\noratory\nThe high costs of low language. \n\n         Sunday, Jan. 14, 1996: A day that will live in--well, not infamy, exactly. Blasphemy would be closer to it. \n\n         Early that afternoon, the Pittsburgh Steelers defeated the Indianapolis Colts to win the American Football Conference championship. Linebacker Greg Lloyd, accepting the trophy in front of a national television audience, responded with enthusiasm. \"Let's see if we can bring this damn thing back here next year,\" he said, …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2502",
+    "question": "Which factor is the best predictor of necessity for an emergency C-section on a fetus?",
+    "context_length_chars": 17264,
+    "context_preview": "Obstetrics for beginners\nIt's my first go at delivering a baby by caesarean section – and the foetal head is impacted, jammed in its mother's pelvis. To be honest I'm struggling. \n\n Incisions have been made in the lower part of the mother's abdomen and womb. I've pushed my gloved hand inside and managed to slide my fingers between the baby's head and the surrounding uterine tissue. But it's difficult. The baby is tightly wedged in. I've had to push hard to get my hand to the far side of its head…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1498",
+    "question": "How does the author see the role of self-help?",
+    "context_length_chars": 10878,
+    "context_preview": "More Bang for the Buck \n\n         A friend of mine offers a theory about why Bill Clinton's poll numbers stayed so high throughout the Lewinsky scandal: The news made it possible for serious-minded people to spend lots of time--at the office and over lunch--talking about semen stains, vaginal insertions, and blow jobs. And the people were grateful. \n\n         That's probably because they're not getting all that much themselves. A recent University of Chicago survey of 10,000 adults found that Am…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2518",
+    "question": "By explaining neural activity in the brain, what does the author of the article imply?",
+    "context_length_chars": 16258,
+    "context_preview": "Sharism: A Mind Revolution\nWith the People of the World Wide Web communicating more fully and\n freely in Social Media while rallying a Web 2.0 content boom, the inner\n dynamics of such a creative explosion must be studied more closely. What\n motivates those who join this movement and what future will they create?\n A key fact is that a superabundance of community respect and social\n capital are being accumulated by those who share. The key motivator of\n Social Media and the core spirit of Web 2.0…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1187",
+    "question": "What is not a theme explored in this story?",
+    "context_length_chars": 33643,
+    "context_preview": "The Sense of Wonder\nBy MILTON LESSER\n\n\n Illustrated by HARRY ROSENBAUM\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction September 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWhen nobody aboard ship remembers where it's\n\n going, how can they tell when it has arrived?\nEvery day for a week now, Rikud had come to the viewport to watch\n the great changeless sweep of space. He could not quite explain t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_60",
+    "question": "What does the E.P. Locator detect?",
+    "context_length_chars": 18826,
+    "context_preview": "IT WAS A DULL, ROUTINE LITTLE\n\n WORLD. IT DIDN'T EVEN HAVE A\n\n CITY. EVERYTHING IT HAD WAS\nIN THE GARDEN\nBY R. A. LAFFERTY\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe protozoic recorder chirped like a bird. Not only would there be\n life traces on that little moon, but it would be a lively place. So\n they skipped several steps in the p…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_854",
+    "question": "What clue did the water tanks and tubing give Jery?",
+    "context_length_chars": 29799,
+    "context_preview": "THE SECRET MARTIANS\nby JACK SHARKEY\n\n\n ACE BOOKS, INC.\n\n 23 West 47th Street,\n\n New York 36, N. Y.\n\n\n THE SECRET MARTIANS\n\n Copyright, 1960, by Ace Books, Inc.\n\n All Rights Reserved\n\n\n Printed in U.S.A.\n\n\n [Transcriber's Note: Extensive research did not uncover any evidence\n\n that the U.S. copyright on this publication was renewed.]\nMASTER SPY OF THE RED PLANET\n\n\n Jery Delvin had a most unusual talent. He could detect the flaws in\n any scheme almost on sight—even where they had eluded the best b…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2287",
+    "question": "How did Crownwall get to Vega III so quickly?",
+    "context_length_chars": 31125,
+    "context_preview": "UPSTARTS\nBy L. J. STECHER, JR.\nIllustrated by DILLON\nThe\n sight of an Earthman\n on Vega III, where it was\n impossible for an outlander\n to be, brought angry crowds to surround\n John Crownwall as he strode\n toward the palace of Viceroy\n Tronn Ffallk, ruler of Sector XII\n of the Universal Holy Empire of\n Sunda. He ignored the snarling, the\n spitting, the waving of boneless\n prehensile fingers, as he ignored the\n heavy gravity and heavier air of\n the unfamiliar planet.\n\n\n John Crownwall, florid, re…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1142",
+    "question": "Of the following options, which best describe Meredith?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1319",
+    "question": "Which isn't an apparent theme in Velvet Goldmine?",
+    "context_length_chars": 11658,
+    "context_preview": "Warrior Queens \n\n                         Elizabeth is a lurid paraphrase of the old Groucho Marx line about Doris Day: \"I knew the Virgin Queen before she was a virgin.\" As the movie tells it, she was a sylvan, redheaded princess (Cate Blanchett) given to gamboling with her fella (Joseph Fiennes) between periods of internment in the Tower of London on charges of conspiring to overthrow her half-sister, the heatedly Catholic Queen Mary (Kathy Burke). The daughter of the second wife of Henry VIII…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_28",
+    "question": "Why is Billy so drawn to Grannie Annie? ",
+    "context_length_chars": 25703,
+    "context_preview": "Doctor Universe\nBy CARL JACOBI\nGrannie Annie, who wrote science fiction\n\n under the nom de plume of Annabella C. Flowers,\n\n had stumbled onto a murderous plot more\n\n hair-raising than any she had ever concocted.\n\n And the danger from the villain of the piece\n\n didn't worry her—I was the guy he was shooting at.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Fall 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1247",
+    "question": "How did Jery feel when going to Baxter's office the second time?",
+    "context_length_chars": 29799,
+    "context_preview": "THE SECRET MARTIANS\nby JACK SHARKEY\n\n\n ACE BOOKS, INC.\n\n 23 West 47th Street,\n\n New York 36, N. Y.\n\n\n THE SECRET MARTIANS\n\n Copyright, 1960, by Ace Books, Inc.\n\n All Rights Reserved\n\n\n Printed in U.S.A.\n\n\n [Transcriber's Note: Extensive research did not uncover any evidence\n\n that the U.S. copyright on this publication was renewed.]\nMASTER SPY OF THE RED PLANET\n\n\n Jery Delvin had a most unusual talent. He could detect the flaws in\n any scheme almost on sight—even where they had eluded the best b…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1740",
+    "question": "What is the role of humor in the story?",
+    "context_length_chars": 18174,
+    "context_preview": "ACCIDENTAL DEATH\nBY PETER BAILY\nThe most\n dangerous of weapons\n  \n is the one you don't know is loaded.\nIllustrated by Schoenherr\nThe\n wind howled out of\n the northwest, blind\n with snow and barbed\n with ice crystals. All\n the way up the half-mile\n precipice it fingered and wrenched\n away at groaning ice-slabs. It\n screamed over the top, whirled snow\n in a dervish dance around the hollow\n there, piled snow into the long furrow\n plowed ruler-straight through\n streamlined hummocks of snow.\n\n\n The …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_438",
+    "question": "What was Peter's occupation?",
+    "context_length_chars": 28207,
+    "context_preview": "THE AVENGER\nBy STUART FLEMING\nKarson was creating a superman to fight the weird\n\n super-monsters who had invaded Earth. But he was\n\n forgetting one tiny thing—like calls to like.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Spring 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nPeter Karson was dead. He had been dead for some time now, but\n the dark blood was still oozing from the crushed ruin of his fac…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_118",
+    "question": "Do you think there is a romantic connection between Brian and Crystal?",
+    "context_length_chars": 29426,
+    "context_preview": "MONOPOLY\nBy Vic Phillips and Scott Roberts\nSheer efficiency and good management can\n\n make a monopoly grow into being. And once\n\n it grows, someone with a tyrant mind is\n\n going to try to use it as a weapon if he can—\n\n\n [Transcriber's Note: This etext was produced from\n\n Astounding Science-Fiction April 1942.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\n\"That all, chief? Gonna quit now?\"\n\n\n Brian Hanson looked disgustedly at Pete …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2455",
+    "question": "What motivates people like Zeckler to commit such crimes as he committed?",
+    "context_length_chars": 33253,
+    "context_preview": "Letter\n\n of\n\n the\n\n Law\nby Alan E. Nourse\nThe\n place was dark and damp, and smelled like moldy leaves.\n Meyerhoff followed the huge, bear-like Altairian guard\n down the slippery flagstones of the corridor, sniffing the\n dead, musty air with distaste. He drew his carefully tailored\n Terran-styled jacket closer about his shoulders, shivering as his\n eyes avoided the black, yawning cell-holes they were passing.\n His foot slipped on the slimy flags from time to time, and\n finally he paused to wipe t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_930",
+    "question": "What does Dole insinuate may have happened if the Times covered him 'accurately'? ",
+    "context_length_chars": 11943,
+    "context_preview": "Dole vs. the\nTimes\nFor several weeks now, pundits have debated how Bob Dole would exit the stage. Would he depart on a negative note about his opponent or a positive one about himself? Would he leave with anger or with humor? In the past several days, the issue has been settled. Dole, it appears, will end his political career raging against the New York Times . \n\n         Dole's spat with the gray lady went public on Thursday, Oct. 24. In New Orleans, Dole charged the paper with ignoring a story…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1504",
+    "question": "What is the primary goal of Shopping Avenger?",
+    "context_length_chars": 11119,
+    "context_preview": "It's Time To Keelhaul U-Haul! \n\n         Like all superheroes worthy of the title, the Shopping Avenger has an Achilles' heel. In the case of the Shopping Avenger, his Achilles' heel is not animal, vegetable, or mineral but something less tangible. \n\n         An explanation: Last week, the magazine you are currently reading forced the Shopping Avenger at gunpoint to read a series of treacle-filled self-help books, and then to . The Shopping Avenger, who can withstand radiation, extreme heat and …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2270",
+    "question": "What is a Nilly?",
+    "context_length_chars": 26474,
+    "context_preview": "COUNTERWEIGHT\nBy JERRY SOHL\nEvery town has crime—but\n \nespecially a town that is\n \ntraveling from star to star!\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, November 1959.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nSure I'm a Nilly, and I've died seven times, always in the blackness\n of the outer reaches, and I'm not alone, although there aren't very\n many of us, never were.\nIt made sense. Int…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2376",
+    "question": "What is the most likely identity of the man Linton believes to be Mr. Snead?",
+    "context_length_chars": 15224,
+    "context_preview": "FEBRUARY STRAWBERRIES\nBy JIM HARMON\nHow much is the impossible worth?\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, March 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nLinton lay down his steel fork beside the massively solid transparency\n of the restaurant water glass.\n\n\n \"Isn't that Rogers Snead at that table?\" he heard himself say stupidly.\n\n\n Howell, the man across the table from him, lo…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1333",
+    "question": "What is a reason that Dole attacked the Times?",
+    "context_length_chars": 11943,
+    "context_preview": "Dole vs. the\nTimes\nFor several weeks now, pundits have debated how Bob Dole would exit the stage. Would he depart on a negative note about his opponent or a positive one about himself? Would he leave with anger or with humor? In the past several days, the issue has been settled. Dole, it appears, will end his political career raging against the New York Times . \n\n         Dole's spat with the gray lady went public on Thursday, Oct. 24. In New Orleans, Dole charged the paper with ignoring a story…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2501",
+    "question": "What factor necessitates the change in frequency of performed C-sections?",
+    "context_length_chars": 17264,
+    "context_preview": "Obstetrics for beginners\nIt's my first go at delivering a baby by caesarean section – and the foetal head is impacted, jammed in its mother's pelvis. To be honest I'm struggling. \n\n Incisions have been made in the lower part of the mother's abdomen and womb. I've pushed my gloved hand inside and managed to slide my fingers between the baby's head and the surrounding uterine tissue. But it's difficult. The baby is tightly wedged in. I've had to push hard to get my hand to the far side of its head…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2204",
+    "question": "How do the Altairians treat the biggest liars?",
+    "context_length_chars": 33253,
+    "context_preview": "Letter\n\n of\n\n the\n\n Law\nby Alan E. Nourse\nThe\n place was dark and damp, and smelled like moldy leaves.\n Meyerhoff followed the huge, bear-like Altairian guard\n down the slippery flagstones of the corridor, sniffing the\n dead, musty air with distaste. He drew his carefully tailored\n Terran-styled jacket closer about his shoulders, shivering as his\n eyes avoided the black, yawning cell-holes they were passing.\n His foot slipped on the slimy flags from time to time, and\n finally he paused to wipe t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2462",
+    "question": "Which item would most likely be shared by Sattell and Pop?",
+    "context_length_chars": 34568,
+    "context_preview": "SCRIMSHAW\nThe old man\n just wanted to get back his\n memory—and the methods he used were\n gently hellish, from the viewpoint of the\n others....\nBY MURRAY LEINSTER\nIllustrated by Freas\n\n\n Pop Young was the one known\n man who could stand life on the\n surface of the Moon's far side, and,\n therefore, he occupied the shack on\n the Big Crack's edge, above the\n mining colony there. Some people\n said that no normal man could do\n it, and mentioned the scar of a\n ghastly head-wound to explain his\n ability.…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_455",
+    "question": "What was the problem with the tubes of calking compound that the crew was trying to use?",
+    "context_length_chars": 27317,
+    "context_preview": "The Winning of the Moon\nBY KRIS NEVILLE\nThe enemy was friendly enough.\n\n Trouble was—their friendship\n\n was as dangerous as their hate!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1962.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nGeneral Finogenov notified Major Winship that the underground blast was\n scheduled for the following morning.\n\n\n Major Winship, after receiving the messa…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_489",
+    "question": "What was the new editor trying to convince Ross into doing?",
+    "context_length_chars": 12112,
+    "context_preview": "Goings On About Town \n\n         One of the funniest moments in Brendan Gill's 1975 memoir, Here at \"The New Yorker ,\" comes during a luncheon at the now vanished Ritz in Manhattan. At the table are Gill; William Shawn, then editor of The New Yorker ; and the reclusive English writer Henry Green. Green's new novel, Loving , has just received a very favorable review in The New Yorker . Shawn--\"with his usual hushed delicacy of speech and manner\"--inquires of the novelist whether he could possibly …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1396",
+    "question": "Which doesn't describe Extrone?",
+    "context_length_chars": 32689,
+    "context_preview": "HUNT the HUNTER\nBY KRIS NEVILLE\n\n\n Illustrated by ELIZABETH MacINTYRE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction June 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOf course using live bait is the best\n\n way to lure dangerous alien animals ...\n\n unless it turns out that you are the bait!\n\"We're somewhat to the south, I think,\" Ri said, bending over the crude\n field map. \"That ridge,\" he point…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1634",
+    "question": "According to the reviewer, which motif seems to represent the precariousness of reality?",
+    "context_length_chars": 11098,
+    "context_preview": "A Good Year for the Roses? \n\n         Early in American Beauty , Lester Burnham (Kevin Spacey), a weary reporter for a media magazine, masturbates in the shower while informing us in voice-over that we're witnessing the highlight of his day. He peers through tired eyes out the window at his manicured suburban tract-house lawn, where his wife, Carolyn (Annette Bening)--whose gardening clogs, he points out, are color-coordinated with the handles of her shears--snips roses (American beauties) and t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_453",
+    "question": "What caused Macklin to lose his intelligence?",
+    "context_length_chars": 29497,
+    "context_preview": "THE BIG HEADACHE\nBY JIM HARMON\nWhat's the principal cause of headaches?\n\n Why, having a head, of course!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1962.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nI\n\n\n \"Do you think we'll have to use force on Macklin to get him to\n cooperate in the experiment?\" Ferris asked eagerly.\n\n\n \"How are you going to go about forcing him, Doctor?\" Mitchel…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1055",
+    "question": "Why was Jerome stopped by the police while running?",
+    "context_length_chars": 27244,
+    "context_preview": "... and it comes out here\nBy LESTER DEL REY\n\n\n Illustrated by DON SIBLEY\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThere is one fact no sane man can quarrel\n\n with ... everything has a beginning and an end.\n\n But some men aren't sane; thus it isn't always so!\nNo, you're wrong. I'm not your father's ghost, even if I do look a bit\n like hi…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1745",
+    "question": "Why was Charley so interested in the Minnow?",
+    "context_length_chars": 18174,
+    "context_preview": "ACCIDENTAL DEATH\nBY PETER BAILY\nThe most\n dangerous of weapons\n  \n is the one you don't know is loaded.\nIllustrated by Schoenherr\nThe\n wind howled out of\n the northwest, blind\n with snow and barbed\n with ice crystals. All\n the way up the half-mile\n precipice it fingered and wrenched\n away at groaning ice-slabs. It\n screamed over the top, whirled snow\n in a dervish dance around the hollow\n there, piled snow into the long furrow\n plowed ruler-straight through\n streamlined hummocks of snow.\n\n\n The …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1582",
+    "question": "How does the author feel about For the Love of the Game?",
+    "context_length_chars": 11098,
+    "context_preview": "A Good Year for the Roses? \n\n         Early in American Beauty , Lester Burnham (Kevin Spacey), a weary reporter for a media magazine, masturbates in the shower while informing us in voice-over that we're witnessing the highlight of his day. He peers through tired eyes out the window at his manicured suburban tract-house lawn, where his wife, Carolyn (Annette Bening)--whose gardening clogs, he points out, are color-coordinated with the handles of her shears--snips roses (American beauties) and t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1592",
+    "question": "How does Princess Mononoke differ from Disney animation?",
+    "context_length_chars": 11873,
+    "context_preview": "Machines in the Garden \n\n         In the animated ecological epic                    Princess Mononoke                , the camera travels over landscapes with a clear, steady gaze, like a Zen hang glider. The images have none of the comin'-at-ya pop-surrealism of American cartoons, many of which have characters that spring out of the frame like jack-in-the-boxes. The Japanese director, Hayao Miyazaki, who spent three years on Princess Mononoke and is reported to have done 70 percent of its pain…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1272",
+    "question": "Why had Roger been trained by Opal?",
+    "context_length_chars": 28940,
+    "context_preview": "JUDAS RAM\nBY SAM MERWIN, Jr.\n\n\n Illustrated by JAMES VINCENT\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction December 1950.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe house was furnished with all\n\n luxuries, including women. If it only\n\n had a lease that could be broken—\nRoger Tennant, crossing the lawn, could see two of the three wings\n of the house, which radiated spoke-like from its heptagonal…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_778",
+    "question": "Why did the main character no longer keep the ruby necklace?",
+    "context_length_chars": 16937,
+    "context_preview": "HOMECOMING\nBY MIGUEL HIDALGO\nWhat lasts forever? Does love?\n \nDoes death?... Nothing lasts\n \nforever.... Not even forever\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, April 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe large horse plodded slowly over the shifting sand.\n\n\n The rider was of medium size, with huge, strong hands and seemingly\n hollow eyes. Strange eyes, alive and aflame. Th…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1419",
+    "question": "Which isn't true?",
+    "context_length_chars": 26546,
+    "context_preview": "Spacemen Die at Home\nBy EDWARD W. LUDWIG\n\n\n Illustrated by THORNE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction October 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOne man's retreat is another's prison ... and\n \nit takes a heap of flying to make a hulk a home!\nForty days of heaven and forty nights of hell. That's the way it's\n been, Laura. But how can I make you understand? How can I tell you\n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2395",
+    "question": "Var and Neena most likely belong to which group:",
+    "context_length_chars": 30950,
+    "context_preview": "WHEN THE MOUNTAIN SHOOK\nBy Robert Abernathy\nIllustrated by Kelly Freas\n[Transcriber Note: This etext was produced from IF Worlds of Science\n Fiction March 1954. Extensive research did not uncover any evidence that\n the U.S. copyright on this publication was renewed.]\nDark was the Ryzga mountain and forbidding; steep were its\n cliffs and sheer its crevasses. But its outward perils could not compare\n with the Ryzgas themselves, who slept within, ready to wake and\n conquer....\nAt sunset they were i…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1134",
+    "question": "Why does Price believe it is important for everyone in the world to be Cured?",
+    "context_length_chars": 28883,
+    "context_preview": "Name Your Symptom\nBy JIM HARMON\n\n\n Illustrated by WEISS\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction May 1956.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nAnybody who shunned a Cure needed his\n \nhead examined—assuming he had one left!\nHenry Infield placed the insulated circlet on his head gently. The\n gleaming rod extended above his head about a foot, the wires from it\n leading down into his collar…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_898",
+    "question": "The film review author gives all of the following reasons for his negative critique toward \"Unmade Beds\" EXCEPT that:",
+    "context_length_chars": 12538,
+    "context_preview": "Dirty Laundry \n\n         Now and then, a documentary film comes along that makes us re-examine the rules that unofficially govern the genre: Can there be a middle ground between fiction and fact? Can a documentary use scripted scenes and yet remain ontologically authentic? How much can you stylize material before you alter the reality that you're striving, at least in theory, to capture? \n\n                         Unmade Beds , Nicholas Barker's \" 'real life' feature film,\" has proudly worn its …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_734",
+    "question": "What does the description in the second paragraph of the article about Wayne's parents show about how Wayne feels towards them?",
+    "context_length_chars": 20907,
+    "context_preview": "THE RECRUIT\nBY BRYCE WALTON\nIt was dirty work, but it would\n\n make him a man. And kids had a\n\n right to grow up—some of them!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, July 1962.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nWayne, unseen, sneered down from the head of the stairs.\n\n\n The old man with his thick neck, thick cigar, evening highball, potgut\n and bald head without a brain in it.…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_84",
+    "question": "Why was Billy-boy stopped as he was walking into the main lounge?",
+    "context_length_chars": 25703,
+    "context_preview": "Doctor Universe\nBy CARL JACOBI\nGrannie Annie, who wrote science fiction\n\n under the nom de plume of Annabella C. Flowers,\n\n had stumbled onto a murderous plot more\n\n hair-raising than any she had ever concocted.\n\n And the danger from the villain of the piece\n\n didn't worry her—I was the guy he was shooting at.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Fall 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_612",
+    "question": "Which would Fishman not use to describe Brian Arthur?",
+    "context_length_chars": 22417,
+    "context_preview": "Krugman's Life of Brian \n\n           \n\n                         Where it all started: Paul Krugman's                 \"The Legend of Arthur.\"              \n\n                         Letter from John Cassidy              \n\n         Paul Krugman replies to John Cassidy              \n\n                         Letter from M. Mitchell Waldrop              \n\n         Paul Krugman replies to M. Mitchell Waldrop              \n\n                         Letter from Kenneth J. Arrow              \n\n         …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2240",
+    "question": "What is a modern city that is large enough to be a city-state?",
+    "context_length_chars": 12384,
+    "context_preview": "What cities in the post-Brexit era could learn from a 14th-century trading bloc\nAs you fly from the country now known as Germany to Britain, the coastal geography of northern European cities gently unfurls. You can see where the sea smacks into them, or where yawning estuaries unfold like funnels between green and brown city and choppy blue water. You can track the snaking rivers and canals that form unrepentant umbilical connections to the settlements set a little further inland.  \n\n By their n…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1485",
+    "question": "Why has UFC moved to smaller locations over the course of its history?",
+    "context_length_chars": 12314,
+    "context_preview": "Fight Clubbed \n\n                         Fight Club , a movie about a fictional organization of men who strip down and beat each other to pulp, has provoked more than its share of media hand-wringing, particularly diatribes about Hollywood's infatuation with violence and Faludi-esque ruminations about the emasculated American male. Fight Club , however, has not sparked an iota of interest in a real organization of men who strip down and beat each other to pulp: the Ultimate Fighting Championship…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_519",
+    "question": "What was the main reason Moynihan asked Miss Webb to meet him at the grog shop?",
+    "context_length_chars": 28203,
+    "context_preview": "Red Witch of Mercury\nBy EMMETT McDOWELL\nDeath was Jaro Moynahan's stock in trade, and\n\n every planet had known his touch. But now, on\n\n Mercury, he was selling his guns into the\n\n weirdest of all his exploits—gambling his life\n\n against the soft touch of a woman's lips.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Summer 1945.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nOn the stage of\nMercury Sam's Garden…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1106",
+    "question": "Who was the most shameless in 1999?",
+    "context_length_chars": 14995,
+    "context_preview": "Eleven-Twelfths of 1999 In Review \n\n         When Chatterbox invited readers to nominate events, significant deaths, good and bad movies, etc., for 1999--a year likely to get little attention in the coming weeks, as news organizations choose instead to review the entire century or millennium--the response was overwhelming. Chatterbox had promised to publish his official \"1999 In Review\" item before Thanksgiving, but some distant memory of a scruple persuaded him to wait till November was over. N…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_2107",
+    "question": "Why does Captain Branson warn Ellason that he won't be able to publish his observations?",
+    "context_length_chars": 26474,
+    "context_preview": "COUNTERWEIGHT\nBy JERRY SOHL\nEvery town has crime—but\n \nespecially a town that is\n \ntraveling from star to star!\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, November 1959.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nSure I'm a Nilly, and I've died seven times, always in the blackness\n of the outer reaches, and I'm not alone, although there aren't very\n many of us, never were.\nIt made sense. Int…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1113",
+    "question": "Who on the commission is gambling's most fervent opponent?",
+    "context_length_chars": 16992,
+    "context_preview": "Is &lt;A NAME= \n\n         Gambling's would-be federal regulators--the National Gambling Impact Study Commission--went to Las Vegas this week to hold hearings. In today's dispatch, we learn how gambling's foes seek to demonize wagering as a pernicious tobaccolike vice. In yesterday's dispatch, gambling's foes learn the folly of having brought their anti-sin crusade to an adult Disneyland. \n\n         Tuesday's overpowering show of force by the Nevada gambling aristocracy has had at least one audib…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1655",
+    "question": "According to the reviewers, Jack from \"Fight Club\" and Brandon Teena from \"Boys Don't Cry\" share the following:",
+    "context_length_chars": 11341,
+    "context_preview": "Boys Do Bleed \n\n         Fight Club is silly stuff, sensationalism that mistakes itself for satire, but it's also a brash and transporting piece of moviemaking, like Raging Bull on acid. The film opens with--literally--a surge of adrenalin, which travels through the bloodstream and into the brain of its protagonist, Jack (Edward Norton), who's viewed, as the camera pulls out of his insides, with a gun stuck in his mouth. How'd he get into this pickle? He's going to tell you, breezily, and the di…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_35",
+    "question": "Why do Harvey and Joe change thier plan when confronting Johnson about the water?",
+    "context_length_chars": 28869,
+    "context_preview": "GRIFTERS' ASTEROID\nBy H. L. GOLD\nHarvey and Joe were the slickest con-men ever\n\n to gyp a space-lane sucker. Or so they thought!\n\n Angus Johnson knew differently. He charged them\n\n five buckos for a glass of water—and got it!\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories May 1943.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nCharacteristically, Harvey Ellsworth tried to maintain his dignity,\n though his parc…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1559",
+    "question": "How do they create neutroids?",
+    "context_length_chars": 35286,
+    "context_preview": "Conditionally Human\nBy WALTER M. MILLER, JR.\n\n\n Illustrated by DAVID STONE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1952.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey were such cute synthetic creatures, it\n \nwas impossible not to love them. Of course,\n \nthat was precisely why they were dangerous!\nThere was no use hanging around after breakfast. His wife was in a hurt\n mood, and he …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_779",
+    "question": "Would the main character had fought as hard in World War III if he knew that his family would not be home when he returned?",
+    "context_length_chars": 16937,
+    "context_preview": "HOMECOMING\nBY MIGUEL HIDALGO\nWhat lasts forever? Does love?\n \nDoes death?... Nothing lasts\n \nforever.... Not even forever\n[Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, April 1958.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe large horse plodded slowly over the shifting sand.\n\n\n The rider was of medium size, with huge, strong hands and seemingly\n hollow eyes. Strange eyes, alive and aflame. Th…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2200",
+    "question": "What did the Altairian's arrest Zeckler for?",
+    "context_length_chars": 33253,
+    "context_preview": "Letter\n\n of\n\n the\n\n Law\nby Alan E. Nourse\nThe\n place was dark and damp, and smelled like moldy leaves.\n Meyerhoff followed the huge, bear-like Altairian guard\n down the slippery flagstones of the corridor, sniffing the\n dead, musty air with distaste. He drew his carefully tailored\n Terran-styled jacket closer about his shoulders, shivering as his\n eyes avoided the black, yawning cell-holes they were passing.\n His foot slipped on the slimy flags from time to time, and\n finally he paused to wipe t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1810",
+    "question": "Why doesn't Martha's description of Terry fit what the reporter considers to be the norm?",
+    "context_length_chars": 10600,
+    "context_preview": "STAR MOTHER\nBy ROBERT F. YOUNG\nA touching story of the most\n enduring love in all eternity.\nThat\n night her son was the\n first star.\n\n\n She stood motionless in the\n garden, one hand pressed against\n her heart, watching him rise\n above the fields where he had\n played as a boy, where he had\n worked as a young man; and she\n wondered whether he was thinking\n of those fields now, whether\n he was thinking of her standing\n alone in the April night with her\n memories; whether he was\n thinking of the ver…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_2458",
+    "question": "Altairian's economy is most likely representative of which system:",
+    "context_length_chars": 33253,
+    "context_preview": "Letter\n\n of\n\n the\n\n Law\nby Alan E. Nourse\nThe\n place was dark and damp, and smelled like moldy leaves.\n Meyerhoff followed the huge, bear-like Altairian guard\n down the slippery flagstones of the corridor, sniffing the\n dead, musty air with distaste. He drew his carefully tailored\n Terran-styled jacket closer about his shoulders, shivering as his\n eyes avoided the black, yawning cell-holes they were passing.\n His foot slipped on the slimy flags from time to time, and\n finally he paused to wipe t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_136",
+    "question": "Why didn't Tremaine automatically include the state law enforcement in his investigation?",
+    "context_length_chars": 27700,
+    "context_preview": "THE LONG REMEMBERED THUNDER\nBY KEITH LAUMER\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of Tomorrow April 1963\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nHe was as ancient as time—and as strange as\n\n his own frightful battle against incredible odds!\nI\n\n\n In his room at the Elsby Commercial Hotel, Tremaine opened his luggage\n and took out a small tool kit, used a screwdriver to remove the bottom\n cover plate from…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1018",
+    "question": "From the text, what can be inferred about the thoughts in Pendleton's demise?",
+    "context_length_chars": 29294,
+    "context_preview": "THE FIRE and THE SWORD\nBy FRANK M. ROBINSON\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction August 1951.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nNothing could have seemed pleasanter than that\n\n peaceful planet. Then why was a non-suicidal\n\n man driven to suicide there? Yet it made sense.\nWhy do people commit suicide?\nTemplin tightened his safety belt and lay back on the acce…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_1650",
+    "question": "All four of the films reviewed share the following theme:",
+    "context_length_chars": 11341,
+    "context_preview": "Boys Do Bleed \n\n         Fight Club is silly stuff, sensationalism that mistakes itself for satire, but it's also a brash and transporting piece of moviemaking, like Raging Bull on acid. The film opens with--literally--a surge of adrenalin, which travels through the bloodstream and into the brain of its protagonist, Jack (Edward Norton), who's viewed, as the camera pulls out of his insides, with a gun stuck in his mouth. How'd he get into this pickle? He's going to tell you, breezily, and the di…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1636",
+    "question": "According to the reviewer, Carolyn's preference for \"Muzak\" and \"nutritious yet savory\" food most likely symbolize:",
+    "context_length_chars": 11098,
+    "context_preview": "A Good Year for the Roses? \n\n         Early in American Beauty , Lester Burnham (Kevin Spacey), a weary reporter for a media magazine, masturbates in the shower while informing us in voice-over that we're witnessing the highlight of his day. He peers through tired eyes out the window at his manicured suburban tract-house lawn, where his wife, Carolyn (Annette Bening)--whose gardening clogs, he points out, are color-coordinated with the handles of her shears--snips roses (American beauties) and t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_343",
+    "question": "How does it seem that the aliens communicate?",
+    "context_length_chars": 28207,
+    "context_preview": "THE AVENGER\nBy STUART FLEMING\nKarson was creating a superman to fight the weird\n\n super-monsters who had invaded Earth. But he was\n\n forgetting one tiny thing—like calls to like.\n\n\n [Transcriber's Note: This etext was produced from\n\n Planet Stories Spring 1944.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nPeter Karson was dead. He had been dead for some time now, but\n the dark blood was still oozing from the crushed ruin of his fac…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1459",
+    "question": "What isn't a conclusion drawn?",
+    "context_length_chars": 15818,
+    "context_preview": "More Booze You Can Use \n\n         When we last heard from them, the members of the \n\n               Slate                 beer-testing team were coping with lagers and trying to see if they could taste the 3-to-1 price difference between the most- and least-expensive brands. (Click for a wrap-up of the first round of beer tasting.) The answer was: They found one beer they really liked, Samuel Adams Boston Lager , and one they really hated, imported Grolsch from Holland. Both were expensive beers…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_1146",
+    "question": "Of the four main crew members, who are focused on the most in the story?",
+    "context_length_chars": 32382,
+    "context_preview": "BIG ANCESTOR\nBy F. L. WALLACE\n\n\n Illustrated by EMSH\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction November 1954.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nMan's family tree was awesome enough to give every galactic\n \nrace an inferiority complex—but then he tried to climb it!\nIn repose, Taphetta the Ribboneer resembled a fancy giant bow on a\n package. His four flat legs looped out and in, the ends…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_2351",
+    "question": "Which complementary currency didn't work out?",
+    "context_length_chars": 14533,
+    "context_preview": "New money: Do local currencies actually work?\nIt's lunchtime at Glasgow Chambers in late November, and Councillor George Redmond is getting worked up at the prospect a Glasgow Pound. \"We would be Glasgow-centric about it,\" he says conspiratorially, as though there is any other way to be. \"Can you imagine having the face of Billy Connolly on our local currency? Or Alex Ferguson, or Kenny Dalglish?\" \n\n Inventing an alternative to sterling might sound far-fetched, even illegal. But it's not that st…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_552",
+    "question": "What is the educational background of the person who wrote “Complexity”?",
+    "context_length_chars": 22417,
+    "context_preview": "Krugman's Life of Brian \n\n           \n\n                         Where it all started: Paul Krugman's                 \"The Legend of Arthur.\"              \n\n                         Letter from John Cassidy              \n\n         Paul Krugman replies to John Cassidy              \n\n                         Letter from M. Mitchell Waldrop              \n\n         Paul Krugman replies to M. Mitchell Waldrop              \n\n                         Letter from Kenneth J. Arrow              \n\n         …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1672",
+    "question": "Which of these is a reason that Mary would have wanted Sammy to replace Phil?",
+    "context_length_chars": 11993,
+    "context_preview": "Transcriber's Note: This etext was produced from Astounding Science\n Fiction December 1955. Extensive research did not uncover any evidence\n that the U.S. copyright on this publication was renewed.\nBREAKAWAY\nBY STANLEY GIMBLE\nIllustrated by Freas\nShe surely got her wish ... but there was some question about getting\n what she wanted.\nPhil Conover pulled the zipper of his flight suit up the front of his\n long, thin body and came into the living room. His face, usually serious\n and quietly handsome…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1611",
+    "question": "Which terms best describe the tone of the passage in which Terry incinerates 23 of his long-term barn residents?",
+    "context_length_chars": 35286,
+    "context_preview": "Conditionally Human\nBy WALTER M. MILLER, JR.\n\n\n Illustrated by DAVID STONE\n\n\n [Transcriber's Note: This etext was produced from\n\n Galaxy Science Fiction February 1952.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThey were such cute synthetic creatures, it\n \nwas impossible not to love them. Of course,\n \nthat was precisely why they were dangerous!\nThere was no use hanging around after breakfast. His wife was in a hurt\n mood, and he …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_328",
+    "question": "Why does the Scorpion leave their signature at each crime?",
+    "context_length_chars": 27299,
+    "context_preview": "CALL HIM NEMESIS\nBy DONALD E. WESTLAKE\nCriminals, beware; the Scorpion is on\n\n your trail! Hoodlums fear his fury—and,\n\n for that matter, so do the cops!\n\n\n [Transcriber's Note: This etext was produced from\n\n Worlds of If Science Fiction, September 1961.\n\n Extensive research did not uncover any evidence that\n\n the U.S. copyright on this publication was renewed.]\nThe man with the handkerchief mask said, \"All right, everybody, keep\n tight. This is a holdup.\"\n\n\n There were twelve people in the bank…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": "quality_train_2079",
+    "question": "Which is not true about our judgements of people from photos, according to the article?",
+    "context_length_chars": 14385,
+    "context_preview": "Face value\nWhen the BBC broadcast the recent documentary by Louis Theroux that looked back at the time he spent in the company of Jimmy Savile, there was disbelief across social media that no one had stepped in to stop Savile from committing his crimes. Some blamed the BBC, some blamed those in Savile's immediate circle, but others blamed a simple error of human judgment.  \n\n \"He literally couldn't look more like a paedophile,\" read one post – one of many to state a supposedly incontrovertible t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1429",
+    "question": "What would 12 and 13 critics agree on?",
+    "context_length_chars": 13367,
+    "context_preview": "eBabe \n\n         This week, soft-porn entrepreneur Ron Harris began auctioning the eggs of fashion models on the Internet. His site, ronsangels.com (named after the 1970s' babe show Charlie's Angels ), invites visitors to \"bid on eggs from beautiful, healthy and intelligent women.\" Like Dr. Richard Seed, who recently declared his intention to clone human beings, Harris has attracted the attention of the media and politicians who are \"looking into\" whether he can be stopped. Most people agree tha…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": "quality_train_1242",
+    "question": "How did Baxter feel when he first met Jery?",
+    "context_length_chars": 29799,
+    "context_preview": "THE SECRET MARTIANS\nby JACK SHARKEY\n\n\n ACE BOOKS, INC.\n\n 23 West 47th Street,\n\n New York 36, N. Y.\n\n\n THE SECRET MARTIANS\n\n Copyright, 1960, by Ace Books, Inc.\n\n All Rights Reserved\n\n\n Printed in U.S.A.\n\n\n [Transcriber's Note: Extensive research did not uncover any evidence\n\n that the U.S. copyright on this publication was renewed.]\nMASTER SPY OF THE RED PLANET\n\n\n Jery Delvin had a most unusual talent. He could detect the flaws in\n any scheme almost on sight—even where they had eluded the best b…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": "quality_train_1002",
+    "question": "What did Don use as a method for seeing over the edge of the stream?",
+    "context_length_chars": 29225,
+    "context_preview": "And Then the Town Took Off\nby RICHARD WILSON\nACE BOOKS, INC.\n\n 23 West 47th Street, New York 36, N.Y.\nAND THEN THE TOWN TOOK OFF\nCopyright ©, 1960, by Ace Books, Inc.\n\n All Rights Reserved\nFor\nFelicitas K. Wilson\nTHE SIOUX SPACEMAN\n\n Copyright ©, 1960, by Ace Books, Inc.\nPrinted in U.S.A.\nTHE CITY THAT RAN OFF THE MAP\nThe town of Superior, Ohio, certainly was living up to its name! In what\n was undoubtedly the most spectacular feat of the century, it simply\n picked itself up one night and rose t…[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "quality_train_487",
+    "question": "What was said about Mehta's book in the passage?",
+    "context_length_chars": 12112,
+    "context_preview": "Goings On About Town \n\n         One of the funniest moments in Brendan Gill's 1975 memoir, Here at \"The New Yorker ,\" comes during a luncheon at the now vanished Ritz in Manhattan. At the table are Gill; William Shawn, then editor of The New Yorker ; and the reclusive English writer Henry Green. Green's new novel, Loving , has just received a very favorable review in The New Yorker . Shawn--\"with his usual hushed delicacy of speech and manner\"--inquires of the novelist whether he could possibly …[truncated]",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  }
+]

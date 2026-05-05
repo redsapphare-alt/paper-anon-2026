@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "mbpp_490",
+    "question": "Write a python function to find common divisor between two numbers in a given pair.",
+    "answer": "def ngcd(x,y):\r\n    i=1\r\n    while(i<=x and i<=y):\r\n        if(x%i==0 and y%i == 0):\r\n            gcd=i;\r\n        i+=1\r\n    return gcd;\r\ndef num_comm_div(x,y):\r\n  n = ngcd(x,y)\r\n  result = 0\r\n  z = int(n**0.5)\r\n  i = 1\r\n  while(i <= z):\r\n    if(n % i == 0):\r\n      result += 2 \r\n      if(i == n/i):\r\n        result-=1\r\n    i+=1\r\n  return result"
+  },
+  {
+    "id": "humaneval_114",
+    "question": "\ndef minSubArraySum(nums):\n    \"\"\"\n    Given an array of integers nums, find the minimum sum of any non-empty sub-array\n    of nums.\n    Example\n    minSubArraySum([2, 3, 4, 1, 2, 4]) == 1\n    minSubArraySum([-1, -2, -3]) == -6\n    \"\"\"\n",
+    "answer": "    max_sum = 0\n    s = 0\n    for num in nums:\n        s += -num\n        if (s < 0):\n            s = 0\n        max_sum = max(s, max_sum)\n    if max_sum == 0:\n        max_sum = max(-i for i in nums)\n    min_sum = -max_sum\n    return min_sum\n"
+  },
+  {
+    "id": "humaneval_25",
+    "question": "from typing import List\n\n\ndef factorize(n: int) -> List[int]:\n    \"\"\" Return list of prime factors of given integer in the order from smallest to largest.\n    Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.\n    Input number should be equal to the product of all factors\n    >>> factorize(8)\n    [2, 2, 2]\n    >>> factorize(25)\n    [5, 5]\n    >>> factorize(70)\n    [2, 5, 7]\n    \"\"\"\n",
+    "answer": "    import math\n    fact = []\n    i = 2\n    while i <= int(math.sqrt(n) + 1):\n        if n % i == 0:\n            fact.append(i)\n            n //= i\n        else:\n            i += 1\n\n    if n > 1:\n        fact.append(n)\n    return fact\n"
+  },
+  {
+    "id": "mbpp_595",
+    "question": "Write a function to zip two given lists of lists.",
+    "answer": "def zip_list(list1,list2):  \r\n result = list(map(list.__add__, list1, list2)) \r\n return result"
+  },
+  {
+    "id": "mbpp_117",
+    "question": "Write a function to shortlist words that are longer than n from a given list of words.",
+    "answer": "def long_words(n, str):\r\n    word_len = []\r\n    txt = str.split(\" \")\r\n    for x in txt:\r\n        if len(x) > n:\r\n            word_len.append(x)\r\n    return word_len\t"
+  },
+  {
+    "id": "mbpp_86",
+    "question": "Write a function to find frequency count of list of lists.",
+    "answer": "def frequency_lists(list1):\r\n    list1 = [item for sublist in list1 for item in sublist]\r\n    dic_data = {}\r\n    for num in list1:\r\n        if num in dic_data.keys():\r\n            dic_data[num] += 1\r\n        else:\r\n            key = num\r\n            value = 1\r\n            dic_data[key] = value\r\n    return dic_data\r\n"
+  },
+  {
+    "id": "mbpp_64",
+    "question": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.",
+    "answer": "def find_tuples(test_list, K):\r\n  res = [sub for sub in test_list if all(ele % K == 0 for ele in sub)]\r\n  return (str(res)) "
+  },
+  {
+    "id": "humaneval_142",
+    "question": "\n\n\ndef sum_squares(lst):\n    \"\"\"\"\n    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a \n    multiple of 3 and will cube the integer entry if its index is a multiple of 4 and not a multiple of 3. The function will not \n    change the entries in the list whose indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries. \n    \n    Examples:\n    For lst = [1,2,3] the output should be 6\n    For lst = []  the output should be 0\n    For lst = [-1,-5,2,-1,-5]  the output should be -126\n    \"\"\"\n",
+    "answer": "    result =[]\n    for i in range(len(lst)):\n        if i %3 == 0:\n            result.append(lst[i]**2)\n        elif i % 4 == 0 and i%3 != 0:\n            result.append(lst[i]**3)\n        else:\n            result.append(lst[i])\n    return sum(result)\n"
+  },
+  {
+    "id": "mbpp_590",
+    "question": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list.",
+    "answer": "from itertools import groupby \r\ndef group_element(test_list):\r\n  res = dict()\r\n  for key, val in groupby(sorted(test_list, key = lambda ele: ele[1]), key = lambda ele: ele[1]):\r\n    res[key] = [ele[0] for ele in val] \r\n  return (res)\r\n"
+  },
+  {
+    "id": "humaneval_104",
+    "question": "\ndef unique_digits(x):\n    \"\"\"Given a list of positive integers x. return a sorted list of all \n    elements that hasn't any even digit.\n\n    Note: Returned list should be sorted in increasing order.\n    \n    For example:\n    >>> unique_digits([15, 33, 1422, 1])\n    [1, 15, 33]\n    >>> unique_digits([152, 323, 1422, 10])\n    []\n    \"\"\"\n",
+    "answer": "    odd_digit_elements = []\n    for i in x:\n        if all (int(c) % 2 == 1 for c in str(i)):\n            odd_digit_elements.append(i)\n    return sorted(odd_digit_elements)\n"
+  },
+  {
+    "id": "mbpp_528",
+    "question": "Write a python function to find even numbers from a mixed list.",
+    "answer": "def Split(list): \r\n    ev_li = [] \r\n    for i in list: \r\n        if (i % 2 == 0): \r\n            ev_li.append(i)  \r\n    return ev_li"
+  },
+  {
+    "id": "mbpp_594",
+    "question": "Write a function to check if each element of the second tuple is greater than its corresponding index in the first tuple.",
+    "answer": "def check_greater(test_tup1, test_tup2):\r\n  res = all(x < y for x, y in zip(test_tup1, test_tup2))\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_749",
+    "question": "Write a function to check if a triangle of positive area is possible with the given angles.",
+    "answer": "def is_triangleexists(a,b,c): \r\n    if(a != 0 and b != 0 and c != 0 and (a + b + c)== 180): \r\n        if((a + b)>= c or (b + c)>= a or (a + c)>= b): \r\n            return True \r\n        else:\r\n            return False\r\n    else:\r\n        return False"
+  },
+  {
+    "id": "mbpp_394",
+    "question": "Write a function to check whether an element exists within a tuple.",
+    "answer": "def check_tuplex(tuplex,tuple1): \r\n  if tuple1 in tuplex:\r\n    return True\r\n  else:\r\n     return False"
+  },
+  {
+    "id": "humaneval_89",
+    "question": "\ndef encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n",
+    "answer": "    d = 'abcdefghijklmnopqrstuvwxyz'\n    out = ''\n    for c in s:\n        if c in d:\n            out += d[(d.index(c)+2*2) % 26]\n        else:\n            out += c\n    return out\n"
+  },
+  {
+    "id": "mbpp_440",
+    "question": "Write a function to remove all whitespaces from the given string using regex.",
+    "answer": "import re\r\ndef remove_whitespaces(text1):\r\n  return (re.sub(r'\\s+', '',text1))"
+  },
+  {
+    "id": "mbpp_268",
+    "question": "Write a function to find the nth decagonal number.",
+    "answer": "def is_num_decagonal(n): \r\n\treturn 4 * n * n - 3 * n "
+  },
+  {
+    "id": "humaneval_32",
+    "question": "import math\n\n\ndef poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])\n\n\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n",
+    "answer": "    begin, end = -1., 1.\n    while poly(xs, begin) * poly(xs, end) > 0:\n        begin *= 2.0\n        end *= 2.0\n    while end - begin > 1e-10:\n        center = (begin + end) / 2.0\n        if poly(xs, center) * poly(xs, begin) > 0:\n            begin = center\n        else:\n            end = center\n    return begin\n"
+  },
+  {
+    "id": "humaneval_30",
+    "question": "\n\ndef get_positive(l: list):\n    \"\"\"Return only positive numbers in the list.\n    >>> get_positive([-1, 2, -4, 5, 6])\n    [2, 5, 6]\n    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    [5, 3, 2, 3, 9, 123, 1]\n    \"\"\"\n",
+    "answer": "    return [e for e in l if e > 0]\n"
+  },
+  {
+    "id": "humaneval_95",
+    "question": "\ndef check_dict_case(dict):\n    \"\"\"\n    Given a dictionary, return True if all keys are strings in lower \n    case or all keys are strings in upper case, else return False.\n    The function should return False is the given dictionary is empty.\n    Examples:\n    check_dict_case({\"a\":\"apple\", \"b\":\"banana\"}) should return True.\n    check_dict_case({\"a\":\"apple\", \"A\":\"banana\", \"B\":\"banana\"}) should return False.\n    check_dict_case({\"a\":\"apple\", 8:\"banana\", \"a\":\"apple\"}) should return False.\n    check_dict_case({\"Name\":\"John\", \"Age\":\"36\", \"City\":\"Houston\"}) should return False.\n    check_dict_case({\"STATE\":\"NC\", \"ZIP\":\"12345\" }) should return True.\n    \"\"\"\n",
+    "answer": "    if len(dict.keys()) == 0:\n        return False\n    else:\n        state = \"start\"\n        for key in dict.keys():\n\n            if isinstance(key, str) == False:\n                state = \"mixed\"\n                break\n            if state == \"start\":\n                if key.isupper():\n                    state = \"upper\"\n                elif key.islower():\n                    state = \"lower\"\n                else:\n                    break\n            elif (state == \"upper\" and not key.isupper()) or (state == \"lower\" and not key.islower()):\n                    state = \"mixed\"\n                    break\n            else:\n                break\n        return state == \"upper\" or state == \"lower\" \n"
+  },
+  {
+    "id": "mbpp_59",
+    "question": "Write a function to find whether all the given tuples have equal length or not.",
+    "answer": "def find_equal_tuple(Input, k):\r\n  flag = 1\r\n  for tuple in Input:\r\n    if len(tuple) != k:\r\n      flag = 0\r\n      break\r\n  return flag\r\ndef get_equal(Input, k):\r\n  if find_equal_tuple(Input, k) == 1:\r\n    return (\"All tuples have same length\")\r\n  else:\r\n    return (\"All tuples do not have same length\")"
+  },
+  {
+    "id": "mbpp_74",
+    "question": "Write a function to find the surface area of a sphere.",
+    "answer": "import math\r\ndef surfacearea_sphere(r):\r\n  surfacearea=4*math.pi*r*r\r\n  return surfacearea"
+  },
+  {
+    "id": "mbpp_353",
+    "question": "Write a function to find the number of flips required to make the given binary string a sequence of alternate characters.",
+    "answer": "def make_flip(ch): \r\n\treturn '1' if (ch == '0') else '0'\r\ndef get_flip_with_starting_charcter(str, expected): \r\n\tflip_count = 0\r\n\tfor i in range(len( str)): \r\n\t\tif (str[i] != expected): \r\n\t\t\tflip_count += 1\r\n\t\texpected = make_flip(expected) \r\n\treturn flip_count \r\ndef min_flip_to_make_string_alternate(str): \r\n\treturn min(get_flip_with_starting_charcter(str, '0'),get_flip_with_starting_charcter(str, '1')) "
+  },
+  {
+    "id": "mbpp_452",
+    "question": "Write a function to find the maximum product subarray of the given array.",
+    "answer": "def max_subarray_product(arr):\r\n\tn = len(arr)\r\n\tmax_ending_here = 1\r\n\tmin_ending_here = 1\r\n\tmax_so_far = 0\r\n\tflag = 0\r\n\tfor i in range(0, n):\r\n\t\tif arr[i] > 0:\r\n\t\t\tmax_ending_here = max_ending_here * arr[i]\r\n\t\t\tmin_ending_here = min (min_ending_here * arr[i], 1)\r\n\t\t\tflag = 1\r\n\t\telif arr[i] == 0:\r\n\t\t\tmax_ending_here = 1\r\n\t\t\tmin_ending_here = 1\r\n\t\telse:\r\n\t\t\ttemp = max_ending_here\r\n\t\t\tmax_ending_here = max (min_ending_here * arr[i], 1)\r\n\t\t\tmin_ending_here = temp * arr[i]\r\n\t\tif (max_so_far < max_ending_here):\r\n\t\t\tmax_so_far = max_ending_here\r\n\tif flag == 0 and max_so_far == 0:\r\n\t\treturn 0\r\n\treturn max_so_far"
+  },
+  {
+    "id": "humaneval_27",
+    "question": "\n\ndef flip_case(string: str) -> str:\n    \"\"\" For a given string, flip lowercase characters to uppercase and uppercase to lowercase.\n    >>> flip_case('Hello')\n    'hELLO'\n    \"\"\"\n",
+    "answer": "    return string.swapcase()\n"
+  },
+  {
+    "id": "mbpp_410",
+    "question": "Write a function to concatenate each element of tuple by the delimiter.",
+    "answer": "def concatenate_tuple(test_tup):\r\n    delim = \"-\"\r\n    res = ''.join([str(ele) + delim for ele in test_tup])\r\n    res = res[ : len(res) - len(delim)]\r\n    return (str(res)) "
+  },
+  {
+    "id": "mbpp_39",
+    "question": "Write a function to find the list with minimum length using lambda function.",
+    "answer": "def min_length_list(input_list):\r\n    min_length = min(len(x) for x in input_list )  \r\n    min_list = min(input_list, key = lambda i: len(i))\r\n    return(min_length, min_list)"
+  },
+  {
+    "id": "mbpp_569",
+    "question": "Write a python function to check whether a sequence of numbers has a decreasing trend or not.",
+    "answer": "def decreasing_trend(nums):\r\n    if (sorted(nums)== nums):\r\n        return True\r\n    else:\r\n        return False"
+  },
+  {
+    "id": "mbpp_501",
+    "question": "Write a python function to find the first repeated character in a given string.",
+    "answer": "def first_repeated_char(str1):\r\n  for index,c in enumerate(str1):\r\n    if str1[:index+1].count(c) > 1:\r\n      return c \r\n  return \"None\""
+  },
+  {
+    "id": "mbpp_554",
+    "question": "Write a python function to find the sum of fifth power of n natural numbers.",
+    "answer": "def fifth_Power_Sum(n) : \r\n    sm = 0 \r\n    for i in range(1,n+1) : \r\n        sm = sm + (i*i*i*i*i) \r\n    return sm "
+  },
+  {
+    "id": "mbpp_822",
+    "question": "Write a function to find the length of the shortest string that has both str1 and str2 as subsequences.",
+    "answer": "def super_seq(X, Y, m, n):\r\n\tif (not m):\r\n\t\treturn n\r\n\tif (not n):\r\n\t\treturn m\r\n\tif (X[m - 1] == Y[n - 1]):\r\n\t\treturn 1 + super_seq(X, Y, m - 1, n - 1)\r\n\treturn 1 + min(super_seq(X, Y, m - 1, n),\tsuper_seq(X, Y, m, n - 1))"
+  },
+  {
+    "id": "mbpp_265",
+    "question": "Write a function to find the volume of a cylinder.",
+    "answer": "def volume_cylinder(r,h):\r\n  volume=3.1415*r*r*h\r\n  return volume"
+  },
+  {
+    "id": "mbpp_61",
+    "question": "Write a python function to check whether the given number can be represented as difference of two squares or not.",
+    "answer": "def dif_Square(n): \r\n    if (n % 4 != 2): \r\n        return True\r\n    return False"
+  },
+  {
+    "id": "mbpp_295",
+    "question": "Write a function to find the maximum sum of increasing subsequence from prefix till ith index and also including a given kth element which is after i, i.e., k > i .",
+    "answer": "def max_sum_increasing_subseq(a, n, index, k):\r\n\tdp = [[0 for i in range(n)] \r\n\t\t\tfor i in range(n)]\r\n\tfor i in range(n):\r\n\t\tif a[i] > a[0]:\r\n\t\t\tdp[0][i] = a[i] + a[0]\r\n\t\telse:\r\n\t\t\tdp[0][i] = a[i]\r\n\tfor i in range(1, n):\r\n\t\tfor j in range(n):\r\n\t\t\tif a[j] > a[i] and j > i:\r\n\t\t\t\tif dp[i - 1][i] + a[j] > dp[i - 1][j]:\r\n\t\t\t\t\tdp[i][j] = dp[i - 1][i] + a[j]\r\n\t\t\t\telse:\r\n\t\t\t\t\tdp[i][j] = dp[i - 1][j]\r\n\t\t\telse:\r\n\t\t\t\tdp[i][j] = dp[i - 1][j]\r\n\treturn dp[index][k]"
+  },
+  {
+    "id": "mbpp_439",
+    "question": "Write a function to extract specified size of strings from a give list of string values.",
+    "answer": "def extract_string(str, l):\r\n    result = [e for e in str if len(e) == l] \r\n    return result"
+  },
+  {
+    "id": "mbpp_120",
+    "question": "Write a python function to reverse only the vowels of a given string.",
+    "answer": "def reverse_vowels(str1):\r\n\tvowels = \"\"\r\n\tfor char in str1:\r\n\t\tif char in \"aeiouAEIOU\":\r\n\t\t\tvowels += char\r\n\tresult_string = \"\"\r\n\tfor char in str1:\r\n\t\tif char in \"aeiouAEIOU\":\r\n\t\t\tresult_string += vowels[-1]\r\n\t\t\tvowels = vowels[:-1]\r\n\t\telse:\r\n\t\t\tresult_string += char\r\n\treturn result_string"
+  },
+  {
+    "id": "mbpp_664",
+    "question": "Write a function to find nth polite number.",
+    "answer": "import math \r\ndef is_polite(n): \r\n\tn = n + 1\r\n\treturn (int)(n+(math.log((n + math.log(n, 2)), 2))) "
+  },
+  {
+    "id": "mbpp_726",
+    "question": "Write a function to sum a specific column of a list in a given list of lists.",
+    "answer": "def sum_column(list1, C):\r\n    result = sum(row[C] for row in list1)\r\n    return result"
+  },
+  {
+    "id": "humaneval_6",
+    "question": "from typing import List\n\n\ndef parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\n    For each of the group, output the deepest level of nesting of parentheses.\n    E.g. (()()) has maximum two levels of nesting while ((())) has three.\n\n    >>> parse_nested_parens('(()()) ((())) () ((())()())')\n    [2, 3, 1, 3]\n    \"\"\"\n",
+    "answer": "    def parse_paren_group(s):\n        depth = 0\n        max_depth = 0\n        for c in s:\n            if c == '(':\n                depth += 1\n                max_depth = max(depth, max_depth)\n            else:\n                depth -= 1\n\n        return max_depth\n\n    return [parse_paren_group(x) for x in paren_string.split(' ') if x]\n"
+  },
+  {
+    "id": "mbpp_613",
+    "question": "Write a python function to count the number of distinct power of prime factor of given number.",
+    "answer": "def count_Fac(n):  \r\n    m = n \r\n    count = 0\r\n    i = 2\r\n    while((i * i) <= m): \r\n        total = 0\r\n        while (n % i == 0): \r\n            n /= i \r\n            total += 1 \r\n        temp = 0\r\n        j = 1\r\n        while((temp + j) <= total): \r\n            temp += j \r\n            count += 1\r\n            j += 1 \r\n        i += 1\r\n    if (n != 1): \r\n        count += 1 \r\n    return count "
+  },
+  {
+    "id": "mbpp_661",
+    "question": "Write a function to check whether the given month number contains 30 days or not.",
+    "answer": "def check_monthnumber_number(monthnum3):\r\n  if(monthnum3==4 or monthnum3==6 or monthnum3==9 or monthnum3==11):\r\n    return True\r\n  else:\r\n    return False"
+  },
+  {
+    "id": "humaneval_163",
+    "question": "\ndef generate_integers(a, b):\n    \"\"\"\n    Given two positive integers a and b, return the even digits between a\n    and b, in ascending order.\n\n    For example:\n    generate_integers(2, 8) => [2, 4, 6, 8]\n    generate_integers(8, 2) => [2, 4, 6, 8]\n    generate_integers(10, 14) => []\n    \"\"\"\n",
+    "answer": "    lower = max(2, min(a, b))\n    upper = min(8, max(a, b))\n\n    return [i for i in range(lower, upper+1) if i % 2 == 0]\n"
+  },
+  {
+    "id": "mbpp_550",
+    "question": "Write a function to check if one tuple is a subset of another tuple.",
+    "answer": "def check_subset(test_tup1, test_tup2):\r\n  res = set(test_tup2).issubset(test_tup1)\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_819",
+    "question": "Write a function to remove all tuples with all none values in the given tuple list.",
+    "answer": "def remove_tuple(test_list):\r\n  res = [sub for sub in test_list if not all(ele == None for ele in sub)]\r\n  return (str(res)) "
+  },
+  {
+    "id": "mbpp_184",
+    "question": "Write a python function to find the first position of an element in a sorted array.",
+    "answer": "def first(arr,x,n): \r\n    low = 0\r\n    high = n - 1\r\n    res = -1  \r\n    while (low <= high):\r\n        mid = (low + high) // 2 \r\n        if arr[mid] > x:\r\n            high = mid - 1\r\n        elif arr[mid] < x:\r\n            low = mid + 1\r\n        else:\r\n            res = mid\r\n            high = mid - 1\r\n    return res"
+  },
+  {
+    "id": "mbpp_800",
+    "question": "Write a function to find the smallest multiple of the first n numbers.",
+    "answer": "def smallest_multiple(n):\r\n    if (n<=2):\r\n      return n\r\n    i = n * 2\r\n    factors = [number  for number in range(n, 1, -1) if number * 2 > n]\r\n    while True:\r\n        for a in factors:\r\n            if i % a != 0:\r\n                i += n\r\n                break\r\n            if (a == factors[-1] and i % a == 0):\r\n                return i"
+  },
+  {
+    "id": "humaneval_159",
+    "question": "\ndef eat(number, need, remaining):\n    \"\"\"\n    You're a hungry rabbit, and you already have eaten a certain number of carrots,\n    but now you need to eat more carrots to complete the day's meals.\n    you should return an array of [ total number of eaten carrots after your meals,\n                                    the number of carrots left after your meals ]\n    if there are not enough remaining carrots, you will eat all remaining carrots, but will still be hungry.\n    \n    Example:\n    * eat(5, 6, 10) -> [11, 4]\n    * eat(4, 8, 9) -> [12, 1]\n    * eat(1, 10, 10) -> [11, 0]\n    * eat(2, 11, 5) -> [7, 0]\n    \n    Variables:\n    @number : integer\n        the number of carrots that you have eaten.\n    @need : integer\n        the number of carrots that you need to eat.\n    @remaining : integer\n        the number of remaining carrots thet exist in stock\n    \n    Constrain:\n    * 0 <= number <= 1000\n    * 0 <= need <= 1000\n    * 0 <= remaining <= 1000\n\n    Have fun :)\n    \"\"\"\n",
+    "answer": "    if(need <= remaining):\n        return [ number + need , remaining-need ]\n    else:\n        return [ number + remaining , 0]\n"
+  },
+  {
+    "id": "mbpp_56",
+    "question": "Write a function to find the number of ways to partition a set of bell numbers.",
+    "answer": "def bell_number(n):   \r\n    bell = [[0 for i in range(n+1)] for j in range(n+1)] \r\n    bell[0][0] = 1\r\n    for i in range(1, n+1): \r\n        bell[i][0] = bell[i-1][i-1]  \r\n        for j in range(1, i+1): \r\n            bell[i][j] = bell[i-1][j-1] + bell[i][j-1]   \r\n    return bell[n][0] "
+  },
+  {
+    "id": "mbpp_617",
+    "question": "Write a function to create a list taking alternate elements from another given list.",
+    "answer": "def alternate_elements(list1):\r\n    result=[]\r\n    for item in list1[::2]:\r\n        result.append(item)\r\n    return result "
+  },
+  {
+    "id": "mbpp_180",
+    "question": "Write a function to check whether the given month name contains 30 days or not.",
+    "answer": "def check_monthnumber(monthname3):\r\n  if monthname3 ==\"April\" or monthname3== \"June\" or monthname3== \"September\" or monthname3== \"November\":\r\n    return True\r\n  else:\r\n    return False"
+  },
+  {
+    "id": "mbpp_826",
+    "question": "Write a function to calculate the height of the given binary tree.",
+    "answer": "class Node: \r\n\tdef __init__(self, data): \r\n\t\tself.data = data \r\n\t\tself.left = None\r\n\t\tself.right = None\r\ndef max_height(node): \r\n\tif node is None: \r\n\t\treturn 0 ; \r\n\telse : \r\n\t\tleft_height = max_height(node.left) \r\n\t\tright_height = max_height(node.right) \r\n\t\tif (left_height > right_height): \r\n\t\t\treturn left_height+1\r\n\t\telse: \r\n\t\t\treturn right_height+1"
+  },
+  {
+    "id": "humaneval_94",
+    "question": "\n\ndef skjkasdkd(lst):\n    \"\"\"You are given a list of integers.\n    You need to find the largest prime value and return the sum of its digits.\n\n    Examples:\n    For lst = [0,3,2,1,3,5,7,4,5,5,5,2,181,32,4,32,3,2,32,324,4,3] the output should be 10\n    For lst = [1,0,1,8,2,4597,2,1,3,40,1,2,1,2,4,2,5,1] the output should be 25\n    For lst = [1,3,1,32,5107,34,83278,109,163,23,2323,32,30,1,9,3] the output should be 13\n    For lst = [0,724,32,71,99,32,6,0,5,91,83,0,5,6] the output should be 11\n    For lst = [0,81,12,3,1,21] the output should be 3\n    For lst = [0,8,1,2,1,7] the output should be 7\n    \"\"\"\n",
+    "answer": "    def isPrime(n):\n        for i in range(2,int(n**0.5)+1):\n            if n%i==0:\n                return False\n\n        return True\n    maxx = 0\n    i = 0\n    while i < len(lst):\n        if(lst[i] > maxx and isPrime(lst[i])):\n            maxx = lst[i]\n        i+=1\n    result = sum(int(digit) for digit in str(maxx))\n    return result\n\n"
+  },
+  {
+    "id": "mbpp_225",
+    "question": "Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle.",
+    "answer": "def No_of_Triangle(N,K):\r\n    if (N < K):\r\n        return -1;\r\n    else:\r\n        Tri_up = 0;\r\n        Tri_up = ((N - K + 1) *(N - K + 2)) // 2;\r\n        Tri_down = 0;\r\n        Tri_down = ((N - 2 * K + 1) *(N - 2 * K + 2)) // 2;\r\n        return Tri_up + Tri_down;"
+  },
+  {
+    "id": "humaneval_99",
+    "question": "\ndef closest_integer(value):\n    '''\n    Create a function that takes a value (string) representing a number\n    and returns the closest integer to it. If the number is equidistant\n    from two integers, round it away from zero.\n\n    Examples\n    >>> closest_integer(\"10\")\n    10\n    >>> closest_integer(\"15.3\")\n    15\n\n    Note:\n    Rounding away from zero means that if the given number is equidistant\n    from two integers, the one you should return is the one that is the\n    farthest from zero. For example closest_integer(\"14.5\") should\n    return 15 and closest_integer(\"-14.5\") should return -15.\n    '''\n",
+    "answer": "    from math import floor, ceil\n\n    if value.count('.') == 1:\n        # remove trailing zeros\n        while (value[-1] == '0'):\n            value = value[:-1]\n\n    num = float(value)\n    if value[-2:] == '.5':\n        if num > 0:\n            res = ceil(num)\n        else:\n            res = floor(num)\n    elif len(value) > 0:\n        res = int(round(num))\n    else:\n        res = 0\n\n    return res\n\n"
+  },
+  {
+    "id": "mbpp_203",
+    "question": "Write a function to convert radians to degrees.",
+    "answer": "import math\r\ndef degree_radian(radian):\r\n degree = radian*(180/math.pi)\r\n return degree"
+  },
+  {
+    "id": "mbpp_703",
+    "question": "Write a python function to check whether the product of numbers is even or not.",
+    "answer": "def is_Product_Even(arr,n): \r\n    for i in range(0,n): \r\n        if ((arr[i] & 1) == 0): \r\n            return True\r\n    return False"
+  },
+  {
+    "id": "mbpp_188",
+    "question": "Write a python function to find highest power of 2 less than or equal to given number.",
+    "answer": "def highest_Power_of_2(n): \r\n    res = 0; \r\n    for i in range(n, 0, -1):  \r\n        if ((i & (i - 1)) == 0): \r\n            res = i; \r\n            break;      \r\n    return res; "
+  },
+  {
+    "id": "mbpp_454",
+    "question": "Write a function to drop empty items from a given dictionary.",
+    "answer": "def drop_empty(dict1):\r\n  dict1 = {key:value for (key, value) in dict1.items() if value is not None}\r\n  return dict1"
+  },
+  {
+    "id": "mbpp_106",
+    "question": "Write a function to convert all possible convertible elements in the list to float.",
+    "answer": "def list_to_float(test_list):\r\n  res = []\r\n  for tup in test_list:\r\n    temp = []\r\n    for ele in tup:\r\n      if ele.isalpha():\r\n        temp.append(ele)\r\n      else:\r\n        temp.append(float(ele))\r\n    res.append((temp[0],temp[1])) \r\n  return (str(res)) "
+  },
+  {
+    "id": "mbpp_662",
+    "question": "Write a python function to find the minimum difference between any two elements in a given array.",
+    "answer": "def find_Min_Diff(arr,n): \r\n    arr = sorted(arr) \r\n    diff = 10**20 \r\n    for i in range(n-1): \r\n        if arr[i+1] - arr[i] < diff: \r\n            diff = arr[i+1] - arr[i]  \r\n    return diff "
+  },
+  {
+    "id": "humaneval_44",
+    "question": "\n\ndef change_base(x: int, base: int):\n    \"\"\"Change numerical base of input number x to base.\n    return string representation after the conversion.\n    base numbers are less than 10.\n    >>> change_base(8, 3)\n    '22'\n    >>> change_base(8, 2)\n    '1000'\n    >>> change_base(7, 2)\n    '111'\n    \"\"\"\n",
+    "answer": "    ret = \"\"\n    while x > 0:\n        ret = str(x % base) + ret\n        x //= base\n    return ret\n"
+  },
+  {
+    "id": "mbpp_583",
+    "question": "Write a python function to count occurences of a character in a repeated string.",
+    "answer": "def count_Char(str,x): \r\n    count = 0\r\n    for i in range(len(str)):  \r\n        if (str[i] == x) : \r\n            count += 1\r\n    n = 10\r\n    repititions = n // len(str)  \r\n    count = count * repititions  \r\n    l = n % len(str)  \r\n    for i in range(l): \r\n        if (str[i] == x):  \r\n            count += 1\r\n    return count  "
+  },
+  {
+    "id": "mbpp_306",
+    "question": "Write a function to reflect the modified run-length encoding from a list.",
+    "answer": "from itertools import groupby\r\ndef modified_encode(alist):\r\n        def ctr_ele(el):\r\n            if len(el)>1: return [len(el), el[0]]\r\n            else: return el[0]\r\n        return [ctr_ele(list(group)) for key, group in groupby(alist)]"
+  },
+  {
+    "id": "mbpp_385",
+    "question": "Write a function to check whether the given string starts and ends with the same character or not using regex.",
+    "answer": "import re  \r\nregex = r'^[a-z]$|^([a-z]).*\\1$'\r\ndef check_char(string): \r\n\tif(re.search(regex, string)): \r\n\t\treturn \"Valid\" \r\n\telse: \r\n\t\treturn \"Invalid\" "
+  },
+  {
+    "id": "humaneval_127",
+    "question": "\ndef intersection(interval1, interval2):\n    \"\"\"You are given two intervals,\n    where each interval is a pair of integers. For example, interval = (start, end) = (1, 2).\n    The given intervals are closed which means that the interval (start, end)\n    includes both start and end.\n    For each given interval, it is assumed that its start is less or equal its end.\n    Your task is to determine whether the length of intersection of these two \n    intervals is a prime number.\n    Example, the intersection of the intervals (1, 3), (2, 4) is (2, 3)\n    which its length is 1, which not a prime number.\n    If the length of the intersection is a prime number, return \"YES\",\n    otherwise, return \"NO\".\n    If the two intervals don't intersect, return \"NO\".\n\n\n    [input/output] samples:\n    intersection((1, 2), (2, 3)) ==> \"NO\"\n    intersection((-1, 1), (0, 4)) ==> \"NO\"\n    intersection((-3, -1), (-5, 5)) ==> \"YES\"\n    \"\"\"\n",
+    "answer": "    def is_prime(num):\n        if num == 1 or num == 0:\n            return False\n        if num == 2:\n            return True\n        for i in range(2, num):\n            if num%i == 0:\n                return False\n        return True\n\n    l = max(interval1[0], interval2[0])\n    r = min(interval1[1], interval2[1])\n    length = r - l\n    if length > 0 and is_prime(length):\n        return \"YES\"\n    return \"NO\"\n"
+  },
+  {
+    "id": "mbpp_223",
+    "question": "Write a function to find the volume of a cube.",
+    "answer": "def volume_cube(l):\r\n  volume = l * l * l\r\n  return volume"
+  },
+  {
+    "id": "humaneval_80",
+    "question": "\ndef is_happy(s):\n    \"\"\"You are given a string s.\n    Your task is to check if the string is happy or not.\n    A string is happy if its length is at least 3 and every 3 consecutive letters are distinct\n    For example:\n    is_happy(a) => False\n    is_happy(aa) => False\n    is_happy(abcd) => True\n    is_happy(aabb) => False\n    is_happy(adb) => True\n    is_happy(xyy) => False\n    \"\"\"\n",
+    "answer": "    if len(s) < 3:\n      return False\n\n    for i in range(len(s) - 2):\n      \n      if s[i] == s[i+1] or s[i+1] == s[i+2] or s[i] == s[i+2]:\n        return False\n    return True\n"
+  },
+  {
+    "id": "mbpp_401",
+    "question": "Write a python function to remove odd numbers from a given list.",
+    "answer": "def remove_odd(l):\r\n    for i in l:\r\n        if i % 2 != 0:\r\n            l.remove(i)\r\n    return l"
+  },
+  {
+    "id": "mbpp_136",
+    "question": "Write a function to find the maximum total path sum in the given triangle.",
+    "answer": "def max_path_sum(tri, m, n): \r\n\tfor i in range(m-1, -1, -1): \r\n\t\tfor j in range(i+1): \r\n\t\t\tif (tri[i+1][j] > tri[i+1][j+1]): \r\n\t\t\t\ttri[i][j] += tri[i+1][j] \r\n\t\t\telse: \r\n\t\t\t\ttri[i][j] += tri[i+1][j+1] \r\n\treturn tri[0][0]"
+  },
+  {
+    "id": "mbpp_685",
+    "question": "Write a function to locate the right insertion point for a specified value in sorted order.",
+    "answer": "import bisect\r\ndef right_insertion(a, x):\r\n    i = bisect.bisect_right(a, x)\r\n    return i"
+  },
+  {
+    "id": "mbpp_479",
+    "question": "Write a function to extract all the pairs which are symmetric in the given tuple list.",
+    "answer": "def extract_symmetric(test_list):\r\n  temp = set(test_list) & {(b, a) for a, b in test_list}\r\n  res = {(a, b) for a, b in temp if a < b}\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_469",
+    "question": "Write a python function to find the maximum occurring character in a given string.",
+    "answer": "def get_max_occuring_char(str1):\r\n  ASCII_SIZE = 256\r\n  ctr = [0] * ASCII_SIZE\r\n  max = -1\r\n  ch = ''\r\n  for i in str1:\r\n    ctr[ord(i)]+=1;\r\n  for i in str1:\r\n    if max < ctr[ord(i)]:\r\n      max = ctr[ord(i)]\r\n      ch = i\r\n  return ch"
+  },
+  {
+    "id": "mbpp_742",
+    "question": "Write a function to find the nth super ugly number from a given prime list of size k using heap queue algorithm.",
+    "answer": "import heapq\r\ndef nth_super_ugly_number(n, primes):\r\n    uglies = [1]\r\n    def gen(prime):\r\n        for ugly in uglies:\r\n            yield ugly * prime\r\n    merged = heapq.merge(*map(gen, primes))\r\n    while len(uglies) < n:\r\n        ugly = next(merged)\r\n        if ugly != uglies[-1]:\r\n            uglies.append(ugly)\r\n    return uglies[-1]"
+  },
+  {
+    "id": "mbpp_718",
+    "question": "Write a function to count the frequency of consecutive duplicate elements in a given list of numbers.",
+    "answer": "def count_duplic(lists):\r\n    element = []\r\n    frequency = []\r\n    if not lists:\r\n        return element\r\n    running_count = 1\r\n    for i in range(len(lists)-1):\r\n        if lists[i] == lists[i+1]:\r\n            running_count += 1\r\n        else:\r\n            frequency.append(running_count)\r\n            element.append(lists[i])\r\n            running_count = 1\r\n    frequency.append(running_count)\r\n    element.append(lists[i+1])\r\n    return element,frequency\r\n"
+  },
+  {
+    "id": "mbpp_206",
+    "question": "Write a python function to find the first repeated character in a given string.",
+    "answer": "def first_Repeated_Char(str): \r\n    h = {}\r\n    for ch in str:\r\n        if ch in h: \r\n            return ch;\r\n        else: \r\n            h[ch] = 0\r\n    return '\\0'"
+  },
+  {
+    "id": "mbpp_427",
+    "question": "Write a function to count bidirectional tuple pairs.",
+    "answer": "def count_bidirectional(test_list):\r\n  res = 0\r\n  for idx in range(0, len(test_list)):\r\n    for iidx in range(idx + 1, len(test_list)):\r\n      if test_list[iidx][0] == test_list[idx][1] and test_list[idx][1] == test_list[iidx][0]:\r\n        res += 1\r\n  return (str(res)) "
+  },
+  {
+    "id": "mbpp_32",
+    "question": "Write a function to find sequences of lowercase letters joined with an underscore using regex.",
+    "answer": "import re\r\ndef text_match(text):\r\n  patterns = '^[a-z]+_[a-z]+$'\r\n  if re.search(patterns,  text):\r\n    return ('Found a match!')\r\n  else:\r\n    return ('Not matched!')"
+  },
+  {
+    "id": "mbpp_557",
+    "question": "Write a function to find the item with maximum occurrences in a given list.",
+    "answer": "def max_occurrences(list1):\r\n    max_val = 0\r\n    result = list1[0] \r\n    for i in list1:\r\n        occu = list1.count(i)\r\n        if occu > max_val:\r\n            max_val = occu\r\n            result = i \r\n    return result"
+  },
+  {
+    "id": "humaneval_71",
+    "question": "\ndef triangle_area(a, b, c):\n    '''\n    Given the lengths of the three sides of a triangle. Return the area of\n    the triangle rounded to 2 decimal points if the three sides form a valid triangle. \n    Otherwise return -1\n    Three sides make a valid triangle when the sum of any two sides is greater \n    than the third side.\n    Example:\n    triangle_area(3, 4, 5) == 6.00\n    triangle_area(1, 2, 10) == -1\n    '''\n",
+    "answer": "    if a + b <= c or a + c <= b or b + c <= a:\n        return -1 \n    s = (a + b + c)/2    \n    area = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n    area = round(area, 2)\n    return area\n"
+  },
+  {
+    "id": "humaneval_46",
+    "question": "\n\ndef fib4(n: int):\n    \"\"\"The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:\n    fib4(0) -> 0\n    fib4(1) -> 0\n    fib4(2) -> 2\n    fib4(3) -> 0\n    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).\n    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.\n    >>> fib4(5)\n    4\n    >>> fib4(6)\n    8\n    >>> fib4(7)\n    14\n    \"\"\"\n",
+    "answer": "    results = [0, 0, 2, 0]\n    if n < 4:\n        return results[n]\n\n    for _ in range(4, n + 1):\n        results.append(results[-1] + results[-2] + results[-3] + results[-4])\n        results.pop(0)\n\n    return results[-1]\n"
+  },
+  {
+    "id": "mbpp_513",
+    "question": "Write a function to find the cumulative sum of all the values that are present in the given tuple list.",
+    "answer": "def cummulative_sum(test_list):\r\n  res = sum(map(sum, test_list))\r\n  return (res)"
+  },
+  {
+    "id": "mbpp_69",
+    "question": "Write a function to find the nth tetrahedral number.",
+    "answer": "def tetrahedral_number(n): \r\n\treturn (n * (n + 1) * (n + 2)) / 6"
+  },
+  {
+    "id": "mbpp_627",
+    "question": "Write a function to sum elements in two lists.",
+    "answer": "def sum_list(lst1,lst2):\r\n  res_list = [lst1[i] + lst2[i] for i in range(len(lst1))] \r\n  return res_list"
+  },
+  {
+    "id": "mbpp_132",
+    "question": "Write a function to find number of lists present in the given tuple.",
+    "answer": "def find_lists(Input): \r\n\tif isinstance(Input, list): \r\n\t\treturn 1\r\n\telse: \r\n\t\treturn len(Input) "
+  },
+  {
+    "id": "humaneval_81",
+    "question": "\ndef numerical_letter_grade(grades):\n    \"\"\"It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E\n    \n\n    Example:\n    grade_equation([4.0, 3, 1.7, 2, 3.5]) ==> ['A+', 'B', 'C-', 'C', 'A-']\n    \"\"\"\n",
+    "answer": "\n   \n    letter_grade = []\n    for gpa in grades:\n        if gpa == 4.0:\n            letter_grade.append(\"A+\")\n        elif gpa > 3.7:\n            letter_grade.append(\"A\")\n        elif gpa > 3.3:\n            letter_grade.append(\"A-\")\n        elif gpa > 3.0:\n            letter_grade.append(\"B+\")\n        elif gpa > 2.7:\n            letter_grade.append(\"B\")\n        elif gpa > 2.3:\n            letter_grade.append(\"B-\")\n        elif gpa > 2.0:\n            letter_grade.append(\"C+\")\n        elif gpa > 1.7:\n            letter_grade.append(\"C\")\n        elif gpa > 1.3:\n            letter_grade.append(\"C-\")\n        elif gpa > 1.0:\n            letter_grade.append(\"D+\")\n        elif gpa > 0.7:\n            letter_grade.append(\"D\")\n        elif gpa > 0.0:\n            letter_grade.append(\"D-\")\n        else:\n            letter_grade.append(\"E\")\n    return letter_grade\n"
+  },
+  {
+    "id": "mbpp_711",
+    "question": "Write a function to abbreviate 'road' as 'rd.' in a given string.",
+    "answer": "import re\r\ndef road_rd(street):\r\n  return (re.sub('Road$', 'Rd.', street))"
+  },
+  {
+    "id": "mbpp_814",
+    "question": "Write a function to rearrange positive and negative numbers in a given array using lambda function.",
+    "answer": "def rearrange_numbs(array_nums):\r\n  result = sorted(array_nums, key = lambda i: 0 if i == 0 else -1 / i)\r\n  return result "
+  },
+  {
+    "id": "mbpp_723",
+    "question": "Write a python function to remove even numbers from a given list.",
+    "answer": "def remove_even(l):\r\n    for i in l:\r\n        if i % 2 == 0:\r\n            l.remove(i)\r\n    return l"
+  },
+  {
+    "id": "humaneval_103",
+    "question": "\ndef rounded_avg(n, m):\n    \"\"\"You are given two positive integers n and m, and your task is to compute the\n    average of the integers from n through m (including n and m). \n    Round the answer to the nearest integer and convert that to binary.\n    If n is greater than m, return -1.\n    Example:\n    rounded_avg(1, 5) => \"0b11\"\n    rounded_avg(7, 5) => -1\n    rounded_avg(10, 20) => \"0b1111\"\n    rounded_avg(20, 33) => \"0b11010\"\n    \"\"\"\n",
+    "answer": "    if m < n:\n        return -1\n    summation = 0\n    for i in range(n, m+1):\n        summation += i\n    return bin(round(summation/(m - n + 1)))\n"
+  },
+  {
+    "id": "mbpp_783",
+    "question": "Write a python function to check whether all the bits are within a given range or not.",
+    "answer": "def all_Bits_Set_In_The_Given_Range(n,l,r): \r\n    num = ((1 << r) - 1) ^ ((1 << (l - 1)) - 1) \r\n    new_num = n & num \r\n    if (num == new_num): \r\n        return True\r\n    return False"
+  },
+  {
+    "id": "mbpp_790",
+    "question": "Write a python function to check whether the given two numbers have same number of digits or not.",
+    "answer": "def same_Length(A,B): \r\n    while (A > 0 and B > 0): \r\n        A = A / 10; \r\n        B = B / 10; \r\n    if (A == 0 and B == 0): \r\n        return True; \r\n    return False; "
+  },
+  {
+    "id": "mbpp_300",
+    "question": "Write a python function to set the left most unset bit.",
+    "answer": "def set_left_most_unset_bit(n): \r\n    if not (n & (n + 1)): \r\n        return n \r\n    pos, temp, count = 0, n, 0 \r\n    while temp: \r\n        if not (temp & 1): \r\n            pos = count      \r\n        count += 1; temp>>=1\r\n    return (n | (1 << (pos))) "
+  },
+  {
+    "id": "mbpp_486",
+    "question": "Write a function to find the surface area of a cone.",
+    "answer": "import math\r\ndef surfacearea_cone(r,h):\r\n  l = math.sqrt(r * r + h * h)\r\n  SA = math.pi * r * (r + l)\r\n  return SA"
+  },
+  {
+    "id": "mbpp_690",
+    "question": "Write a function to remove the nested record from the given tuple.",
+    "answer": "def remove_nested(test_tup):\r\n  res = tuple()\r\n  for count, ele in enumerate(test_tup):\r\n    if not isinstance(ele, tuple):\r\n      res = res + (ele, )\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_209",
+    "question": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.",
+    "answer": "import re\r\ndef replace_max_specialchar(text,n):\r\n return (re.sub(\"[ ,.]\", \":\", text, n))"
+  },
+  {
+    "id": "mbpp_2",
+    "question": "Write a function to count the most common words in a dictionary.",
+    "answer": "from collections import Counter\r\ndef count_common(words):\r\n  word_counts = Counter(words)\r\n  top_four = word_counts.most_common(4)\r\n  return (top_four)\r\n"
+  },
+  {
+    "id": "mbpp_215",
+    "question": "Write a python function to remove the characters which have odd index values of a given string.",
+    "answer": "def odd_values_string(str):\r\n  result = \"\" \r\n  for i in range(len(str)):\r\n    if i % 2 == 0:\r\n      result = result + str[i]\r\n  return result"
+  },
+  {
+    "id": "mbpp_199",
+    "question": "Write a function to check that the given string contains only a certain set of characters(in this case a-z, a-z and 0-9) by using regex.",
+    "answer": "import re\r\ndef is_allowed_specific_char(string):\r\n    get_char = re.compile(r'[^a-zA-Z0-9.]')\r\n    string = get_char.search(string)\r\n    return not bool(string)"
+  },
+  {
+    "id": "mbpp_50",
+    "question": "Write a python function to count number of substrings with the sum of digits equal to their length.",
+    "answer": "from collections import defaultdict\r\ndef count_Substrings(s,n):\r\n    count,sum = 0,0\r\n    mp = defaultdict(lambda : 0)\r\n    mp[0] += 1\r\n    for i in range(n):\r\n        sum += ord(s[i]) - ord('0')\r\n        count += mp[sum - (i + 1)]\r\n        mp[sum - (i + 1)] += 1\r\n    return count"
+  },
+  {
+    "id": "mbpp_522",
+    "question": "Write a function to find the n-th power of individual elements in a list using lambda function.",
+    "answer": "def nth_nums(nums,n):\r\n nth_nums = list(map(lambda x: x ** n, nums))\r\n return nth_nums"
+  },
+  {
+    "id": "mbpp_109",
+    "question": "Write a function to find the maximum product from the pairs of tuples within a given list.",
+    "answer": "def max_product_tuple(list1):\r\n    result_max = max([abs(x * y) for x, y in list1] )\r\n    return result_max"
+  },
+  {
+    "id": "mbpp_806",
+    "question": "Write a function to print the first n lucky numbers.",
+    "answer": "def lucky_num(n):\r\n List=range(-1,n*n+9,2)\r\n i=2\r\n while List[i:]:List=sorted(set(List)-set(List[List[i]::List[i]]));i+=1\r\n return List[1:n+1]"
+  },
+  {
+    "id": "mbpp_535",
+    "question": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not.",
+    "answer": "def Check_Solution(a,b,c): \r\n    if (a == c): \r\n        return (\"Yes\"); \r\n    else: \r\n        return (\"No\"); "
+  },
+  {
+    "id": "mbpp_499",
+    "question": "Write a function to find the number of subsequences having product smaller than k for the given non negative array.",
+    "answer": "def no_of_subsequences(arr, k): \r\n\tn = len(arr) \r\n\tdp = [[0 for i in range(n + 1)] \r\n\t\t\tfor j in range(k + 1)] \r\n\tfor i in range(1, k + 1): \r\n\t\tfor j in range(1, n + 1): \r\n\t\t\tdp[i][j] = dp[i][j - 1] \r\n\t\t\tif arr[j - 1] <= i and arr[j - 1] > 0: \r\n\t\t\t\tdp[i][j] += dp[i // arr[j - 1]][j - 1] + 1\r\n\treturn dp[k][n]"
+  },
+  {
+    "id": "humaneval_73",
+    "question": "\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that\n    need to be changed to make the array palindromic. A palindromic array is an array that\n    is read the same backwards and forwards. In one change, you can change one element to any other element.\n\n    For example:\n    smallest_change([1,2,3,5,4,7,9,6]) == 4\n    smallest_change([1, 2, 3, 4, 3, 2, 2]) == 1\n    smallest_change([1, 2, 3, 2, 1]) == 0\n    \"\"\"\n",
+    "answer": "    ans = 0\n    for i in range(len(arr) // 2):\n        if arr[i] != arr[len(arr) - i - 1]:\n            ans += 1\n    return ans\n"
+  },
+  {
+    "id": "mbpp_459",
+    "question": "Write a function to find the pairwise addition of the elements of the given tuples.",
+    "answer": "def add_pairwise(test_tup):\r\n  res = tuple(i + j for i, j in zip(test_tup, test_tup[1:]))\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_743",
+    "question": "Write a python function to find the kth element in an array containing odd elements first and then even elements.",
+    "answer": "def get_Number(n, k): \r\n    arr = [0] * n; \r\n    i = 0; \r\n    odd = 1; \r\n    while (odd <= n):   \r\n        arr[i] = odd; \r\n        i += 1; \r\n        odd += 2;\r\n    even = 2; \r\n    while (even <= n): \r\n        arr[i] = even; \r\n        i += 1;\r\n        even += 2; \r\n    return arr[k - 1]; "
+  },
+  {
+    "id": "mbpp_11",
+    "question": "Write a function to find the first duplicate element in a given array of integers.",
+    "answer": "def find_first_duplicate(nums):\r\n    num_set = set()\r\n    no_duplicate = -1\r\n\r\n    for i in range(len(nums)):\r\n\r\n        if nums[i] in num_set:\r\n            return nums[i]\r\n        else:\r\n            num_set.add(nums[i])\r\n\r\n    return no_duplicate"
+  },
+  {
+    "id": "mbpp_382",
+    "question": "Write a function to find the list with maximum length using lambda function.",
+    "answer": "def max_length_list(input_list):\r\n    max_length = max(len(x) for x in input_list )   \r\n    max_list = max(input_list, key = lambda i: len(i))    \r\n    return(max_length, max_list)"
+  },
+  {
+    "id": "mbpp_582",
+    "question": "Write a python function to check whether the given number can be represented by sum of two squares or not.",
+    "answer": "def sum_Square(n) : \r\n    i = 1 \r\n    while i*i <= n : \r\n        j = 1\r\n        while (j*j <= n) : \r\n            if (i*i+j*j == n) : \r\n                return True\r\n            j = j+1\r\n        i = i+1     \r\n    return False"
+  },
+  {
+    "id": "mbpp_830",
+    "question": "Write a function to calculate the sum of series 1³+2³+3³+….+n³.",
+    "answer": "import math \r\ndef sum_series(number):\r\n total = 0\r\n total = math.pow((number * (number + 1)) /2, 2)\r\n return total"
+  },
+  {
+    "id": "mbpp_3",
+    "question": "Write a python function to find the volume of a triangular prism.",
+    "answer": "def find_Volume(l,b,h) : \r\n    return ((l * b * h) / 2) "
+  },
+  {
+    "id": "mbpp_309",
+    "question": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.",
+    "answer": "def sum_difference(n):\r\n    sumofsquares = 0\r\n    squareofsum = 0\r\n    for num in range(1, n+1):\r\n        sumofsquares += num * num\r\n        squareofsum += num\r\n    squareofsum = squareofsum ** 2\r\n    return squareofsum - sumofsquares"
+  },
+  {
+    "id": "mbpp_224",
+    "question": "Write a python function to set all even bits of a given number.",
+    "answer": "def even_bit_set_number(n): \r\n    count = 0;res = 0;temp = n \r\n    while(temp > 0): \r\n        if (count % 2 == 1): \r\n            res |= (1 << count)\r\n        count+=1\r\n        temp >>= 1\r\n    return (n | res) "
+  },
+  {
+    "id": "mbpp_112",
+    "question": "Write a function to sum all amicable numbers from 1 to a specified number.",
+    "answer": "def amicable_numbers_sum(limit):\r\n    if not isinstance(limit, int):\r\n        return \"Input is not an integer!\"\r\n    if limit < 1:\r\n        return \"Input must be bigger than 0!\"\r\n    amicables = set()\r\n    for num in range(2, limit+1):\r\n        if num in amicables:\r\n            continue\r\n        sum_fact = sum([fact for fact in range(1, num) if num % fact == 0])\r\n        sum_fact2 = sum([fact for fact in range(1, sum_fact) if sum_fact % fact == 0])\r\n        if num == sum_fact2 and num != sum_fact:\r\n            amicables.add(num)\r\n            amicables.add(sum_fact2)\r\n    return sum(amicables)"
+  },
+  {
+    "id": "mbpp_491",
+    "question": "Write a python function to find remainder of two numbers.",
+    "answer": "def find(n,m):\r\n  r = n%m\r\n  return (r)"
+  },
+  {
+    "id": "mbpp_540",
+    "question": "Write a function to find the nth nonagonal number.",
+    "answer": "def is_nonagonal(n): \r\n\treturn int(n * (7 * n - 5) / 2) "
+  },
+  {
+    "id": "mbpp_406",
+    "question": "Write a function to find common first element in given list of tuple.",
+    "answer": "def group_tuples(Input): \r\n\tout = {} \r\n\tfor elem in Input: \r\n\t\ttry: \r\n\t\t\tout[elem[0]].extend(elem[1:]) \r\n\t\texcept KeyError: \r\n\t\t\tout[elem[0]] = list(elem) \r\n\treturn [tuple(values) for values in out.values()] "
+  },
+  {
+    "id": "mbpp_60",
+    "question": "Write a function to sort a list of elements using comb sort.",
+    "answer": "def comb_sort(nums):\r\n    shrink_fact = 1.3\r\n    gaps = len(nums)\r\n    swapped = True\r\n    i = 0\r\n    while gaps > 1 or swapped:\r\n        gaps = int(float(gaps) / shrink_fact)\r\n        swapped = False\r\n        i = 0\r\n        while gaps + i < len(nums):\r\n            if nums[i] > nums[i+gaps]:\r\n                nums[i], nums[i+gaps] = nums[i+gaps], nums[i]\r\n                swapped = True\r\n            i += 1\r\n    return nums"
+  },
+  {
+    "id": "mbpp_537",
+    "question": "Write a function to calculate wind chill index.",
+    "answer": "import math\r\ndef wind_chill(v,t):\r\n windchill = 13.12 + 0.6215*t -  11.37*math.pow(v, 0.16) + 0.3965*t*math.pow(v, 0.16)\r\n return int(round(windchill, 0))"
+  },
+  {
+    "id": "mbpp_168",
+    "question": "Write a function to find if the given number is a keith number or not.",
+    "answer": "def is_num_keith(x): \r\n\tterms = [] \r\n\ttemp = x \r\n\tn = 0 \r\n\twhile (temp > 0): \r\n\t\tterms.append(temp % 10) \r\n\t\ttemp = int(temp / 10) \r\n\t\tn+=1 \r\n\tterms.reverse() \r\n\tnext_term = 0 \r\n\ti = n \r\n\twhile (next_term < x): \r\n\t\tnext_term = 0 \r\n\t\tfor j in range(1,n+1): \r\n\t\t\tnext_term += terms[i - j] \r\n\t\tterms.append(next_term) \r\n\t\ti+=1 \r\n\treturn (next_term == x) "
+  },
+  {
+    "id": "mbpp_699",
+    "question": "Write a function to remove all whitespaces from a string.",
+    "answer": "import re\r\ndef remove_all_spaces(text):\r\n return (re.sub(r'\\s+', '',text))"
+  },
+  {
+    "id": "mbpp_622",
+    "question": "Write a function to count the same pair in two given lists using map function.",
+    "answer": "from operator import eq\r\ndef count_same_pair(nums1, nums2):\r\n    result = sum(map(eq, nums1, nums2))\r\n    return result"
+  },
+  {
+    "id": "mbpp_630",
+    "question": "Write a function to find the lateral surface area of a cone.",
+    "answer": "import math\r\ndef lateralsurface_cone(r,h):\r\n  l = math.sqrt(r * r + h * h)\r\n  LSA = math.pi * r  * l\r\n  return LSA"
+  },
+  {
+    "id": "humaneval_57",
+    "question": "\n\ndef monotonic(l: list):\n    \"\"\"Return True is list elements are monotonically increasing or decreasing.\n    >>> monotonic([1, 2, 4, 20])\n    True\n    >>> monotonic([1, 20, 4, 10])\n    False\n    >>> monotonic([4, 1, 0, -10])\n    True\n    \"\"\"\n",
+    "answer": "    if l == sorted(l) or l == sorted(l, reverse=True):\n        return True\n    return False\n"
+  },
+  {
+    "id": "mbpp_70",
+    "question": "Write a function to zip the two given tuples.",
+    "answer": "def zip_tuples(test_tup1, test_tup2):\r\n  res = []\r\n  for i, j in enumerate(test_tup1):\r\n    res.append((j, test_tup2[i % len(test_tup2)])) \r\n  return (res) "
+  },
+  {
+    "id": "mbpp_677",
+    "question": "Write a function to pack consecutive duplicates of a given list elements into sublists.",
+    "answer": "from itertools import groupby\r\ndef pack_consecutive_duplicates(list1):\r\n    return [list(group) for key, group in groupby(list1)]"
+  },
+  {
+    "id": "mbpp_818",
+    "question": "Write a python function to multiply all items in the list.",
+    "answer": "def multiply_list(items):\r\n    tot = 1\r\n    for x in items:\r\n        tot *= x\r\n    return tot"
+  },
+  {
+    "id": "mbpp_660",
+    "question": "Write a function to caluclate arc length of an angle.",
+    "answer": "def arc_length(d,a):\r\n    pi=22/7\r\n    if a >= 360:\r\n        return None\r\n    arclength = (pi*d) * (a/360)\r\n    return arclength"
+  },
+  {
+    "id": "mbpp_159",
+    "question": "Write a function to find sum of the numbers in a list between the indices of a specified range.",
+    "answer": "def sum_range_list(list1, m, n):                                                                                                                                                                                                \r\n    sum_range = 0                                                                                                                                                                                                         \r\n    for i in range(m, n+1, 1):                                                                                                                                                                                        \r\n        sum_range += list1[i]                                                                                                                                                                                                  \r\n    return sum_range   "
+  },
+  {
+    "id": "mbpp_246",
+    "question": "Write a function to swap two numbers.",
+    "answer": "def swap_numbers(a,b):\r\n temp = a\r\n a = b\r\n b = temp\r\n return (a,b)"
+  },
+  {
+    "id": "mbpp_110",
+    "question": "Write a function to find the triplet with sum of the given array",
+    "answer": "def check_triplet(A, n, sum, count):\r\n    if count == 3 and sum == 0:\r\n        return True\r\n    if count == 3 or n == 0 or sum < 0:\r\n        return False\r\n    return check_triplet(A, n - 1, sum - A[n - 1], count + 1) or\\\r\n           check_triplet(A, n - 1, sum, count)"
+  },
+  {
+    "id": "humaneval_67",
+    "question": "\ndef fruit_distribution(s,n):\n    \"\"\"\n    In this task, you will be given a string that represents a number of apples and oranges \n    that are distributed in a basket of fruit this basket contains \n    apples, oranges, and mango fruits. Given the string that represents the total number of \n    the oranges and apples and an integer that represent the total number of the fruits \n    in the basket return the number of the mango fruits in the basket.\n    for examble:\n    fruit_distribution(\"5 apples and 6 oranges\", 19) ->19 - 5 - 6 = 8\n    fruit_distribution(\"0 apples and 1 oranges\",3) -> 3 - 0 - 1 = 2\n    fruit_distribution(\"2 apples and 3 oranges\", 100) -> 100 - 2 - 3 = 95\n    fruit_distribution(\"100 apples and 1 oranges\",120) -> 120 - 100 - 1 = 19\n    \"\"\"\n",
+    "answer": "    lis = list()\n    for i in s.split(' '):\n        if i.isdigit():\n            lis.append(int(i))\n    return n - sum(lis)\n"
+  },
+  {
+    "id": "mbpp_52",
+    "question": "Write a function to find the maximum difference between available pairs in the given tuple list.",
+    "answer": "def max_difference(test_list):\r\n  temp = [abs(b - a) for a, b in test_list]\r\n  res = max(temp)\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_416",
+    "question": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex.",
+    "answer": "import re\r\ndef change_date_format(dt):\r\n        return re.sub(r'(\\d{4})-(\\d{1,2})-(\\d{1,2})', '\\\\3-\\\\2-\\\\1', dt)"
+  },
+  {
+    "id": "mbpp_571",
+    "question": "Write a function to find maximum of three numbers.",
+    "answer": "def max_of_three(num1,num2,num3): \r\n    if (num1 >= num2) and (num1 >= num3):\r\n       lnum = num1\r\n    elif (num2 >= num1) and (num2 >= num3):\r\n       lnum = num2\r\n    else:\r\n       lnum = num3\r\n    return lnum"
+  },
+  {
+    "id": "mbpp_158",
+    "question": "Write a function to calculate the nth pell number.",
+    "answer": "def get_pell(n): \r\n\tif (n <= 2): \r\n\t\treturn n \r\n\ta = 1\r\n\tb = 2\r\n\tfor i in range(3, n+1): \r\n\t\tc = 2 * b + a \r\n\t\ta = b \r\n\t\tb = c \r\n\treturn b "
+  },
+  {
+    "id": "mbpp_53",
+    "question": "Write a function to sort a list of tuples using lambda.",
+    "answer": "def subject_marks(subjectmarks):\r\n#subject_marks = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)])\r\n subjectmarks.sort(key = lambda x: x[1])\r\n return subjectmarks"
+  },
+  {
+    "id": "mbpp_507",
+    "question": "Write a python function to find nth bell number.",
+    "answer": "def bell_Number(n): \r\n    bell = [[0 for i in range(n+1)] for j in range(n+1)] \r\n    bell[0][0] = 1\r\n    for i in range(1, n+1):\r\n        bell[i][0] = bell[i-1][i-1]\r\n        for j in range(1, i+1): \r\n            bell[i][j] = bell[i-1][j-1] + bell[i][j-1] \r\n    return bell[n][0] "
+  },
+  {
+    "id": "mbpp_347",
+    "question": "Write a function to find modulo division of two lists using map and lambda function.",
+    "answer": "def moddiv_list(nums1,nums2):\r\n  result = map(lambda x, y: x % y, nums1, nums2)\r\n  return list(result)"
+  },
+  {
+    "id": "mbpp_241",
+    "question": "Write a python function to convert complex numbers to polar coordinates.",
+    "answer": "import cmath  \r\ndef convert(numbers):    \r\n  num = cmath.polar(numbers)  \r\n  return (num) "
+  },
+  {
+    "id": "mbpp_494",
+    "question": "Write a function to move all zeroes to the end of the given array.",
+    "answer": "def re_order(A):\r\n    k = 0\r\n    for i in A:\r\n        if i:\r\n            A[k] = i\r\n            k = k + 1\r\n    for i in range(k, len(A)):\r\n        A[i] = 0\r\n    return A"
+  },
+  {
+    "id": "mbpp_305",
+    "question": "Write a function to find the index of the last occurrence of a given number in a sorted array.",
+    "answer": "def find_last_occurrence(A, x):\r\n    (left, right) = (0, len(A) - 1)\r\n    result = -1\r\n    while left <= right:\r\n        mid = (left + right) // 2\r\n        if x == A[mid]:\r\n            result = mid\r\n            left = mid + 1\r\n        elif x < A[mid]:\r\n            right = mid - 1\r\n        else:\r\n            left = mid + 1\r\n    return result "
+  },
+  {
+    "id": "humaneval_146",
+    "question": "\ndef specialFilter(nums):\n    \"\"\"Write a function that takes an array of numbers as input and returns \n    the number of elements in the array that are greater than 10 and both \n    first and last digits of a number are odd (1, 3, 5, 7, 9).\n    For example:\n    specialFilter([15, -73, 14, -15]) => 1 \n    specialFilter([33, -2, -3, 45, 21, 109]) => 2\n    \"\"\"\n",
+    "answer": "    \n    count = 0\n    for num in nums:\n        if num > 10:\n            odd_digits = (1, 3, 5, 7, 9)\n            number_as_string = str(num)\n            if int(number_as_string[0]) in odd_digits and int(number_as_string[-1]) in odd_digits:\n                count += 1\n        \n    return count \n"
+  },
+  {
+    "id": "mbpp_107",
+    "question": "[link text](https:// [link text](https:// [link text](https://)))write a function to convert a string to a list.",
+    "answer": "def string_to_list(string): \r\n    lst = list(string.split(\" \")) \r\n    return lst"
+  },
+  {
+    "id": "mbpp_828",
+    "question": "Write a function to count repeated items of a tuple.",
+    "answer": "def count_tuplex(tuplex,value):  \r\n  count = tuplex.count(value)\r\n  return count"
+  },
+  {
+    "id": "mbpp_88",
+    "question": "Write a function to convert the given decimal number to its binary equivalent.",
+    "answer": "def decimal_to_binary(n): \r\n    return bin(n).replace(\"0b\",\"\") "
+  },
+  {
+    "id": "mbpp_598",
+    "question": "Write a python function to find the minimum number of swaps required to convert one binary string to another.",
+    "answer": "def min_Swaps(str1,str2) : \r\n    count = 0\r\n    for i in range(len(str1)) : \r\n        if str1[i] != str2[i] : \r\n            count += 1\r\n    if count % 2 == 0 : \r\n        return (count // 2) \r\n    else : \r\n        return (\"Not Possible\") "
+  },
+  {
+    "id": "mbpp_810",
+    "question": "Write a function to compute maximum product of three numbers of a given array of integers using heap queue algorithm.",
+    "answer": "def maximum_product(nums):\r\n    import heapq\r\n    a, b = heapq.nlargest(3, nums), heapq.nsmallest(2, nums)\r\n    return max(a[0] * a[1] * a[2], a[0] * b[0] * b[1])"
+  },
+  {
+    "id": "mbpp_387",
+    "question": "Write a function to compute the sum of digits of each number of a given list.",
+    "answer": "def sum_of_digits(nums):\r\n    return sum(int(el) for n in nums for el in str(n) if el.isdigit())"
+  },
+  {
+    "id": "mbpp_105",
+    "question": "Write a function to convert a given tuple of positive integers into an integer.",
+    "answer": "def tuple_to_int(nums):\r\n    result = int(''.join(map(str,nums)))\r\n    return result"
+  },
+  {
+    "id": "mbpp_600",
+    "question": "Write a function to find the equilibrium index of the given array.",
+    "answer": "def equilibrium_index(arr):\r\n  total_sum = sum(arr)\r\n  left_sum=0\r\n  for i, num in enumerate(arr):\r\n    total_sum -= num\r\n    if left_sum == total_sum:\r\n      return i\r\n    left_sum += num\r\n  return -1"
+  },
+  {
+    "id": "mbpp_434",
+    "question": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.",
+    "answer": "def index_multiplication(test_tup1, test_tup2):\r\n  res = tuple(tuple(a * b for a, b in zip(tup1, tup2))\r\n   for tup1, tup2 in zip(test_tup1, test_tup2))\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_274",
+    "question": "Write a function that matches a string that has an a followed by two to three 'b'.",
+    "answer": "import re\r\ndef text_match_two_three(text):\r\n        patterns = 'ab{2,3}'\r\n        if re.search(patterns,  text):\r\n                return 'Found a match!'\r\n        else:\r\n                return('Not matched!')"
+  },
+  {
+    "id": "mbpp_433",
+    "question": "Write a function to trim each tuple by k in the given tuple list.",
+    "answer": "def trim_tuple(test_list, K):\r\n  res = []\r\n  for ele in test_list:\r\n    N = len(ele)\r\n    res.append(tuple(list(ele)[K: N - K]))\r\n  return (str(res)) "
+  },
+  {
+    "id": "mbpp_244",
+    "question": "Write a function to choose specified number of colours from three different colours and generate all the combinations with repetitions.",
+    "answer": "from itertools import combinations_with_replacement \r\ndef combinations_colors(l, n):\r\n    return list(combinations_with_replacement(l,n))\r"
+  },
+  {
+    "id": "mbpp_761",
+    "question": "Write a function to find the occurrences of n most common words in a given text.",
+    "answer": "from collections import Counter\r\nimport re\r\ndef n_common_words(text,n):\r\n  words = re.findall('\\w+',text)\r\n  n_common_words= Counter(words).most_common(n)\r\n  return list(n_common_words)"
+  },
+  {
+    "id": "mbpp_717",
+    "question": "Write a python function to count lower case letters in a given string.",
+    "answer": "def lower_ctr(str):\r\n      lower_ctr= 0\r\n      for i in range(len(str)):\r\n          if str[i] >= 'a' and str[i] <= 'z': lower_ctr += 1     \r\n      return  lower_ctr"
+  },
+  {
+    "id": "humaneval_141",
+    "question": "\ndef file_name_check(file_name):\n    \"\"\"Create a function which takes a string representing a file's name, and returns\n    'Yes' if the the file's name is valid, and returns 'No' otherwise.\n    A file's name is considered to be valid if and only if all the following conditions \n    are met:\n    - There should not be more than three digits ('0'-'9') in the file's name.\n    - The file's name contains exactly one dot '.'\n    - The substring before the dot should not be empty, and it starts with a letter from \n    the latin alphapet ('a'-'z' and 'A'-'Z').\n    - The substring after the dot should be one of these: ['txt', 'exe', 'dll']\n    Examples:\n    file_name_check(\"example.txt\") # => 'Yes'\n    file_name_check(\"1example.dll\") # => 'No' (the name should start with a latin alphapet letter)\n    \"\"\"\n",
+    "answer": "    suf = ['txt', 'exe', 'dll']\n    lst = file_name.split(sep='.')\n    if len(lst) != 2:\n        return 'No'\n    if not lst[1] in suf:\n        return 'No'\n    if len(lst[0]) == 0:\n        return 'No'\n    if not lst[0][0].isalpha():\n        return 'No'\n    t = len([x for x in lst[0] if x.isdigit()])\n    if t > 3:\n        return 'No'\n    return 'Yes'\n"
+  },
+  {
+    "id": "mbpp_357",
+    "question": "Write a function to repeat the given tuple n times.",
+    "answer": "def repeat_tuples(test_tup, N):\r\n  res = ((test_tup, ) * N)\r\n  return (res) "
+  },
+  {
+    "id": "mbpp_341",
+    "question": "Write a python function to check whether all the characters in a given string are unique.",
+    "answer": "def unique_Characters(str):\r\n    for i in range(len(str)):\r\n        for j in range(i + 1,len(str)): \r\n            if (str[i] == str[j]):\r\n                return False;\r\n    return True;"
+  },
+  {
+    "id": "humaneval_93",
+    "question": "\ndef encode(message):\n    \"\"\"\n    Write a function that takes a message, and encodes in such a \n    way that it swaps case of all letters, replaces all vowels in \n    the message with the letter that appears 2 places ahead of that \n    vowel in the english alphabet. \n    Assume only letters. \n    \n    Examples:\n    >>> encode('test')\n    'TGST'\n    >>> encode('This is a message')\n    'tHKS KS C MGSSCGG'\n    \"\"\"\n",
+    "answer": "    vowels = \"aeiouAEIOU\"\n    vowels_replace = dict([(i, chr(ord(i) + 2)) for i in vowels])\n    message = message.swapcase()\n    return ''.join([vowels_replace[i] if i in vowels else i for i in message])\n"
+  },
+  {
+    "id": "mbpp_609",
+    "question": "Write a function to access the initial and last data of the given tuple record.",
+    "answer": "def front_and_rear(test_tup):\r\n  res = (test_tup[0], test_tup[-1])\r\n  return (res) "
+  },
+  {
+    "id": "humaneval_48",
+    "question": "\n\ndef is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n",
+    "answer": "    for i in range(len(text)):\n        if text[i] != text[len(text) - 1 - i]:\n            return False\n    return True\n"
+  },
+  {
+    "id": "humaneval_112",
+    "question": "\ndef reverse_delete(s,c):\n    \"\"\"Task\n    We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c\n    then check if the result string is palindrome.\n    A string is called palindrome if it reads the same backward as forward.\n    You should return a tuple containing the result string and True/False for the check.\n    Example\n    For s = \"abcde\", c = \"ae\", the result should be ('bcd',False)\n    For s = \"abcdef\", c = \"b\"  the result should be ('acdef',False)\n    For s = \"abcdedcba\", c = \"ab\", the result should be ('cdedc',True)\n    \"\"\"\n",
+    "answer": "    s = ''.join([char for char in s if char not in c])\n    return (s,s[::-1] == s)\n"
+  },
+  {
+    "id": "humaneval_156",
+    "question": "\ndef int_to_mini_roman(number):\n    \"\"\"\n    Given a positive integer, obtain its roman numeral equivalent as a string,\n    and return it in lowercase.\n    Restrictions: 1 <= num <= 1000\n\n    Examples:\n    >>> int_to_mini_roman(19) == 'xix'\n    >>> int_to_mini_roman(152) == 'clii'\n    >>> int_to_mini_roman(426) == 'cdxxvi'\n    \"\"\"\n",
+    "answer": "    num = [1, 4, 5, 9, 10, 40, 50, 90,  \n           100, 400, 500, 900, 1000] \n    sym = [\"I\", \"IV\", \"V\", \"IX\", \"X\", \"XL\",  \n           \"L\", \"XC\", \"C\", \"CD\", \"D\", \"CM\", \"M\"] \n    i = 12\n    res = ''\n    while number: \n        div = number // num[i] \n        number %= num[i] \n        while div: \n            res += sym[i] \n            div -= 1\n        i -= 1\n    return res.lower()\n"
+  },
+  {
+    "id": "mbpp_478",
+    "question": "Write a python function to find the frequency of the largest value in a given array.",
+    "answer": "def frequency_Of_Largest(n,arr): \r\n    mn = arr[0] \r\n    freq = 1\r\n    for i in range(1,n): \r\n        if (arr[i] >mn): \r\n            mn = arr[i] \r\n            freq = 1\r\n        elif (arr[i] == mn): \r\n            freq += 1\r\n    return freq "
+  },
+  {
+    "id": "mbpp_794",
+    "question": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements.",
+    "answer": "def max_sum_subseq(A):\r\n    n = len(A)\r\n    if n == 1:\r\n        return A[0]\r\n    look_up = [None] * n\r\n    look_up[0] = A[0]\r\n    look_up[1] = max(A[0], A[1])\r\n    for i in range(2, n):\r\n        look_up[i] = max(look_up[i - 1], look_up[i - 2] + A[i])\r\n        look_up[i] = max(look_up[i], A[i])\r\n    return look_up[n - 1]"
+  },
+  {
+    "id": "mbpp_647",
+    "question": "Write a function to put spaces between words starting with capital letters in a given string by using regex.",
+    "answer": "import re\r\ndef capital_words_spaces(str1):\r\n  return re.sub(r\"(\\w)([A-Z])\", r\"\\1 \\2\", str1)"
+  },
+  {
+    "id": "mbpp_532",
+    "question": "Write a python function to find the sum of xor of all pairs of numbers in the given array.",
+    "answer": "def pair_OR_Sum(arr,n) : \r\n    ans = 0 \r\n    for i in range(0,n) :    \r\n        for j in range(i + 1,n) :   \r\n            ans = ans + (arr[i] ^ arr[j])          \r\n    return ans "
+  },
+  {
+    "id": "mbpp_792",
+    "question": "Write a python function to get the last element of each sublist.",
+    "answer": "def Extract(lst): \r\n    return [item[-1] for item in lst] "
+  },
+  {
+    "id": "mbpp_446",
+    "question": "Write a python function to find the sublist having minimum length.",
+    "answer": "def Find_Min(lst): \r\n    minList = min((x) for x in lst) \r\n    return minList"
+  },
+  {
+    "id": "humaneval_65",
+    "question": "\ndef circular_shift(x, shift):\n    \"\"\"Circular shift the digits of the integer x, shift the digits right by shift\n    and return the result as a string.\n    If shift > number of digits, return digits reversed.\n    >>> circular_shift(12, 1)\n    \"21\"\n    >>> circular_shift(12, 2)\n    \"12\"\n    \"\"\"\n",
+    "answer": "    s = str(x)\n    if shift > len(s):\n        return s[::-1]\n    else:\n        return s[len(s) - shift:] + s[:len(s) - shift]\n"
+  },
+  {
+    "id": "mbpp_230",
+    "question": "Write a function to generate a 3d array having each element as '*'.",
+    "answer": "def array_3d(m,n,o):\r\n array_3d = [[ ['*' for col in range(m)] for col in range(n)] for row in range(o)]\r\n return array_3d"
+  },
+  {
+    "id": "mbpp_226",
+    "question": "Write a function to check the occurrences of records which occur similar times in the given tuples.",
+    "answer": "from collections import Counter \r\ndef check_occurences(test_list):\r\n  res = dict(Counter(tuple(ele) for ele in map(sorted, test_list)))\r\n  return  (res) "
+  },
+  {
+    "id": "mbpp_799",
+    "question": "Write a function where a string will start with a specific number.",
+    "answer": "import re\r\ndef match_num(string):\r\n    text = re.compile(r\"^5\")\r\n    if text.match(string):\r\n        return True\r\n    else:\r\n        return False"
+  },
+  {
+    "id": "mbpp_315",
+    "question": "Write a function to get the word with most number of occurrences in the given strings list.",
+    "answer": "from collections import defaultdict \r\n\r\ndef most_occurrences(test_list):\r\n  temp = defaultdict(int)\r\n  for sub in test_list:\r\n    for wrd in sub.split():\r\n      temp[wrd] += 1\r\n  res = max(temp, key=temp.get)\r\n  return (str(res)) "
+  },
+  {
+    "id": "mbpp_377",
+    "question": "Write a python function to find the highest power of 2 that is less than or equal to n.",
+    "answer": "def highest_Power_of_2(n): \r\n    res = 0; \r\n    for i in range(n, 0, -1): \r\n        if ((i & (i - 1)) == 0): \r\n            res = i; \r\n            break; \r\n    return res; "
+  },
+  {
+    "id": "mbpp_93",
+    "question": "Write a function to sort each sublist of strings in a given list of lists using lambda function.",
+    "answer": "def sort_sublists(input_list):\r\n    result = [sorted(x, key = lambda x:x[0]) for x in input_list] \r\n    return result\r"
+  },
+  {
+    "id": "mbpp_402",
+    "question": "Write a function to extract the nth element from a given list of tuples.",
+    "answer": "def extract_nth_element(list1, n):\r\n    result = [x[n] for x in list1]\r\n    return result"
+  },
+  {
+    "id": "humaneval_11",
+    "question": "from typing import List\n\n\ndef string_xor(a: str, b: str) -> str:\n    \"\"\" Input are two strings a and b consisting only of 1s and 0s.\n    Perform binary XOR on these inputs and return result also as a string.\n    >>> string_xor('010', '110')\n    '100'\n    \"\"\"\n",
+    "answer": "    def xor(i, j):\n        if i == j:\n            return '0'\n        else:\n            return '1'\n\n    return ''.join(xor(x, y) for x, y in zip(a, b))\n"
+  },
+  {
+    "id": "mbpp_666",
+    "question": "Write a python function to count the number of pairs whose sum is equal to ‘sum’.",
+    "answer": "def get_Pairs_Count(arr,n,sum):\r\n    count = 0  \r\n    for i in range(0,n):\r\n        for j in range(i + 1,n):\r\n            if arr[i] + arr[j] == sum:\r\n                count += 1\r\n    return count"
+  },
+  {
+    "id": "mbpp_574",
+    "question": "Write a function to add two integers. however, if the sum is between the given range it will return 20.",
+    "answer": "def sum_nums(x, y,m,n):\r\n    sum_nums= x + y\r\n    if sum_nums in range(m, n):\r\n        return 20\r\n    else:\r\n        return sum_nums"
+  },
+  {
+    "id": "humaneval_117",
+    "question": "\ndef select_words(s, n):\n    \"\"\"Given a string s and a natural number n, you have been tasked to implement \n    a function that returns a list of all words from string s that contain exactly \n    n consonants, in order these words appear in the string s.\n    If the string s is empty then the function should return an empty list.\n    Note: you may assume the input string contains only letters and spaces.\n    Examples:\n    select_words(\"Mary had a little lamb\", 4) ==> [\"little\"]\n    select_words(\"Mary had a little lamb\", 3) ==> [\"Mary\", \"lamb\"]\n    select_words(\"simple white space\", 2) ==> []\n    select_words(\"Hello world\", 4) ==> [\"world\"]\n    select_words(\"Uncle sam\", 3) ==> [\"Uncle\"]\n    \"\"\"\n",
+    "answer": "    result = []\n    for word in s.split():\n        n_consonants = 0\n        for i in range(0, len(word)):\n            if word[i].lower() not in [\"a\",\"e\",\"i\",\"o\",\"u\"]:\n                n_consonants += 1 \n        if n_consonants == n:\n            result.append(word)\n    return result\n\n"
+  },
+  {
+    "id": "mbpp_534",
+    "question": "Write a function to push all values into a heap and then pop off the smallest values one at a time.",
+    "answer": "import heapq as hq\r\ndef heap_sort(iterable):\r\n    h = []\r\n    for value in iterable:\r\n        hq.heappush(h, value)\r\n    return [hq.heappop(h) for i in range(len(h))]"
+  },
+  {
+    "id": "mbpp_772",
+    "question": "Write a function to solve the fibonacci sequence using recursion.",
+    "answer": "def fibonacci(n):\r\n  if n == 1 or n == 2:\r\n    return 1\r\n  else:\r\n    return (fibonacci(n - 1) + (fibonacci(n - 2)))"
+  },
+  {
+    "id": "mbpp_604",
+    "question": "Write a function to sort a list of lists by length and value.",
+    "answer": "def sort_sublists(list1):\r\n      list1.sort()  \r\n      list1.sort(key=len)\r\n      return  list1"
+  },
+  {
+    "id": "mbpp_735",
+    "question": "Write a function to find length of the subarray having maximum sum.",
+    "answer": "from sys import maxsize \r\ndef max_sub_array_sum(a,size): \r\n\tmax_so_far = -maxsize - 1\r\n\tmax_ending_here = 0\r\n\tstart = 0\r\n\tend = 0\r\n\ts = 0\r\n\tfor i in range(0,size): \r\n\t\tmax_ending_here += a[i] \r\n\t\tif max_so_far < max_ending_here: \r\n\t\t\tmax_so_far = max_ending_here \r\n\t\t\tstart = s \r\n\t\t\tend = i \r\n\t\tif max_ending_here < 0: \r\n\t\t\tmax_ending_here = 0\r\n\t\t\ts = i+1\r\n\treturn (end - start + 1)"
+  },
+  {
+    "id": "mbpp_623",
+    "question": "Write a function to calculate the sum of all digits of the base to the specified power.",
+    "answer": "def power_base_sum(base, power):\r\n    return sum([int(i) for i in str(pow(base, power))])"
+  },
+  {
+    "id": "mbpp_492",
+    "question": "Write a function to add consecutive numbers of a given list.",
+    "answer": "def add_consecutive_nums(nums):\r\n    result = [b+a for a, b in zip(nums[:-1], nums[1:])]\r\n    return result"
+  },
+  {
+    "id": "mbpp_791",
+    "question": "Write a function to remove multiple spaces in a string.",
+    "answer": "import re\r\ndef remove_spaces(text):\r\n return (re.sub(' +',' ',text))"
+  },
+  {
+    "id": "mbpp_834",
+    "question": "Write a function to calculate the sum of series 1²+2²+3²+….+n².",
+    "answer": "def series_sum(number):\r\n total = 0\r\n total = (number * (number + 1) * (2 * number + 1)) / 6\r\n return total"
+  },
+  {
+    "id": "mbpp_767",
+    "question": "Write a python function to find the length of the last word in a given string.",
+    "answer": "def length_Of_Last_Word(a): \r\n    l = 0\r\n    x = a.strip() \r\n    for i in range(len(x)): \r\n        if x[i] == \" \": \r\n            l = 0\r\n        else: \r\n            l += 1\r\n    return l "
+  },
+  {
+    "id": "mbpp_281",
+    "question": "Write a python function to find quotient of two numbers.",
+    "answer": "def find(n,m):  \r\n    q = n//m \r\n    return (q)"
+  },
+  {
+    "id": "humaneval_161",
+    "question": "\ndef solve(s):\n    \"\"\"You are given a string s.\n    if s[i] is a letter, reverse its case from lower to upper or vise versa, \n    otherwise keep it as it is.\n    If the string contains no letters, reverse the string.\n    The function should return the resulted string.\n    Examples\n    solve(\"1234\") = \"4321\"\n    solve(\"ab\") = \"AB\"\n    solve(\"#a@C\") = \"#A@c\"\n    \"\"\"\n",
+    "answer": "    flg = 0\n    idx = 0\n    new_str = list(s)\n    for i in s:\n        if i.isalpha():\n            new_str[idx] = i.swapcase()\n            flg = 1\n        idx += 1\n    s = \"\"\n    for i in new_str:\n        s += i\n    if flg == 0:\n        return s[len(s)::-1]\n    return s\n"
+  },
+  {
+    "id": "mbpp_744",
+    "question": "Write a python function to count the number of digits in factorial of a given number.",
+    "answer": "import math \r\ndef find_Digits(n): \r\n    if (n < 0): \r\n        return 0;\r\n    if (n <= 1): \r\n        return 1; \r\n    x = ((n * math.log10(n / math.e) + math.log10(2 * math.pi * n) /2.0)); \r\n    return math.floor(x) + 1; "
+  },
+  {
+    "id": "humaneval_3",
+    "question": "from typing import List\n\n\ndef below_zero(operations: List[int]) -> bool:\n    \"\"\" You're given a list of deposit and withdrawal operations on a bank account that starts with\n    zero balance. Your task is to detect if at any point the balance of account fallls below zero, and\n    at that point function should return True. Otherwise it should return False.\n    >>> below_zero([1, 2, 3])\n    False\n    >>> below_zero([1, 2, -4, 5])\n    True\n    \"\"\"\n",
+    "answer": "    balance = 0\n\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n\n    return False\n"
+  },
+  {
+    "id": "mbpp_575",
+    "question": "Write a function to remove everything except alphanumeric characters from the given string by using regex.",
+    "answer": "import re\r\ndef remove_extra_char(text1):\r\n  pattern = re.compile('[\\W_]+')\r\n  return (pattern.sub('', text1))"
+  },
+  {
+    "id": "mbpp_572",
+    "question": "Write a python function to convert a list of multiple integers into a single integer.",
+    "answer": "def convert(list): \r\n    s = [str(i) for i in list] \r\n    res = int(\"\".join(s))  \r\n    return (res) "
+  },
+  {
+    "id": "mbpp_766",
+    "question": "Write a python function to add a minimum number such that the sum of array becomes even.",
+    "answer": "def min_Num(arr,n):  \r\n    odd = 0\r\n    for i in range(n): \r\n        if (arr[i] % 2): \r\n            odd += 1 \r\n    if (odd % 2): \r\n        return 1\r\n    return 2"
+  }
+]

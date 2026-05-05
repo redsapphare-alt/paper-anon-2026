@@ -1,0 +1,152 @@
+{
+  "medical": {
+    "data_file": "data\\medical\\medqa_5000.json",
+    "n_total": 5000,
+    "n_sampled_for_features": 500,
+    "question_chars": {
+      "median": 699.0,
+      "mean": 724.482,
+      "p95": 1217,
+      "max": 1699
+    },
+    "question_tokens_est": {
+      "median": 174,
+      "mean": 181
+    },
+    "context_chars": {
+      "median": 0.0,
+      "mean": 0,
+      "max": 0,
+      "present_pct": 0.0
+    },
+    "answer_space": "mcq_4",
+    "options_distribution": {
+      "4": 500
+    },
+    "ground_truth_chars": {
+      "median": 1.0,
+      "mean": 1,
+      "max": 1
+    }
+  },
+  "legal": {
+    "data_file": "data\\legal\\legalbench_3000.json",
+    "n_total": 3000,
+    "n_sampled_for_features": 500,
+    "question_chars": {
+      "median": 164.0,
+      "mean": 210.624,
+      "p95": 502,
+      "max": 1465
+    },
+    "question_tokens_est": {
+      "median": 41,
+      "mean": 52
+    },
+    "context_chars": {
+      "median": 0.0,
+      "mean": 0,
+      "max": 0,
+      "present_pct": 0.0
+    },
+    "answer_space": "free_form",
+    "options_distribution": {
+      "0": 500
+    },
+    "ground_truth_chars": {
+      "median": 8.0,
+      "mean": 10.3,
+      "max": 146
+    }
+  },
+  "code": {
+    "data_file": "data\\code\\code_combined_1000.json",
+    "n_total": 1000,
+    "n_sampled_for_features": 500,
+    "question_chars": {
+      "median": 89.0,
+      "mean": 200.83,
+      "p95": 672,
+      "max": 1360
+    },
+    "question_tokens_est": {
+      "median": 22,
+      "mean": 50
+    },
+    "context_chars": {
+      "median": 0.0,
+      "mean": 0,
+      "max": 0,
+      "present_pct": 0.0
+    },
+    "answer_space": "free_form",
+    "options_distribution": {
+      "0": 500
+    },
+    "ground_truth_chars": {
+      "median": 112.0,
+      "mean": 141.68,
+      "max": 575
+    }
+  },
+  "logic": {
+    "data_file": "data\\logic\\mmlu_logic_1500.json",
+    "n_total": 1500,
+    "n_sampled_for_features": 500,
+    "question_chars": {
+      "median": 304.0,
+      "mean": 259.424,
+      "p95": 374,
+      "max": 603
+    },
+    "question_tokens_est": {
+      "median": 76,
+      "mean": 64
+    },
+    "context_chars": {
+      "median": 0.0,
+      "mean": 0,
+      "max": 0,
+      "present_pct": 0.0
+    },
+    "answer_space": "mcq_4",
+    "options_distribution": {
+      "4": 500
+    },
+    "ground_truth_chars": {
+      "median": 1.0,
+      "mean": 1,
+      "max": 1
+    }
+  },
+  "long_context": {
+    "data_file": "data\\long_context\\sampled\\long_context_small_1000.json",
+    "n_total": 902,
+    "n_sampled_for_features": 500,
+    "question_chars": {
+      "median": 56.0,
+      "mean": 61.206,
+      "p95": 106,
+      "max": 249
+    },
+    "question_tokens_est": {
+      "median": 14,
+      "mean": 15
+    },
+    "context_chars": {
+      "median": 25848.0,
+      "mean": 22545.27,
+      "max": 35286,
+      "present_pct": 100.0
+    },
+    "answer_space": "mcq_4",
+    "options_distribution": {
+      "4": 500
+    },
+    "ground_truth_chars": {
+      "median": 1.0,
+      "mean": 1,
+      "max": 1
+    }
+  }
+}

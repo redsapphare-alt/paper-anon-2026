@@ -1,0 +1,730 @@
+{
+ "math_N1": [
+  {
+   "qid": "gsm8k_231",
+   "gt": "10",
+   "gt_norm": "10",
+   "pred_v2": "10",
+   "tail": "Jean keeps 1/3 of her 60 stuffies, which is:\n\n\\[\n\\frac{1}{3} \\times 60 = 20\n\\]\n\nShe gives away the remaining:\n\n\\[\n60 - 20 = 40\n\\]\n\nJanet receives 1/4 of the stuffies Jean gave away:\n\n\\[\n\\frac{1}{4} \\times 40 = 10\n\\]\n\n**Final Answer: Janet got 10 stuffies.**\njanet got 10 stuffies",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_52",
+   "gt": "8798",
+   "gt_norm": "8798",
+   "pred_v2": "8798",
+   "tail": "To calculate the profit Tom made:\n\n### Expenses:\n1. **Flour**: He needs 500 pounds of flour, and each 50-pound bag costs $20.\n   \\[\n   \\frac{500}{50} = 10 \\text{ bags}, \\quad 10 \\times 20 = 200 \\text{ dollars}\n   \\]\n2. **Salt**: He needs 10 pounds, and salt costs $0.2 per pound.\n   \\[\n   10 \\times 0.2 = 2 \\text{ dollars}\n   \\]\n3. **Promotion**: $1000.\n\nTotal Expenses:\n\\[\n200 + 2 + 1000 = 1202 \\text{ dollars}\n\\]\n\n### Revenue:\nHe sells 500 tickets at $20 each.\n\\[\n500 \\times 20 = 10000 \\text{ dollars}\n\\]\n\n### Profit:\nRevenue - Expenses:\n\\[\n10000 - 1202 = 8798 \\text{ dollars}\n\\]\n\n**Final Answer**: Tom made **$8798**.\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_564",
+   "gt": "4",
+   "gt_norm": "4",
+   "pred_v2": "4",
+   "tail": "First, calculate the weight of the giant spider:\n\n\\[\n\\text{Weight} = 2.5 \\times 6.4 = 16 \\, \\text{ounces}.\n\\]\n\nSince the spider has 8 legs, the weight supported by each leg is:\n\n\\[\n\\text{Weight per leg} = \\frac{16}{8} = 2 \\, \\text{ounces}.\n\\]\n\nGiven that the cross-sectional area of each leg is \\(0.5 \\, \\text{square inches}\\), the pressure on each leg is:\n\n\\[\n\\text{Pressure} = \\frac{\\text{Weight per leg}}{\\text{Area}} = \\frac{2}{0.5} = 4 \\, \\text{ounces per square inch}.\n\\]\n\n**Final Answer:** 4 ounces per square inch.\n** 4 ounces per square inch",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_504",
+   "gt": "78",
+   "gt_norm": "78",
+   "pred_v2": "18",
+   "tail": "Total oranges = 96  \nRipe oranges = \\( \\frac{1}{2} \\times 96 = 48 \\)  \nUnripe oranges = \\( 96 - 48 = 48 \\)  \n\nRipe oranges eaten = \\( \\frac{1}{4} \\times 48 = 12 \\)  \nUnripe oranges eaten = \\( \\frac{1}{8} \\times 48 = 6 \\)  \n\nTotal eaten = \\( 12 + 6 = 18 \\)  \n\n**Final Answer: 18**\n18**",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_463",
+   "gt": "6",
+   "gt_norm": "6",
+   "pred_v2": "6",
+   "tail": "The roller coaster can seat \\( 7 \\times 2 = 14 \\) people per ride.  \nTo serve 84 people, the operator will need \\( 84 \\div 14 = 6 \\) rides.  \n\n**Final Answer: 6 rides.**\n6 rides",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_292",
+   "gt": "16000",
+   "gt_norm": "16000",
+   "pred_v2": "16000",
+   "tail": "16,000 cars\n16,000 cars",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_210",
+   "gt": "130",
+   "gt_norm": "130",
+   "pred_v2": "130",
+   "tail": "1. Total lamps = 20  \n   Light bulbs per lamp = 7  \n   Total light bulbs = 20 \u00d7 7 = **140**\n\n2. Fraction of lamps with 2 burnt-out light bulbs = 1/4  \n   Number of such lamps = 20 \u00d7 (1/4) = **5**\n\n3. Burnt-out light bulbs in these lamps = 5 \u00d7 2 = **10**\n\n4. Working light bulbs = Total light bulbs - Burnt-out light bulbs  \n   Working light bulbs = 140 - 10 = **130**\n\n**Final Answer: 130**\n130**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1124",
+   "gt": "12",
+   "gt_norm": "12",
+   "pred_v2": "12",
+   "tail": "1. Total students = 30.\n2. Students liking Math: \\( \\frac{1}{5} \\times 30 = 6 \\).\n3. Students liking English: \\( \\frac{1}{3} \\times 30 = 10 \\).\n4. Remaining students: \\( 30 - 6 - 10 = 14 \\).\n5. Students liking Science: \\( \\frac{1}{7} \\times 14 = 2 \\).\n6. Students without a favorite subject: \\( 14 - 2 = 12 \\).\n\n**Final Answer: 12 students.**\n12 students",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_165",
+   "gt": "40,000",
+   "gt_norm": "40000",
+   "pred_v2": "45000",
+   "tail": "45,000 fans attended the show.\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_1208",
+   "gt": "212",
+   "gt_norm": "212",
+   "pred_v2": "145",
+   "tail": "The candy store made **$145**.\n\n**Calculation:**\n1. Fudge: \\( 20 \\times 2.50 = 50 \\)\n2. Truffles: \\( 5 \\times 12 \\times 1.50 = 90 \\)\n3. Pretzels: \\( 3 \\times 12 \\times 2.00 = 72 \\)\n\nTotal: \\( 50 + 90 + 72 = 145 \\).\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_866",
+   "gt": "285,000",
+   "gt_norm": "285000",
+   "pred_v2": "225000",
+   "tail": "James pays **$225,000** per episode. \n\n**Calculation:**\n- Each minor character earns $15,000 \u2192 4 minor characters: \\( 4 \\times 15,000 = 60,000 \\)\n- Each major character earns \\( 3 \\times 15,000 = 45,000 \\) \u2192 5 major characters: \\( 5 \\times 45,000 = 225,000 \\).\n- Total: \\( 60,000 + 225,000 = 285,000 \\).\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_67",
+   "gt": "264",
+   "gt_norm": "264",
+   "pred_v2": "264",
+   "tail": "To find the maximum number of residents:\n\n1. Half of the 12 floors = \\( \\frac{12}{2} = 6 \\) floors.\n   - 6 floors have 6 apartments each: \\( 6 \\times 6 = 36 \\) apartments.\n   - The other 6 floors have 5 apartments each: \\( 6 \\times 5 = 30 \\) apartments.\n\n2. Total number of apartments = \\( 36 + 30 = 66 \\).\n\n3. Each apartment can accommodate a maximum of 4 residents:\n   - Maximum residents = \\( 66 \\times 4 = 264 \\).\n\n**Final Answer: 264 residents.**\n264 residents",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_64",
+   "gt": "20000",
+   "gt_norm": "20000",
+   "pred_v2": "20000",
+   "tail": "Each road has 250 street lights on each side, meaning 250 \u00d7 2 = **500 street lights** per road.\n\nEach neighborhood has 4 roads, so 500 \u00d7 4 = **2,000 street lights** per neighborhood.\n\nThe town has 10 neighborhoods, so 2,000 \u00d7 10 = **20,000 street lights**.\n\n**Final Answer: 20,000 street lights**.\n20,000 street lights**",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_194",
+   "gt": "200",
+   "gt_norm": "200",
+   "pred_v2": "200",
+   "tail": "The craftsman made 16 jars, which is twice the number of clay pots. Therefore, the number of clay pots is:\n\n\\[\n\\frac{16}{2} = 8\n\\]\n\nEach jar has 5 marbles, so the total number of marbles in the jars is:\n\n\\[\n16 \\times 5 = 80\n\\]\n\nEach clay pot has three times as many marbles as a jar, so each clay pot has:\n\n\\[\n3 \\times 5 = 15 \\text{ marbles}\n\\]\n\nThe total number of marbles in the clay pots is:\n\n\\[\n8 \\times 15 = 120\n\\]\n\nAdding the marbles from jars and clay pots:\n\n\\[\n80 + 120 = 200\n\\]\n\n**Final Answer: 200 marbles**\n200 marbles**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_431",
+   "gt": "114",
+   "gt_norm": "114",
+   "pred_v2": "114",
+   "tail": "The ratio of boys to girls is 3:4, and there are 60 girls.  \nUsing the ratio, the number of boys is:  \n\\[\n\\frac{3}{4} \\times 60 = 45 \\, \\text{boys}.\n\\]\n\nThe number of teachers is 20% of the number of boys:  \n\\[\n0.2 \\times 45 = 9 \\, \\text{teachers}.\n\\]\n\nTotal people at the dance:  \n\\[\n60 \\, \\text{girls} + 45 \\, \\text{boys} + 9 \\, \\text{teachers} = 114.\n\\]\n\n**Final Answer: 114 people.**\n114 people",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_476",
+   "gt": "225",
+   "gt_norm": "225",
+   "pred_v2": "225",
+   "tail": "The first half of the show (5 seasons) had 20 episodes each:  \n\\( 5 \\times 20 = 100 \\)\n\nThe second half of the show (5 seasons) had 25 episodes each:  \n\\( 5 \\times 25 = 125 \\)\n\nTotal episodes:  \n\\( 100 + 125 = 225 \\)\n\n**Final Answer: 225 episodes**\n225 episodes**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1040",
+   "gt": "6",
+   "gt_norm": "6",
+   "pred_v2": "6",
+   "tail": "Diana bikes 3 mph for 2 hours, covering \\( 3 \\times 2 = 6 \\) miles. She has \\( 10 - 6 = 4 \\) miles left to bike at 1 mph. This takes \\( 4 \\div 1 = 4 \\) hours.\n\nTotal time: \\( 2 + 4 = 6 \\) hours.\n\n**Final Answer: 6 hours**\n6 hours**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1234",
+   "gt": "14",
+   "gt_norm": "14",
+   "pred_v2": "14",
+   "tail": "Mara has 40 crayons, and 10% of them are pink:  \n\\( 40 \\times 0.1 = 4 \\) pink crayons.\n\nLuna has 50 crayons, and 20% of them are pink:  \n\\( 50 \\times 0.2 = 10 \\) pink crayons.\n\nTotal pink crayons:  \n\\( 4 + 10 = 14 \\).\n\n**Final Answer: 14 pink crayons.**\n14 pink crayons",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_44",
+   "gt": "600",
+   "gt_norm": "600",
+   "pred_v2": "600",
+   "tail": "The original number of cats on the island was 1800.\n\n1. After the first relocation mission:\n   \\( 1800 - 600 = 1200 \\) cats remain.\n\n2. On the second mission, half of the remaining cats were relocated:\n   \\( \\frac{1200}{2} = 600 \\) cats were relocated.\n\n3. Cats remaining on the island:\n   \\( 1200 - 600 = 600 \\).\n\n**Final answer: 600 cats remained on the island.**\n600 cats remained on the island",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1163",
+   "gt": "250",
+   "gt_norm": "250",
+   "pred_v2": "250",
+   "tail": "John pays 25% of the $500 cost for each EpiPen, which is **$125**. Since he gets 2 EpiPens per year:\n\n\\[\n125 \\times 2 = 250\n\\]\n\n**Final Answer: $250 per year.**\n$250 per year",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  }
+ ],
+ "math_N4": [
+  {
+   "qid": "gsm8k_222",
+   "gt": "5",
+   "gt_norm": "5",
+   "pred_v2": "5",
+   "tail": "ees.  \nTo find out how much was spent on appetizers:\n\n\\[\n50 - 40 = 10\n\\]\n\nSo, $10.00 was spent on the appetizers.\n\n---\n\n### Step 3: Calculate the price of a single appetizer\nThe $10.00 spent on appetizers was for **2 appetizers**, and each appetizer costs the same amount.  \nTo find the price of a single appetizer:\n\n\\[\n10 \\div 2 = 5\n\\]\n\n---\n\n### Final Answer:\nThe price of a single appetizer is **$5.00**.\n\nLet's verify the solution by breaking it down step by step again:\n\n---\n\n### Step 1: Determine how much money was spent on entrees\nWe are told that **80% of $50.00** was spent on the 4 entrees. To calculate this:\n\n\\[\n0.8 \\times 50 = 40\n\\]\n\nSo, $40.00 was spent on the entrees.  \nThis step is \n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_38",
+   "gt": "300",
+   "gt_norm": "300",
+   "pred_v2": "300",
+   "tail": "otal Revenue} = \\text{Number of Pans Sold} \\times \\text{Price per Pan}\n\\]\n\\[\n\\text{Total Revenue} = 20 \\times 25 = 500\n\\]\n\n### Step 2: Calculate Total Expenses\nJenny makes 20 pans of lasagna, and it costs $10.00 to produce each pan. The total expenses are:\n\n\\[\n\\text{Total Expenses} = \\text{Number of Pans Made} \\times \\text{Cost per Pan}\n\\]\n\\[\n\\text{Total Expenses} = 20 \\times 10 = 200\n\\]\n\n### Step 3: Calculate Profit\nJenny's profit is the total revenue minus the total expenses:\n\n\\[\n\\text{Profit} = \\text{Total Revenue} - \\text{Total Expenses}\n\\]\n\\[\n\\text{Profit} = 500 - 200 = 300\n\\]\n\n### Final Answer:\nJenny makes **$300** after factoring in expenses.\n\nLet's verify the solution step by step t\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_556",
+   "gt": "250",
+   "gt_norm": "250",
+   "pred_v2": "3",
+   "tail": "ve**:\n   - Follow through with the calculations step by step to determine the final answer.\n\nThis plan ensures a clear and methodical approach to solving the problem.\n\nLet\u2019s execute the plan step by step:\n\n### Step 1: Calculate how many students are taken to the beach.\nHalf of the 1000 students are taken to the beach:\n\\[\n\\text{Students taken to the beach} = \\frac{1}{2} \\times 1000 = 500 \n\\]\n\n### Step 2: Find the number of students remaining after the beach trip.\nThe remaining students after the beach trip are:\n\\[\n\\text{Remaining students after the beach} = 1000 - 500 = 500\n\\]\n\n### Step 3: Calculate how many of the remaining students are sent home.\nHalf of the remaining students are sent hom\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_503",
+   "gt": "15",
+   "gt_norm": "15",
+   "pred_v2": "15",
+   "tail": "an needs **15 slices of bread**.\n\nLet's verify the solution step by step:\n\n### **Given**:\n- Ryan wants to make **5 sandwiches**.\n- Each sandwich requires **3 slices of bread**.\n\n### **Approach**:\nTo determine the total number of slices, we multiply the number of sandwiches by the number of slices per sandwich.\n\n\\[\n\\text{Total slices} = \\text{Number of sandwiches} \\times \\text{Slices per sandwich}\n\\]\n\nSubstituting the values:\n\\[\n\\text{Total slices} = 5 \\times 3 = 15\n\\]\n\n### **Verification**:\n- If one sandwich requires 3 slices, then:\n  - 1 sandwich = 3 slices\n  - 2 sandwiches = 6 slices\n  - 3 sandwiches = 9 slices\n  - 4 sandwiches = 12 slices\n  - 5 sandwiches = 15 slices\n\nThe calculation hol\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_457",
+   "gt": "200",
+   "gt_norm": "200",
+   "pred_v2": "200",
+   "tail": "s execute the outlined plan to calculate John's profit step by step.\n\n---\n\n### Step 1: Understand the problem\nJohn sells 20 woodburnings for $15 each. The total cost of the wood is $100. We need to calculate his profit.\n\n---\n\n### Step 2: Define key concepts\nThe formula for profit is:\n\\[\n\\text{Profit} = \\text{Revenue} - \\text{Cost}\n\\]\n\n---\n\n### Step 3: Calculate the revenue\nRevenue is calculated by multiplying the number of woodburnings sold by the price per woodburning:\n\\[\n\\text{Revenue} = 20 \\times 15 = 300\n\\]\n\nSo, John's **revenue** is **$300**.\n\n---\n\n### Step 4: Subtract the cost from the revenue\nNow subtract the cost of the wood ($100) from the revenue ($300):\n\\[\n\\text{Profit} =\n**$200**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_276",
+   "gt": "90",
+   "gt_norm": "90",
+   "pred_v2": "90",
+   "tail": " 4: Verify the solution.\nWe have double-checked the calculations, and they are accurate.\n\n---\n\n### Final Answer:\nThe total number of fruits the vendor sold is **90**.\n\nLet's verify the solution step by step:\n\n---\n\n### Step 1: Calculate the number of lemons sold.\nThe vendor sold **2.5 dozen lemons**. Since 1 dozen equals 12, we calculate:\n\n\\[\n2.5 \\times 12 = 30\n\\]\n\nThis calculation is correct. The vendor sold **30 lemons**.\n\n---\n\n### Step 2: Calculate the number of avocados sold.\nThe vendor sold **5 dozen avocados**. Since 1 dozen equals 12, we calculate:\n\n\\[\n5 \\times 12 = 60\n\\]\n\nThis calculation is also correct. The vendor sold **60 avocados**.\n\n---\n\n### Step 3: Add the results to find the \n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_207",
+   "gt": "6",
+   "gt_norm": "6",
+   "pred_v2": "25",
+   "tail": "nd the distance between each pair of consecutive checkpoints, divide the total interval (24 miles) by the number of intervals (3):\n     \\[\n     \\text{Distance between checkpoints} = \\frac{\\text{Total Interval}}{\\text{Number of Intervals}} = \\frac{24}{3} = 8 \\text{ miles}.\n     \\]\n\n4. **Validate the Spacing**:\n   - If each consecutive checkpoint is 8 miles apart, the positions of the checkpoints would be:\n     - 1 mile (first checkpoint),\n     - 1 + 8 = 9 miles (second checkpoint),\n     - 9 + 8 = 17 miles (third checkpoint),\n     - 17 + 8 = 25 miles (fourth and last checkpoint).\n   - This confirms the checkpoints are evenly spaced, and the solution is consistent with the problem.\n\n---\n\n### *\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_1113",
+   "gt": "35",
+   "gt_norm": "35",
+   "pred_v2": "35",
+   "tail": "es  \n   - Homework: 40 minutes  \n\n3. **Calculate the total time spent on known tasks:**\n   - \\( 30 + 15 + 40 = 85 \\text{ minutes} \\).\n\n4. **Determine the time spent cleaning her room:**\n   - Subtract the known time (85 minutes) from the total time (120 minutes):  \n     \\( 120 - 85 = 35 \\text{ minutes} \\).\n\n### **Solution:**\nMiriam spent **35 minutes** cleaning her room.\n\nLet's verify the solution step by step:\n\n### Problem Recap:\nMiriam spent the following amounts of time on specific tasks:\n- Laundry: 30 minutes\n- Cleaning the bathroom: 15 minutes\n- Homework: 40 minutes\n- Cleaning her room: Unknown (let's call it \\( x \\)).\n\nShe spent a total of 2 hours (which is equivalent to 120 minutes) o\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_178",
+   "gt": "140",
+   "gt_norm": "140",
+   "pred_v2": "140",
+   "tail": "d} = \\frac{\\text{Seeds per kid}}{48}.\n  \\]\n\n---\n\n---\n\nBy following these steps, we will arrive at the number of bags of corn seeds each kid used. Let me know if you'd like me to calculate the exact numbers!\n\n### Step 1: Determine how many rows of corn each kid planted.\n- Each kid spent **half their earnings on dinner**, and the dinner cost **$36 per kid**. Therefore, each kid earned:\n  \\[\n  \\text{Total earnings per kid} = 36 \\times 2 = 72 \\, \\text{dollars}.\n  \\]\n- The farmer pays **$1.50 per row**, so the number of rows planted by each kid is:\n  \\[\n  \\text{Rows per kid} = \\frac{\\text{Total earnings per kid}}{\\text{Payment per row}} = \\frac{72}{1.5} = \neach kid used **140 bags of corn seeds**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1205",
+   "gt": "4",
+   "gt_norm": "4",
+   "pred_v2": "3",
+   "tail": "--\n\nBy following this plan, we will determine how many times Ron gets to pick a new book in a year.\n\n### Step-by-Step Solution:\n\n---\n\n### **1. Determine the total number of members in the club**\n- The club consists of:\n  - Three couples (\\(3 \\times 2 = 6\\) people),\n  - Five single people (\\(5\\) people),\n  - Ron and his wife (\\(2\\) people).\n\nAdding these together gives:\n\\[\n6 + 5 + 2 = 13 \\text{ members in total.}\n\\]\n\n---\n\n### **2. Understand the frequency of book-picking**\n- Each member gets one turn to pick a book in a cycle.\n- Since there are \\(13\\) members, it takes \\(13\\) weeks for a complete cycle.\n\n---\n\n### **3. Calculate how many cycles occur in a year**\n- There are \\(\n4 times a year**",
+   "is_correct_v2": false,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_868",
+   "gt": "24000",
+   "gt_norm": "24000",
+   "pred_v2": "24000",
+   "tail": "\n\n### Step 1: Calculate the total number of matchboxes\nFarrah ordered **4 boxes**, and each box contains **20 matchboxes**.  \nUsing the formula:\n\n\\[\n\\text{Total matchboxes} = \\text{Number of boxes} \\times \\text{Matchboxes per box}\n\\]\n\n\\[\n\\text{Total matchboxes} = 4 \\times 20 = 80\n\\]\n\nSo, there are **80 total matchboxes**.\n\n---\n\n### Step 2: Calculate the total number of matchsticks\nEach matchbox contains **300 matchsticks**, and we have **80 matchboxes**.  \nUsing the formula:\n\n\\[\n\\text{Total matchsticks} = \\text{Total matchboxes} \\times \\text{Matchsticks per matchbox}\n\\]\n\n\\[\n\\text{Total matchsticks} = 80 \\times 300 = 24,000\n\\]\n\nSo, the total number of matchsticks is **24,000**.\n\n---\n\n### Fin\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_72",
+   "gt": "3400",
+   "gt_norm": "3400",
+   "pred_v2": "3400",
+   "tail": "rage annual increase:\n\n\\[\n\\text{Average annual increase} = \\frac{\\text{Total population increase}}{\\text{Number of years}} = \\frac{17,000}{5} = 3,400\n\\]\n\n### Final Answer:\nThe average number of people added each year to Maryville's population was **3,400**.\n\n### Verification of Solution\n\nLet's carefully verify the steps provided to ensure the calculation is correct.\n\n---\n\n### Step 1: Identify the total population increase\nThe population in Maryville in 2005 was **467,000**, and in 2000 it was **450,000**. To find the total increase:\n\n\\[\n\\text{Total population increase} = 467,000 - 450,000 = 17,000\n\\]\n\nThis step is correct. The total population increase over the 5-year period is **1\n**3,400**",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_61",
+   "gt": "66",
+   "gt_norm": "66",
+   "pred_v2": "66",
+   "tail": "otal number of squares:\n\\[\n24 + 60 + 66 = 150.\n\\]\nThe total matches, confirming the solution is correct.\n\n---\n\n### **Final Answer:**\nMarla colors **66 squares green**.\n\n\n\nLet's follow the plan provided to solve the problem step by step:\n\n---\n\n### **Step 1: Calculate the total number of squares in the grid.**\nThe grid has 10 rows and 15 squares in each row. Multiply the number of rows by the number of squares in each row:\n\\[\n\\text{Total squares} = 10 \\times 15 = 150.\n\\]\n\n---\n\n### **Step 2: Calculate the number of squares colored red.**\nMarla colors 4 rows in the middle of the grid, each with 6 squares colored red. Multiply the number of rows by the number \n**\nmarla colors **66 squares green**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_187",
+   "gt": "39",
+   "gt_norm": "39",
+   "pred_v2": "39",
+   "tail": "problem into equations\nFrom the problem:\n1. Bill has one less than twice as many spots as Phil:  \n   \\[\n   B = 2P - 1\n   \\]\n2. Together, Bill and Phil have 59 spots:  \n   \\[\n   B + P = 59\n   \\]\n\n### Step 3: Substitute and simplify\nSubstitute \\( B = 2P - 1 \\) into \\( B + P = 59 \\):\n\\[\n(2P - 1) + P = 59\n\\]\nSimplify the equation:\n\\[\n2P - 1 + P = 59\n\\]\n\\[\n3P - 1 = 59\n\\]\nAdd 1 to both sides:\n\\[\n3P = 60\n\\]\nDivide both sides by 3:\n\\[\nP = 20\n\\]\n\n### Step 4: Solve for \\( B \\)\nSubstitute \\( P = 20 \\) into \\( B = 2P - 1 \\):\n\\[\nB = 2(20) - 1\n\\]\n\\[\nB = 40 - 1\n\\]\n\\[\nB = 39\n\\]\n\n### Step 5: Verify the solution\n1. Check if \\( B = 2P - 1 \\):  \n   \\[\n   B = 2(20) - 1 = 39\n   \\]\n   This is correct.\n**39 spots**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_450",
+   "gt": "30",
+   "gt_norm": "30",
+   "pred_v2": "30",
+   "tail": "initially had 2 shells in their collection. Adding the shells they found at the beach:\n\\[\n\\text{Total shells} = 2 + 13 + 15 = 30\n\\]\n\n---\n\n### **Final Answer:**\nThe pair have **30 shells** altogether.\n\nLet's verify the solution step by step.\n\n---\n\n### **Step 1: Calculate how many shells Ed found**\nEd found:\n- 7 limpet shells,\n- 2 oyster shells,\n- 4 conch shells.\n\nTotal shells Ed found:\n\\[\n7 + 2 + 4 = 13\n\\]\n\nThis calculation is correct.\n\n---\n\n### **Step 2: Determine how many shells Jacob found**\nJacob found 2 more shells than Ed. Since Ed found 13 shells:\n\\[\n\\text{Jacob's shells} = 13 + 2 = 15\n\\]\n\nThis calculation is correct.\n\n---\n\n### **Step 3: Calculate the total number of shells collected \n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_471",
+   "gt": "360",
+   "gt_norm": "360",
+   "pred_v2": "50",
+   "tail": "kets, so we sum up the costs:\n  - Two tickets from the website = \\( 100 \\).\n  - Two tickets from the scalper = \\( 230 \\).\n  - One discounted ticket = \\( 30 \\).\n- Total payment = \\( 100 + 230 + 30 = 360 \\).\n\n---\n\n### Step 6: **Verify and finalize the answer**\n- Jenna's friends collectively pay **$360** for their tickets.\n\n--- \n\nThis strategy involves breaking the problem into smaller parts: calculating the cost of tickets from various sources, applying discounts, and summing up the total.\n\nLet's execute the plan step by step and calculate the total amount Jenna's friends pay for their tickets.\n\n---\n\n### Step 1: **Normal ticket price**\n- The normal ticket price is **$50**.\n\n---\n\n### Step 2: *\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_1042",
+   "gt": "72",
+   "gt_norm": "72",
+   "pred_v2": "72",
+   "tail": "otal time spent walking and playing is:\n  \\[\n  30 \\times 2 = 60 \\text{ minutes.}\n  \\]\n\n---\n\n### Step 2: Convert the time spent feeding into minutes\n- Larry spends a fifth of an hour feeding his dog daily.\n- A fifth of an hour is:\n  \\[\n  60 \\div 5 = 12 \\text{ minutes.}\n  \\]\n\n---\n\n### Step 3: Add the times together\n- The total time spent walking and playing is 60 minutes.\n- The time spent feeding is 12 minutes.\n- Adding these together gives:\n  \\[\n  60 + 12 = 72 \\text{ minutes.}\n  \\]\n\n---\n\n### Step 4: Write the final answer\nLarry spends **72 minutes** on his dog each day.\n\n\n\nLet's verify the solution step by step.\n\n---\n\n### Step 1: Convert the time spent walking and playing into minutes\n- Larr\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_1231",
+   "gt": "108",
+   "gt_norm": "108",
+   "pred_v2": "108",
+   "tail": ": Calculate the total sugar needed\nEach chocolate bar requires 1.5 grams of sugar. For 72 chocolate bars, the total sugar used will be:\n\\[\n72 \\times 1.5 = 108 \\text{ grams}.\n\\]\n\n### Final Answer:\nThe company will use **108 grams of sugar** in two minutes.\n\nLet's verify the solution step by step to ensure it is correct.\n\n---\n\n### **Step 1: Calculate the production in two minutes**\nThe company produces **36 chocolate bars per minute**. In **two minutes**, the total number of chocolate bars produced is:\n\\[\n36 \\times 2 = 72 \\text{ chocolate bars}.\n\\]\n\nThis calculation is correct.\n\n---\n\n### **Step 2: Calculate the total sugar needed**\nEach chocolate bar requires **1.5 grams of sugar**. For **72 \n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "gsm8k_42",
+   "gt": "26",
+   "gt_norm": "26",
+   "pred_v2": "26",
+   "tail": " by step to determine Sarah's age.\n\n---\n\n### Step 1: Define Variables\nLet:\n- Sarah's age = \\( S \\)\n- Mark's age = \\( M \\)\n- Billy's age = \\( B \\)\n- Ana's age = \\( A \\)\n\n---\n\n### Step 2: Translate the Relationships into Equations\n1. Sarah's age in terms of Mark's age:  \n   \\( S = 3M - 4 \\)\n\n2. Mark's age in terms of Billy's age:  \n   \\( M = B + 4 \\)\n\n3. Billy's age in terms of Ana's age:  \n   \\( B = \\frac{A}{2} \\)\n\n4. Ana's age in the present:  \n   If Ana will be 15 in 3 years:  \n   \\( A + 3 = 15 \\)  \n   Solve for \\( A \\):  \n   \\( A = 15 - 3 = 12 \\).\n\n---\n\n### Step 3: Substitute and Solve Step-by-Step\n1. Use \\( A = 12 \\) to find \\( B \\) (Billy's age):  \n   \\[\n   B = \nsarah is **26 years old**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "gsm8k_1161",
+   "gt": "6",
+   "gt_norm": "6",
+   "pred_v2": "6",
+   "tail": "f coffee. We need to calculate how many cups of coffee she orders in total per day.\n\n2. **Identify the quantities**:\n   - Number of visits per day = 2.\n   - Number of cups of coffee per visit = 3.\n\n3. **Choose the mathematical operation**:\n   Since Maria orders the same number of cups during each visit, we will multiply the number of visits by the number of cups per visit.\n\n4. **Set up the equation**:\n   \\[\n   \\text{Total cups of coffee per day} = \\text{Number of visits per day} \\times \\text{Cups of coffee per visit}.\n   \\]\n\n5. **Perform the calculation**:\n   Substitute the values:\n   \\[\n   \\text{Total cups of coffee per day} = 2 \\times 3.\n   \\]\n\n6. **Find the result**:\n   Compute \\( 2 \\tim\n",
+   "is_correct_v2": true,
+   "is_correct_stored": false
+  }
+ ],
+ "reasoning_N1": [
+  {
+   "qid": "arc_224",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. They are all made of atoms.\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_56",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "B. The presence and distribution of alleles diverge.\nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_564",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. repeat the same procedure.\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_509",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. They tend to reduce temperature ranges.\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_459",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "C. precipitation\nC",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_286",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. the alignment of minerals in newly formed crust\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_208",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "A. rocks\nA",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1138",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "C",
+   "tail": "C. hydrosphere\nC",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "arc_176",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. Wooden board\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_854",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "B. touching it\nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_76",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "C. What is the amount of light needed to grow tomatoes?\nC",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_61",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "The average speed is calculated using the formula:  \n**Speed = Distance / Time**\n\nDistance = 300 meters  \nTime = 10 minutes = 10 \u00d7 60 = 600 seconds  \n\nSpeed = 300 / 600 = **0.5 m/s**\n\n**Final Answer: A. 0.5 m/s**\na",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_207",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "C. radiant\nC",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_439",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "B. cell wall\nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_477",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "A. to create, test, and improve products\nA",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1029",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "A. Both need energy.\nA",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_57",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "D. Does the sample conduct electricity?\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1147",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "C. Fish\nC",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_407",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "A. wind energy\nA",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_843",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "B. hair style\nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  }
+ ],
+ "reasoning_N4": [
+  {
+   "qid": "arc_230",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": "ping is an innate behavior in woodpeckers, driven by their instinct to locate food.\n\n---\n\n### **Step 4: Identify if any behavior has a learned component**\n- In this case, **none of the examples provided describe a purely learned behavior**. They all appear to be instinctive. However, if this question assumes a simplified understanding, **A. A tiger hunts a deer** could be considered learned *in part*, as young tigers often observe and practice hunting techniques.\n\n---\n\n### **Step 5: Select the best answer**\n- If the question strictly asks for a learned behavior and no options fully fit, the answer may depend on additional context or interpretation.\n- In most cases, **A. A tiger hunts a dee\na",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_44",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "n two continental plates collide, neither is subducted because they have similar densities. Instead, the crust crumples and forms mountain ranges (e.g., the Himalayas). Volcanic activity is rare or absent in this scenario because subduction (and magma generation) does not occur.\n\n---\n\n### Step 3: Analyze Each Option\n- **A (Diverging oceanic plates)**: Associated with volcanic activity at mid-ocean ridges.\n- **B (Converging oceanic plates)**: Associated with volcanic activity in subduction zones.\n- **C (Diverging continental plates)**: Can produce volcanic activity, though less frequently than A or B.\n- **D (Converging continental plates)**: Least likely to produce volcanic activity, as no \nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_559",
+   "gt": null,
+   "gt_norm": "",
+   "pred_v2": "",
+   "tail": "\n",
+   "is_correct_v2": false,
+   "is_correct_stored": false
+  },
+  {
+   "qid": "arc_507",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "n A**: It does not directly relate to how crop rotation works.\n   - Eliminate **Option B**: Crop rotation does not inherently create pest-resistant crops.\n   - Eliminate **Option D**: Allowing pests to overpopulate is counterproductive and not a benefit of crop rotation.\n\n4. **Determine the Best Fit**:\n   - **Option C** aligns with the biological principle that pests often rely on specific crops. By changing the type of crop planted, farmers disrupt pests' food sources and life cycles, reducing their ability to thrive.\n\n5. **Verify the Answer**:\n   - Crop rotation indeed helps in pest management by breaking the cycle of pests that specialize in specific crops. This is a well-documented ben\nc",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_478",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": "t align with this definition.\n\n### Final Answer: **Option C**\n\nFollowing the structured plan:\n\n### Final Answer: **Option C**  \nA mineral is best described as \"a natural substance that makes up rocks.\"\n\nTo verify:\n\n1. **Definition of a Mineral**:  \n   A mineral is a naturally occurring, inorganic solid with a definite chemical composition and crystalline structure. Minerals are the building blocks of rocks.\n\n2. **Analysis of Options**:\n   - **Option A**: \"The main nutrient in all foods\"  \n     This is incorrect. Minerals are not nutrients in the context of food, though some minerals (e.g., calcium, iron) are essential for nutrition.\n   - **Option B**: \"A type of grain found in c\n**option c**",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_282",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "hermal first.\n   - (D) **Chemical to Mechanical**: No evidence suggests chemical energy is being converted into mechanical energy.\n   - (B) **Mechanical to Thermal**: The hammer strike (mechanical force) results in heat energy (thermal) causing the paper to burn slightly.\n\n5. **Select the Best Answer**:\n   - The energy transfer that fits the scenario most closely is **Mechanical to Thermal**, as the hammer strike causes friction or heat that leads to burning of the paper.\n\n6. **Conclusion**:\n   - The correct answer is **B. Mechanical to Thermal**.\n\nBy carefully analyzing the details of the problem, eliminating irrelevant options, and understanding the energy transfer processes, we arrive a\nb",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_201",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "B",
+   "tail": "hat leads to extinction instead of adaptation.\n\n5. **Select the Most Likely Scenario**:\n   - Identify the scenario that best aligns with the conditions needed for natural selection to take place.\n\n---\n\n### **Application to the Problem**\n\n1. **Analyze Each Option**:\n   - **A. Centuries of gradual climate change**: Gradual changes over centuries allow enough time for populations to adapt through natural selection. Variations in traits that improve survival and reproduction could become more common.\n   - **B. Catastrophic destruction of habitat**: A sudden, overwhelming event may not leave enough survivors or time for meaningful adaptation, potentially leading to extinction rather than natura\nA",
+   "is_correct_v2": false,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1111",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "A",
+   "tail": "which options match your findings.\n\n--- \n\nBy following this strategy, we will determine the correct answer to the problem.\n\nLet's execute the plan step by step to determine the possible genotypes of the offspring.\n\n---\n\n### 1. **Understand the problem**:\nWe are crossing:\n- Parent 1: **Ss** (heterozygous smooth pea plant).\n- Parent 2: **SS** (homozygous smooth pea plant).\n\nThe dominant allele is **S** (smooth), and the recessive allele is **s** (wrinkled).\n\n---\n\n### 2. **Set up a Punnett square**:\nWe place the alleles contributed by each parent:\n- **Ss** parent contributes either **S** or **s**.\n- **SS** parent contributes only **S** (because it is homozygous).\n\nThe setup looks like this:\n\n\nC",
+   "is_correct_v2": false,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_177",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "health. Increased rainfall (within reasonable limits) would likely support plant growth and reproduction.\n\n---\n\n### Step 3: **Eliminate Incorrect Options**  \n- Eliminate options A, B, and C because they have negative or neutral effects on plant populations.  \n- Focus on option D, as rain showers provide a key resource (water) for plants.\n\n---\n\n### Step 4: **Select the Best Answer**  \n- Since water availability is critical for plant growth, **D. more days of rain showers** is the most likely factor to increase a plant population in a habitat.\n\n---\n\n### Final Answer: **D. more days of rain showers**\n\n--- \n\nThis structured reasoning ensures a logical and evidence-based conclusion.\n\nCertainly!\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_854",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": " action that best helps identify soil types is **B. touching it**.\n\n5. **Verify the Answer:**\n   - Confirm that touch provides reliable information about soil texture, ensuring this is the most logical and practical choice compared to the other options.\n\n---\n\n### **Final Answer:**\n**B. touching it**\n\n--- \n\nThis structured approach ensures that the reasoning problem is solved systematically and logically.\n\nFollowing the plan from Agent 1:\n\n### **Solution Execution**\n\n1. **Understanding the Problem:**\n   - Tanisha needs to identify different soil types, which typically involves recognizing unique characteristics of the soil.\n\n2. **Analyzing the Options:**\n   - Smelling the soil (A) is not a \nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_73",
+   "gt": "C",
+   "gt_norm": "C",
+   "pred_v2": "C",
+   "tail": " members may occasionally have similar fingerprint patterns, fingerprints are not a reliable indicator of genetic relationships.\n\n---\n\n### **Step 3: Determine the Best Option**\nBased on the analysis above:\n- **Option C (Compare their genes)** is the best method because genetic testing directly examines inherited DNA, which conclusively establishes biological relationships.\n\n---\n\n### **Step 4: Final Answer**\nThe best way to determine whether two people are related is **C. Compare their genes**.\n\n\n\nFollowing the plan provided by Agent 1, I have analyzed the question and evaluated the options. Based on the reasoning:\n\nThe best way to determine whether two people are related is **C. Compare th\nC",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_80",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": " a primary function of reproduction.\n\n4. **Select the Correct Answer**:  \n   - Based on the analysis, the correct choice is **D. reproductive system**.\n\n5. **Verify the Answer**:  \n   - Confirm that the reproductive system is essential for producing offspring and ensuring the survival of the species.\n\n**Final Answer**: D. reproductive system\n\nUnderstood. Executing the plan provided by Agent 1. Here's the solution:\n\n### Question Recap:\nWhich body system's **primary function** is the **continuation of the species**?\n\n### Step-by-Step Execution:\n\n1. **Understand the Question**:  \n   - The query is asking for the body system whose **main role** is to ensure the species can reproduce and surviv\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_188",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": " orbits.\n- Eliminate **D** (ocean tides) because tides are an effect of the Moon's gravity, not the cause of its orbit.\n\n---\n\n### **Step 4: Select the Correct Answer**\n- The most plausible option is **A. Gravity**, as it is the force that keeps the Moon in orbit around Earth by continuously pulling it toward the planet.\n\n---\n\n### **Step 5: Verify the Answer**\n- Confirm that gravity is indeed the force responsible for orbital motion based on scientific principles (Newton's law of universal gravitation).\n\n---\n\n### **Final Answer**\n- **A. Gravity**\n\n--- \n\nThis structured approach ensures a logical and thorough evaluation of the problem.\n\nExecuting the plan provided by Agent 1.\n\n### **Solution\na",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_438",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": " down.\n   - **D. There was more force in the winner's kicks and strokes.**\n     - Plausible: Greater force in kicks and strokes would result in faster movement through the water.\n\n---\n\n### 4. **Identify the Irrelevant or Illogical Sentence**\n   - Based on the analysis, **Option B** (\"There was more gravitational pull on the winner\") does not logically explain why the first place swimmer was faster. Gravity affects all swimmers equally in a pool, and an increase in gravitational pull would likely hinder rather than help.\n\n---\n\n### 5. **Conclude the Answer**\n   - The sentence that could not explain why the first place swimmer was faster is **B**.\n\n---\n\nThis strategy ensures the problem is so\nB",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_480",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "ffspring:\n  - **AA** (25% likelihood) \u2192 Dominant trait (unattached earlobes).\n  - **Aa** (50% likelihood) \u2192 Dominant trait (unattached earlobes, carrier of the recessive allele).\n  - **aa** (25% likelihood) \u2192 Recessive trait (attached earlobes).\n\n---\n\n### **Step 5: Identify the probability of attached earlobes**\n- Only the **aa** genotype results in attached earlobes.\n- The probability of the student having this genotype is **25%**.\n\n---\n\n### **Step 6: Select the correct answer**\n- The percent likelihood that the student has attached earlobes is **B. 25%**.\n\n--- \n\nThis strategy ensures that the problem is solved systematically and accurately.\n\nUnderstood. Let's execute the plan step by ste\nb",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1037",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "s the highest pH and is the most capable of neutralizing an acidic substance.\n\n### **Next Steps:**\nVerify the reasoning by considering any additional context or constraints, but based on the information provided, the solution is sound.\n\nThe correct answer is **D. Baking soda (pH 8-9)**.\n\nBaking soda is a strongly alkaline substance and has the highest pH among the options provided. This makes it the most effective choice for neutralizing an acidic food.\n\nThe solution provided is **correct**. Here's the reasoning:\n\n### Question Analysis:\nThe task is to identify which substance would most effectively neutralize an acidic food. The ability to neutralize acidity depends on the pH of the substa\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_47",
+   "gt": "B",
+   "gt_norm": "B",
+   "pred_v2": "B",
+   "tail": "Dark soil often signals higher nutrient levels compared to lighter-colored soil.\n\n4. **Plan the Approach**:  \n   - Eliminate options that are less relevant to nutrient indication (e.g., texture, amount of sand, and clay).  \n   - Focus on the reasoning behind soil color as an indicator, emphasizing its relationship to organic matter and nutrient content.\n\n5. **Answer the Question**:  \n   - Select **B. color** as the correct answer.\n\n6. **Verify the Solution**:  \n   - Cross-check the reasoning by considering scientific principles related to soil properties and nutrient content to ensure accuracy.\n\nFollowing the plan provided by Agent 1:\n\n1. **Understand the Question**:  \n   We are tasked wit\nb",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_1156",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "lated to the experiment described. Eliminate this option.\n- **D. Neutralization**:\n  - Neutralization is a chemical reaction where an acid and a base react to form water and a salt, often resulting in a pH change. This matches the scenario where ammonia (a base) neutralizes vinegar (an acid), causing the indicator's color to disappear. This is the correct answer.\n\n---\n\n### **Step 4: Conclude**\nThe correct answer is **D. neutralization**, as the process involves the reaction between an acid and a base, leading to a change in pH and the disappearance of the indicator's color.\n\n---\n\n### Final Solution:\nAnswer: **D. neutralization**\n\nFollowing the plan from Agent 1, the reasoning is clear and \nd",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_413",
+   "gt": "D",
+   "gt_norm": "D",
+   "pred_v2": "D",
+   "tail": "suggest this outcome. **Eliminate this option.**\n- **B. More birds would move into the fields**: The reduction in food (insects and sparrows) would discourage birds from moving into the fields. **Eliminate this option.**\n- **C. The hawks would eat more of the grass**: Hawks are carnivorous and do not eat grass. **Eliminate this option.**\n- **D. There would be fewer sparrows seen in the fields**: With fewer insects, sparrows would have less food and their population would likely decrease. **This is the most likely outcome.**\n\n---\n\n### **Step 5: Select the Correct Answer**\n- The correct answer is: **D. There would be fewer sparrows seen in the fields.**\n\n---\n\nThis systematic approach ensures\nD",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  },
+  {
+   "qid": "arc_868",
+   "gt": "A",
+   "gt_norm": "A",
+   "pred_v2": "A",
+   "tail": " can be replenished through precipitation. **Renewable**.\n\n---\n\n### Step 4: Cross-Check and Select the Answer\nCompare the analysis of all options. The only clearly **nonrenewable resource** is **A. Oil**.\n\n---\n\n### Step 5: Final Answer\nThe correct answer is **A. Oil**.\n\nFollowing the plan provided by Agent 1, I have analyzed the question systematically:\n\n### Final Answer:\nThe correct answer is **A. Oil**.\n\nThe solution provided is **correct**.\n\n### Explanation:\nNonrenewable resources are those that do not regenerate or replenish on a human timescale once they are consumed. Let's analyze the options:\n\n- **A. Oil**: This is a fossil fuel formed over millions of years from organic matter. Onc\nA",
+   "is_correct_v2": true,
+   "is_correct_stored": true
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+{
+  "domain": "medical",
+  "model": "gemini-2.5-pro",
+  "agent_count": 1,
+  "total_questions": 5000,
+  "successful": 13,
+  "correct": 3,
+  "accuracy": 23.076923076923077,
+  "elapsed_time": 880.6216931343079,
+  "num_workers": 3,
+  "checkpoint_batch": 15,
+  "timestamp": "2026-05-01T22:42:10.086191",
+  "results": [
+    {
+      "question_id": "medqa_4516",
+      "success": false,
+      "error": "Subprocess error: Worker failed: Traceback (most recent call last):\n  File \"C:\\Users\\6309806\\workspace\\harmony-project\\_gemini_worker.py\", line 30, in <module>\n    print(response.text)\n    ~~~~~^^^^^^",
+      "elapsed_time": 36.26440167427063,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3107",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The clinical presentation describes a 49-year-old woman with a 2-month history of abdominal pain, nausea, vomiting, and early satiety, along with a mild right upper quadrant tenderness and an enlarged",
+      "correct_answer": "B",
+      "elapsed_time": 44.766600608825684,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_578",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The patient's symptoms (fever, chills, lower quadrant abdominal pain, urinary frequency) along with the urinalysis findings (pyuria and significant bacteriuria) are highly suggestive of acute pyelonep",
+      "correct_answer": "C",
+      "elapsed_time": 49.37553644180298,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2137",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04881739616394,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_181",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04954433441162,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_4777",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05393052101135,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_4896",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.045127630233765,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_1053",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04649233818054,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_468",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04557681083679,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3263",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05488395690918,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_997",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05406665802002,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2557",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.07136249542236,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_966",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.058940410614014,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_1459",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05861449241638,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_248",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05842685699463,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2942",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The patient presents with several indicators of child abuse: a 1-year-old child with lethargy and confusion, a history of \"getting in trouble for crying,\" a cigarette burn on the forearm, and a subdur",
+      "correct_answer": "B",
+      "elapsed_time": 33.00273609161377,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_225",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The patient's presentation is highly suggestive of an ectopic pregnancy. Here's why:\n*   **Amenorrhea (LMP 8 weeks ago):** Indicates a pregnancy.\n*   **Vaginal spotting and right lower quadrant abdomi",
+      "correct_answer": "B",
+      "elapsed_time": 43.522984743118286,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2395",
+      "success": true,
+      "is_correct": true,
+      "predicted_answer": "The patient presents with symptoms of chronic anemia (fatigue, shortness of breath, pallor for 3 months). His past medical history includes acute kidney injury (AKI) and alcoholic hepatitis. Both cond",
+      "correct_answer": "A",
+      "elapsed_time": 54.544010162353516,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2737",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.08850979804993,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3040",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.46854829788208,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2425",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.0685966014862,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_641",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "Answer: B",
+      "correct_answer": "C",
+      "elapsed_time": 30.977294445037842,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3910",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The patient's clinical presentation strongly suggests Li-Fraumeni Syndrome (LFS).\n\nHere's why:\n1.  **Multiple primary cancers:** The patient developed osteosarcoma at age 18 and breast cancer at age 3",
+      "correct_answer": "B",
+      "elapsed_time": 35.14335036277771,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2574",
+      "success": true,
+      "is_correct": true,
+      "predicted_answer": "The patient's presentation is characterized by:\n*   **Neurological:** Unusual behavior, confusion, incoherent speech (\"Mad as a hatter\").\n*   **Skin:** Dryness and flushing of the skin (\"Dry as a bone",
+      "correct_answer": "A",
+      "elapsed_time": 39.89261603355408,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_260",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.056447982788086,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3649",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.055619955062866,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_4330",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.05077338218689,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3092",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04979991912842,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3272",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.048877477645874,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3349",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.05782079696655,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_3641",
+      "success": true,
+      "is_correct": true,
+      "predicted_answer": "Answer: C",
+      "correct_answer": "C",
+      "elapsed_time": 47.41744637489319,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2823",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "The patient's symptoms (fever, regional lymphadenopathy in the armpit, primary skin lesion/papule) appearing after starting a job at a pet store strongly suggest Cat Scratch Disease (CSD).\n\nThe causat",
+      "correct_answer": "B",
+      "elapsed_time": 50.6475875377655,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_1559",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.11175084114075,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_671",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.11559319496155,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_888",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04619312286377,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_620",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.18667674064636,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_514",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.07448863983154,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2506",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.23442459106445,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_470",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.05110931396484,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_1855",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.04760217666626,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_752",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.051987171173096,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_4164",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.10793924331665,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_4497",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "C",
+      "correct_answer": "D",
+      "elapsed_time": 37.892112255096436,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_204",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "B",
+      "correct_answer": "A",
+      "elapsed_time": 49.187177896499634,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    },
+    {
+      "question_id": "medqa_2832",
+      "success": true,
+      "is_correct": false,
+      "predicted_answer": "This is a two-step problem. First, you must identify the medication that caused the patient's new symptoms. Second, you must identify the mechanism of action of that medication.\n\n1.  **Identify the me",
+      "correct_answer": "D",
+      "elapsed_time": 50.8331732749939,
+      "agent_count": 1,
+      "model": "gemini-2.5-pro",
+      "domain": "medical"
+    }
+  ]
+}

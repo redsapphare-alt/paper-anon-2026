@@ -1,0 +1,85 @@
+\section*{NeurIPS Paper Checklist}
+
+\begin{enumerate}
+
+\item {\bf Claims}
+    \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The abstract and Section~\ref{sec:intro} state the four contributions (empirical falsification of ``more is better'', algebraic mechanism, single-feature predictor, contamination diagnostic) and the empirical scope ($4$ NLP domains, $2$ base models, $N{\in}\{1,2,3,4\}$, sampling-and-vote protocol). Each claim is backed by a specific section reference in the contribution list.
+
+\item {\bf Limitations}
+    \item[] Question: Does the paper discuss the limitations of the work performed by the authors?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:discussion} ``Limitations'' paragraph explicitly discusses (i)~small cell-level $n{=}8$, (ii)~modest item-level effect size, (iii)~fixed coordination architecture, (iv)~LLM-judge self-referentiality, (v)~contamination requiring re-measurement on two cells, (vi)~$N{\leq}4$ range only, (vii)~math/reasoning data still in collection.
+
+\item {\bf Theory assumptions and proofs}
+    \item[] Question: For each theoretical result, does the paper provide the full set of assumptions and a complete (and correct) proof?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The decomposition Eq.~\eqref{eq:decomp} and the boundary Eq.~\eqref{eq:boundary} are derived directly from the law of total probability on shared question identifiers (Section~\ref{sec:mechanism}); they are finite-sample identities, not probabilistic theorems, and are verified numerically on every cell with maximum residual $1{\times}10^{-16}$. The IID null model used in Appendix~\ref{app:mechanism-null} is also stated with its assumption ($q$-IID per-agent accuracy).
+
+\item {\bf Experimental result reproducibility}
+    \item[] Question: Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:protocol} and Appendix~\ref{app:protocol-detail} specify the protocol (prompts, temperature, aggregation, vote-tie rule), and Appendix~\ref{app:repro} lists the exact scripts (\texttt{eval\_parallel\_simple.py}, \texttt{contamination\_audit\_v2.py}, \texttt{judge\_features\_parallel.py}, \texttt{phase3\_full\_model.py}, etc.) with the data files (\texttt{results/merged/} JSONs) needed to regenerate every figure and statistic. Appendix~\ref{app:prompts} reproduces the per-domain prompt templates verbatim.
+
+\item {\bf Open access to data and code}
+    \item[] Question: Does the paper provide open access to the data and code, with sufficient instructions to faithfully reproduce the main experimental results?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Appendix~\ref{app:repro} lists all released artefacts: the four benchmark JSONs (MedQA-USMLE, LegalBench, MMLU-logic, QuALITY), $51$ raw multi-agent result JSONs, the contamination-audit script, the LLM-judge feature scoring pipeline, and the analysis scripts that emit each figure and table. The release URL is anonymised at submission.
+
+\item {\bf Experimental setting/details}
+    \item[] Question: Does the paper specify all the training and test details necessary to understand the results?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:experiments} states all hyperparameters: temperature $1.0$ for agents and $0.0$ for the deterministic answer extractor, $N{\in}\{1,2,3,4\}$, identical prompts across agents within a cell (no role assignment), majority vote with ties to the lowest-indexed agent, dataset sample sizes per domain. There is no model training; all evaluations use the underlying base models as-is.
+
+\item {\bf Experiment statistical significance}
+    \item[] Question: Does the paper report error bars suitably and correctly defined or other appropriate information about the statistical significance of the experiments?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:phase3} reports paired McNemar tests with exact binomial $p$-values, Friedman omnibus tests, Cohen's $h$ effect sizes, and bootstrap $95\%$ confidence intervals from $2{,}000$ resamples. Figure~\ref{fig:paired-tests} shows per-cell forest-plot CIs and Figure~\ref{fig:curves} shows shaded bootstrap bands. Methods are cited (\citet{mcnemar1947,cohen1988,efron1993bootstrap}).
+
+\item {\bf Experiments compute resources}
+    \item[] Question: For each experiment, does the paper provide sufficient information on the computer resources needed to reproduce the experiments?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Appendix~\ref{app:compute} reports total API calls per domain, wall-clock under $160$-way parallel execution ($\approx$$2.5$ hours total), and order-of-magnitude API cost (below \$$200$ per base model). The downstream statistical analyses run in $\leq$$1$ minute on a single CPU; LLM-judge scoring runs in under fifteen minutes on a laptop.
+
+\item {\bf Code of ethics}
+    \item[] Question: Does the research conducted in the paper conform, in every respect, with the NeurIPS Code of Ethics?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The work uses publicly available benchmarks under their stated licenses, queries commercially available LLM APIs under terms of use, releases no human-subjects data, and reports null/negative results honestly (including the contamination audit). No personally identifiable information is processed.
+
+\item {\bf Broader impacts}
+    \item[] Question: Does the paper discuss both potential positive societal impacts and negative societal impacts of the work performed?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The Broader Impact section (\S\ref{sec:broader}) discusses the positive impact (reducing wasteful API/energy use by flagging when multi-agent scaling does not help) and the cautionary note that automated systems in high-stakes domains (medical, legal) should not replace expert human review even when ensembled.
+
+\item {\bf Safeguards}
+    \item[] Question: Does the paper describe safeguards that have been put in place for responsible release of data or models that have a high risk for misuse?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper does not release new pretrained models, generative datasets, or scraped data with elevated misuse risk. The released artefacts are evaluation results and analysis scripts on publicly available benchmarks.
+
+\item {\bf Licenses for existing assets}
+    \item[] Question: Are the creators or original owners of assets used in the paper properly credited and are the license and terms of use explicitly mentioned and properly respected?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: All benchmark datasets are cited with their original papers (MMLU~\citep{hendrycks2021mmlu}, HumanEval~\citep{chen2021humaneval}, QuALITY~\citep{pang2022quality}, LegalBench~\citep{guha2023legalbench}, MedQA~\citep{jin2021medqa}). LLM access uses commercial APIs under their terms of service (GPT-4o via OpenAI, Claude Sonnet~4.6 via Anthropic, Gemini~2.5 via Google). No code or data is re-packaged in a way that violates the original licenses.
+
+\item {\bf New assets}
+    \item[] Question: Are new assets introduced in the paper well documented and is the documentation provided alongside the assets?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: New assets are: (i)~the four-axis $K{,}D{,}V{,}S$ scoring rubric and judge prompts (Appendix~\ref{app:rubric}, full text in \texttt{analysis/feature\_judge\_protocol.md}), (ii)~the contamination-audit script (\texttt{contamination\_audit\_v2.py}) with documented heuristics, (iii)~the per-cell mechanism analysis CSVs. All are released with README-level documentation.
+
+\item {\bf Crowdsourcing and research with human subjects}
+    \item[] Question: For crowdsourcing experiments and research with human subjects, does the paper include the full text of instructions given to participants and screenshots, if applicable, as well as details about compensation (if any)?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper does not involve crowdsourcing or research with human subjects. All ``judges'' in the LLM-judge pipeline are LLM API calls, not human raters.
+
+\item {\bf Institutional review board (IRB) approvals or equivalent for research with human subjects}
+    \item[] Question: Does the paper describe potential risks incurred by study participants, whether such risks were disclosed to the subjects, and whether Institutional Review Board (IRB) approvals were obtained?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper does not involve human subjects research; no IRB review is applicable.
+
+\item {\bf Declaration of LLM usage}
+    \item[] Question: Does the paper describe the usage of LLMs if it is an important, original, or non-standard component of the core methods in this research?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: LLMs are central to the methodology in two distinct roles, both fully described. (i)~As \emph{agents under evaluation}: GPT-4o and Claude Sonnet~4.6 (with partial Gemini~2.5~Pro) are queried at $N{\in}\{1,2,3,4\}$ per cell with the prompts in Appendix~\ref{app:prompts}. (ii)~As \emph{independent judges} for task feature scoring: GPT-4o and Gemini~2.5 (Pro at the domain level, Flash at the question level) score each domain on the four-axis rubric (Section~\ref{sec:features}, Appendix~\ref{app:rubric}). LLM use for paper writing was limited to copy editing and did not affect any scientific claim, statistic, or methodological choice.
+
+\end{enumerate}

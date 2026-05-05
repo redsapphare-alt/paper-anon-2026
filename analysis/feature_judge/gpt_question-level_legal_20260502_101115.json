@@ -1,0 +1,552 @@
+[
+  {
+    "idx": 0,
+    "item_id": "legalbench_privacy_policy_qa_2271",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 1,
+    "item_id": "legalbench_privacy_policy_qa_1844",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 2,
+    "item_id": "legalbench_rule_qa_36",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.8,
+      "K": 1.0,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.8, \"K\": 1.0, \"S\": 0.4}"
+  },
+  {
+    "idx": 3,
+    "item_id": "legalbench_privacy_policy_qa_2744",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 4,
+    "item_id": "legalbench_privacy_policy_qa_445",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 5,
+    "item_id": "legalbench_privacy_policy_qa_2817",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 6,
+    "item_id": "legalbench_privacy_policy_qa_556",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 7,
+    "item_id": "legalbench_privacy_policy_qa_1127",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 8,
+    "item_id": "legalbench_privacy_policy_qa_2971",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 9,
+    "item_id": "legalbench_privacy_policy_qa_2980",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 10,
+    "item_id": "legalbench_privacy_policy_qa_2393",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 11,
+    "item_id": "legalbench_privacy_policy_qa_1826",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 12,
+    "item_id": "legalbench_privacy_policy_qa_1977",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 13,
+    "item_id": "legalbench_privacy_policy_qa_2056",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 14,
+    "item_id": "legalbench_privacy_policy_qa_2592",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 15,
+    "item_id": "legalbench_privacy_policy_qa_1584",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 16,
+    "item_id": "legalbench_privacy_policy_qa_1906",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 17,
+    "item_id": "legalbench_privacy_policy_qa_285",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 18,
+    "item_id": "legalbench_privacy_policy_qa_2605",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 19,
+    "item_id": "legalbench_privacy_policy_qa_1938",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.8,
+      "K": 0.7,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.8, \"K\": 0.7, \"S\": 0.2}"
+  },
+  {
+    "idx": 20,
+    "item_id": "legalbench_privacy_policy_qa_446",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 21,
+    "item_id": "legalbench_privacy_policy_qa_2781",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 22,
+    "item_id": "legalbench_privacy_policy_qa_2976",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 23,
+    "item_id": "legalbench_privacy_policy_qa_1185",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.4}"
+  },
+  {
+    "idx": 24,
+    "item_id": "legalbench_privacy_policy_qa_2536",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 25,
+    "item_id": "legalbench_privacy_policy_qa_1635",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 26,
+    "item_id": "legalbench_privacy_policy_qa_2174",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.9,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.9, \"S\": 0.2}"
+  },
+  {
+    "idx": 27,
+    "item_id": "legalbench_privacy_policy_qa_1149",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 28,
+    "item_id": "legalbench_privacy_policy_qa_2966",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 29,
+    "item_id": "legalbench_privacy_policy_qa_989",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 30,
+    "item_id": "legalbench_privacy_policy_qa_1012",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 31,
+    "item_id": "legalbench_privacy_policy_qa_2907",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 32,
+    "item_id": "legalbench_privacy_policy_qa_1449",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 33,
+    "item_id": "legalbench_privacy_policy_qa_2231",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.4}"
+  },
+  {
+    "idx": 34,
+    "item_id": "legalbench_privacy_policy_qa_1729",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 35,
+    "item_id": "legalbench_privacy_policy_qa_2362",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 36,
+    "item_id": "legalbench_privacy_policy_qa_1402",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 37,
+    "item_id": "legalbench_privacy_policy_qa_2422",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 38,
+    "item_id": "legalbench_privacy_policy_qa_1803",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 39,
+    "item_id": "legalbench_contract_nli_explicit_identification_132",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 40,
+    "item_id": "legalbench_privacy_policy_qa_893",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 41,
+    "item_id": "legalbench_privacy_policy_qa_1603",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 42,
+    "item_id": "legalbench_privacy_policy_qa_1501",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 43,
+    "item_id": "legalbench_privacy_policy_qa_2884",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 44,
+    "item_id": "legalbench_privacy_policy_qa_2783",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 45,
+    "item_id": "legalbench_privacy_policy_qa_1420",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 46,
+    "item_id": "legalbench_privacy_policy_qa_631",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 47,
+    "item_id": "legalbench_privacy_policy_qa_2375",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 48,
+    "item_id": "legalbench_privacy_policy_qa_1237",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  },
+  {
+    "idx": 49,
+    "item_id": "legalbench_privacy_policy_qa_2974",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.2}"
+  }
+]

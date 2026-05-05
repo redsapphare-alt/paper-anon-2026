@@ -1,0 +1,46 @@
+key,label,arxiv_id,claimed_year,claimed_title,claimed_authors_raw,verdict,arxiv_title,arxiv_first_author,arxiv_year,reasons
+li2024moreagents,Li et~al.(2024),2402.05120,2024,More Agents Is All You Need,"J.~Li, B.~Zhang, et~al.",OK,More Agents Is All You Need,Junyou Li,2024,
+wu2023autogen,Wu et~al.(2023),2308.08155,2023,"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent
+  Conversation Framework",Q.~Wu et~al.,OK,AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation,Qingyun Wu,2023,
+hong2023metagpt,Hong et~al.(2023),2308.00352,2023,MetaGPT: Meta Programming for Multi-Agent Collaborative Framework,S.~Hong et~al.,OK,MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework,Sirui Hong,2023,
+liu2023agentbench,Liu et~al.(2023a),2308.03688,2023,AgentBench: Evaluating LLMs as Agents,X.~Liu et~al.,OK,AgentBench: Evaluating LLMs as Agents,Xiao Liu,2023,
+lee2025gemmas,Lee et~al.(2025),2507.13190,2025,GEMMAS: Graph-based Evaluation Metrics for Multi-Agent Systems,"J.~Lee, R.~Chang, D.~Kwon, H.~Singh, and N.~Verma.",OK,GEMMAS: Graph-based Evaluation Metrics for Multi Agent Systems,Jisoo Lee,2025,
+wang2024copper,Wang et~al.(2024),,2024,"Reflective Multi-Agent Collaboration based on Large Language Models
+  (COPPER)",Z.~Wang et~al.,NO_ARXIV,,,,
+wang2023solo,Wang et~al.(2024a),2307.05300,2024,"Unleashing the Emergent Cognitive Synergy in Large Language Models:
+  A Task-Solving Agent through Multi-Persona Self-Collaboration (Solo Performance Prompting)","Z.~Wang, S.~Mao, W.~Wu, T.~Ge, F.~Wei, and H.~Ji.",OK,Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Coll,Zhenhailong Wang,2023,
+liu2023llm-mas-survey,Han et~al.(2024),2402.03578,2024,LLM Multi-Agent Systems: Challenges and Open Problems,"S.~Han, Q.~Zhang, W.~Jin, and Z.~Xu.",OK,LLM Multi-Agent Systems: Challenges and Open Problems,Shanshan Han,2024,
+google2025scalingagents,Kim et~al.(2025),2512.08296,2025,Towards a Science of Scaling Agent Systems,"Y.~Kim, K.~Gu, C.~Park, et~al.",OK,Towards a Science of Scaling Agent Systems,Yubin Kim,2025,
+condorcet1785,de~Condorcet(1785),,1785,"\emph{Essai sur l'application de l'analyse \`a la probabilit\'e des
+  d\'ecisions rendues \`a la pluralit\'e des voix}",M.~de Condorcet.,NO_ARXIV,,,,
+wang2023selfconsistency,Wang et~al.(2023a),2203.11171,2023,Self-Consistency Improves Chain of Thought Reasoning in Language Models,"X.~Wang, J.~Wei, D.~Schuurmans, Q.~Le, E.~Chi, S.~Narang, A.~Chowdhery, and D.~Zhou.",OK,Self-Consistency Improves Chain of Thought Reasoning in Language Models,Xuezhi Wang,2022,
+du2023multiagentdebate,Du et~al.(2023),2305.14325,2023,"Improving Factuality and Reasoning in Language Models through
+  Multiagent Debate","Y.~Du, S.~Li, A.~Torralba, J.~B. Tenenbaum, and I.~Mordatch.",OK,Improving Factuality and Reasoning in Language Models through Multiagent Debate,Yilun Du,2023,
+liang2023divergent,Liang et~al.(2023),2305.19118,2023,"Encouraging Divergent Thinking in Large Language Models through
+  Multi-Agent Debate","T.~Liang, Z.~He, W.~Jiao, X.~Wang, Y.~Wang, R.~Wang, Y.~Yang, Z.~Tu, and S.~Shi.",OK,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,Tian Liang,2023,
+yao2023tot,Yao et~al.(2023),2305.10601,2023,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,"S.~Yao, D.~Yu, J.~Zhao, I.~Shafran, T.~L. Griffiths, Y.~Cao, and K.~Narasimhan.",OK,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,Shunyu Yao,2023,
+shinn2023reflexion,Shinn et~al.(2023),2303.11366,2023,Reflexion: Language Agents with Verbal Reinforcement Learning,"N.~Shinn, F.~Cassano, E.~Berman, A.~Gopinath, K.~Narasimhan, and S.~Yao.",OK,Reflexion: Language Agents with Verbal Reinforcement Learning,Noah Shinn,2023,
+wang2024moa,Wang et~al.(2024b),2406.04692,2024,Mixture-of-Agents Enhances Large Language Model Capabilities,"J.~Wang, J.~Wang, B.~Athiwaratkun, C.~Zhang, and J.~Zou.",OK,Mixture-of-Agents Enhances Large Language Model Capabilities,Junlin Wang,2024,
+qian2023chatdev,Qian et~al.(2023),2307.07924,2023,Communicative Agents for Software Development (ChatDev),"C.~Qian, X.~Cong, W.~Liu, C.~Yang, W.~Chen, Y.~Su, Y.~Dang, J.~Li, J.~Xu,
+  D.~Li, Z.~Liu, and M.~Sun.",OK,ChatDev: Communicative Agents for Software Development,Chen Qian,2023,
+zheng2023llmjudge,Zheng et~al.(2023),2306.05685,2023,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,"L.~Zheng, W.-L.~Chiang, Y.~Sheng, S.~Zhuang, Z.~Wu, Y.~Zhuang, Z.~Lin, Z.~Li,
+  D.~Li, E.~P. Xing, H.~Zhang, J.~E. Gonzalez, and I.~Stoica.",OK,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,Lianmin Zheng,2023,
+hendrycks2021mmlu,Hendrycks et~al.(2021),2009.03300,2021,Measuring Massive Multitask Language Understanding (MMLU),"D.~Hendrycks, C.~Burns, S.~Basart, A.~Zou, M.~Mazeika, D.~Song, and J.~Steinhardt.",OK,Measuring Massive Multitask Language Understanding,Dan Hendrycks,2020,
+chen2021humaneval,Chen et~al.(2021),2107.03374,2021,Evaluating Large Language Models Trained on Code (HumanEval / Codex),"M.~Chen, J.~Tworek, H.~Jun, et~al.",OK,Evaluating Large Language Models Trained on Code,Mark Chen,2021,
+pang2022quality,Pang et~al.(2022),2112.08608,2022,"QuALITY: Question Answering with Long Input Texts, Yes!","R.~Y. Pang, A.~Parrish, N.~Joshi, N.~Nangia, J.~Phang, A.~Chen, V.~Padmakumar,
+  J.~Ma, J.~Thompson, H.~He, and S.~R. Bowman.",OK,"QuALITY: Question Answering with Long Input Texts, Yes!",Richard Yuanzhe Pang,2021,
+guha2023legalbench,Guha et~al.(2023),2308.11462,2023,"LegalBench: A Collaboratively Built Benchmark for Measuring Legal
+  Reasoning in Large Language Models","N.~Guha, J.~Nyarko, D.~E. Ho, et~al.",OK,LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models,Neel Guha,2023,
+jin2021medqa,Jin et~al.(2021),2009.13081,2021,"What Disease Does This Patient Have? A Large-scale Open-Domain Question
+  Answering Dataset from Medical Exams (MedQA)","D.~Jin, E.~Pan, N.~Oufattole, W.-H. Weng, H.~Fang, and P.~Szolovits.",OK,What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams,Di Jin,2020,
+efron1993bootstrap,Efron and Tibshirani(1993),,1993,\emph{An Introduction to the Bootstrap},B.~Efron and R.~J. Tibshirani.,NO_ARXIV,,,,
+mcnemar1947,McNemar(1947),,1947,"Note on the Sampling Error of the Difference between Correlated
+  Proportions or Percentages",Q.~McNemar.,NO_ARXIV,,,,
+cohen1988,Cohen(1988),,1988,"\emph{Statistical Power Analysis for the Behavioral Sciences}, 2nd ed",J.~Cohen.,NO_ARXIV,,,,
+deepseek2025r1,DeepSeek-AI et~al.(2025),2501.12948,2025,"DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via
+  Reinforcement Learning",DeepSeek-AI.,OK,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,DeepSeek-AI,2025,
+cobbe2021gsm8k,Cobbe et~al.(2021),2110.14168,2021,Training Verifiers to Solve Math Word Problems (GSM8K),"K.~Cobbe, V.~Kosaraju, M.~Bavarian, M.~Chen, H.~Jun, L.~Kaiser, M.~Plappert,
+  J.~Tworek, J.~Hilton, R.~Nakano, C.~Hesse, and J.~Schulman.",OK,Training Verifiers to Solve Math Word Problems,Karl Cobbe,2021,
+clark2018arc,Clark et~al.(2018),1803.05457,2018,"Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+  Challenge","P.~Clark, I.~Cowhey, O.~Etzioni, T.~Khot, A.~Sabharwal, C.~Schoenick, and
+  O.~Tafjord.",OK,"Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",Peter Clark,2018,

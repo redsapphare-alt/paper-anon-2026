@@ -1,0 +1,349 @@
+{
+  "dataset": [
+    {
+      "domain": "legal",
+      "model": "claude_sonnet_4_6",
+      "D": 0.25,
+      "V": 0.7333333333333332,
+      "K": 0.8000000000000002,
+      "S": 0.2666666666666666,
+      "peak": 1,
+      "shape": "decreasing",
+      "acc_1": 0.8783333333333333,
+      "acc_2": 0.777,
+      "acc_3": 0.7243333333333334,
+      "acc_4": 0.7203333333333334,
+      "shape_pred": "decreasing",
+      "shape_match": true
+    },
+    {
+      "domain": "legal",
+      "model": "gpt_4o",
+      "D": 0.25,
+      "V": 0.7333333333333332,
+      "K": 0.8000000000000002,
+      "S": 0.2666666666666666,
+      "peak": 1,
+      "shape": "decreasing",
+      "acc_1": 0.5636666666666666,
+      "acc_2": 0.44,
+      "acc_3": 0.3423333333333333,
+      "acc_4": 0.238,
+      "shape_pred": "decreasing",
+      "shape_match": true
+    },
+    {
+      "domain": "logic",
+      "model": "claude_sonnet_4_6",
+      "D": 0.2333333333333333,
+      "V": 0.7166666666666666,
+      "K": 0.5,
+      "S": 0.3166666666666666,
+      "peak": 2,
+      "shape": "inverted_U",
+      "acc_1": 0.18,
+      "acc_2": 0.22266666666666668,
+      "acc_3": 0.20333333333333334,
+      "acc_4": 0.19666666666666666,
+      "shape_pred": "inverted_U",
+      "shape_match": true
+    },
+    {
+      "domain": "logic",
+      "model": "gpt_4o",
+      "D": 0.2333333333333333,
+      "V": 0.7166666666666666,
+      "K": 0.5,
+      "S": 0.3166666666666666,
+      "peak": 2,
+      "shape": "inverted_U",
+      "acc_1": 0.21360544217687075,
+      "acc_2": 0.38571428571428573,
+      "acc_3": 0.248,
+      "acc_4": NaN,
+      "shape_pred": "inverted_U",
+      "shape_match": true
+    },
+    {
+      "domain": "long_context",
+      "model": "claude_sonnet_4_6",
+      "D": 0.35,
+      "V": 0.7166666666666666,
+      "K": 0.1,
+      "S": 0.4,
+      "peak": 2,
+      "shape": "inverted_U",
+      "acc_1": 0.03325942350332594,
+      "acc_2": 0.1973392461197339,
+      "acc_3": 0.07427937915742794,
+      "acc_4": 0.015521064301552107,
+      "shape_pred": "inverted_U",
+      "shape_match": true
+    },
+    {
+      "domain": "long_context",
+      "model": "gpt_4o",
+      "D": 0.35,
+      "V": 0.7166666666666666,
+      "K": 0.1,
+      "S": 0.4,
+      "peak": 2,
+      "shape": "inverted_U",
+      "acc_1": 0.007760532150776054,
+      "acc_2": 0.028824833702882482,
+      "acc_3": 0.0022172949002217295,
+      "acc_4": 0.009977827050997782,
+      "shape_pred": "inverted_U",
+      "shape_match": true
+    },
+    {
+      "domain": "medical",
+      "model": "claude_sonnet_4_6",
+      "D": 0.15,
+      "V": 0.7166666666666666,
+      "K": 0.8833333333333333,
+      "S": 0.2833333333333334,
+      "peak": 4,
+      "shape": "increasing",
+      "acc_1": NaN,
+      "acc_2": 0.1902,
+      "acc_3": 0.2292,
+      "acc_4": 0.2502,
+      "shape_pred": "decreasing",
+      "shape_match": false
+    },
+    {
+      "domain": "medical",
+      "model": "gpt_4o",
+      "D": 0.15,
+      "V": 0.7166666666666666,
+      "K": 0.8833333333333333,
+      "S": 0.2833333333333334,
+      "peak": 1,
+      "shape": "flat",
+      "acc_1": 0.285,
+      "acc_2": 0.2582,
+      "acc_3": 0.2652,
+      "acc_4": 0.2582,
+      "shape_pred": "decreasing",
+      "shape_match": false
+    }
+  ],
+  "loo_results": {
+    "M0_chance": {
+      "exact_match": 0.5,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M1_const_best": {
+      "exact_match": 0.0,
+      "mae": 1.125,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M2_K_thresh_06": {
+      "exact_match": 0.875,
+      "mae": 0.375,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M3_K_logistic": {
+      "exact_match": 0.625,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M4_KV_logistic": {
+      "exact_match": 0.625,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M5_KVD_logistic": {
+      "exact_match": 0.625,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M6_all4_logistic": {
+      "exact_match": 0.625,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    "M2b_K_thresh_learned": {
+      "exact_match": 0.625,
+      "mae": 0.625,
+      "within_1": 0.875,
+      "n": 8,
+      "preds": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "truth": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    }
+  },
+  "shape_match_rate": 0.75,
+  "K_threshold_optimum": 0.6,
+  "caveats": [
+    "Only 8 trustable cells. LOO-CV across 4 domains.",
+    "Code domain entirely excluded (data contamination).",
+    "Tau=0.6 hypothesis-driven; learned tau on this small data risks overfitting."
+  ]
+}

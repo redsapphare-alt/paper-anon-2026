@@ -1,0 +1,552 @@
+[
+  {
+    "idx": 0,
+    "item_id": "moral_scenarios_test_77",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}\n```"
+  },
+  {
+    "idx": 1,
+    "item_id": "moral_scenarios_test_647",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 2,
+    "item_id": "logical_fallacies_test_1",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 3,
+    "item_id": "logical_fallacies_test_4",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 4,
+    "item_id": "moral_scenarios_test_143",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}"
+  },
+  {
+    "idx": 5,
+    "item_id": "moral_scenarios_test_424",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.7,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.7, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 6,
+    "item_id": "moral_scenarios_validation_31",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}"
+  },
+  {
+    "idx": 7,
+    "item_id": "philosophy_test_53",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 8,
+    "item_id": "moral_scenarios_validation_38",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 9,
+    "item_id": "logical_fallacies_test_80",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 10,
+    "item_id": "philosophy_test_137",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.8,
+      "S": 0.1
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.8, \"S\": 0.1}"
+  },
+  {
+    "idx": 11,
+    "item_id": "logical_fallacies_test_88",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.3
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.3}"
+  },
+  {
+    "idx": 12,
+    "item_id": "philosophy_test_103",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 13,
+    "item_id": "logical_fallacies_test_30",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.2
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.2}"
+  },
+  {
+    "idx": 14,
+    "item_id": "moral_scenarios_test_564",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.5,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.0, \"V\": 0.6, \"K\": 0.5, \"S\": 0.5}"
+  },
+  {
+    "idx": 15,
+    "item_id": "moral_scenarios_test_402",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 16,
+    "item_id": "moral_scenarios_test_37",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.4,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.4, \"S\": 0.5}"
+  },
+  {
+    "idx": 17,
+    "item_id": "logical_fallacies_validation_17",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.7, \"K\": 0.5, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 18,
+    "item_id": "moral_scenarios_test_270",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}"
+  },
+  {
+    "idx": 19,
+    "item_id": "moral_scenarios_test_763",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}"
+  },
+  {
+    "idx": 20,
+    "item_id": "moral_scenarios_test_10",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}"
+  },
+  {
+    "idx": 21,
+    "item_id": "moral_scenarios_test_694",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 22,
+    "item_id": "philosophy_test_23",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.4}"
+  },
+  {
+    "idx": 23,
+    "item_id": "moral_scenarios_test_291",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}\n```"
+  },
+  {
+    "idx": 24,
+    "item_id": "logical_fallacies_test_31",
+    "parsed": {
+      "D": 0.1,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.1
+    },
+    "response": "{\"D\": 0.1, \"V\": 0.7, \"K\": 0.5, \"S\": 0.1}"
+  },
+  {
+    "idx": 25,
+    "item_id": "moral_scenarios_test_845",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.4,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.4, \"S\": 0.5}"
+  },
+  {
+    "idx": 26,
+    "item_id": "moral_scenarios_test_212",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 27,
+    "item_id": "moral_scenarios_test_816",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}\n```"
+  },
+  {
+    "idx": 28,
+    "item_id": "moral_scenarios_test_821",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 29,
+    "item_id": "logical_fallacies_test_11",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.5,
+      "S": 0.3
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.5, \"S\": 0.3}"
+  },
+  {
+    "idx": 30,
+    "item_id": "moral_scenarios_test_842",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 31,
+    "item_id": "moral_scenarios_test_327",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 32,
+    "item_id": "moral_scenarios_test_493",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.7,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.7, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 33,
+    "item_id": "moral_scenarios_test_820",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 34,
+    "item_id": "moral_scenarios_test_611",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 35,
+    "item_id": "moral_scenarios_test_40",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 36,
+    "item_id": "moral_scenarios_validation_70",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 37,
+    "item_id": "moral_scenarios_test_192",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 38,
+    "item_id": "moral_scenarios_test_872",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}"
+  },
+  {
+    "idx": 39,
+    "item_id": "moral_scenarios_test_252",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}"
+  },
+  {
+    "idx": 40,
+    "item_id": "moral_scenarios_test_741",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 41,
+    "item_id": "moral_scenarios_test_385",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 42,
+    "item_id": "moral_scenarios_test_479",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 43,
+    "item_id": "moral_scenarios_test_584",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}"
+  },
+  {
+    "idx": 44,
+    "item_id": "moral_scenarios_test_285",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.4
+    },
+    "response": "```json\n{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.4}\n```"
+  },
+  {
+    "idx": 45,
+    "item_id": "moral_scenarios_test_627",
+    "parsed": {
+      "D": 0.2,
+      "V": 0.7,
+      "K": 0.3,
+      "S": 0.5
+    },
+    "response": "{\"D\": 0.2, \"V\": 0.7, \"K\": 0.3, \"S\": 0.5}"
+  },
+  {
+    "idx": 46,
+    "item_id": "moral_scenarios_test_795",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 47,
+    "item_id": "moral_scenarios_test_639",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 48,
+    "item_id": "moral_scenarios_test_601",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.7,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.7, \"K\": 0.0, \"S\": 0.0}\n```"
+  },
+  {
+    "idx": 49,
+    "item_id": "moral_scenarios_test_264",
+    "parsed": {
+      "D": 0.0,
+      "V": 0.6,
+      "K": 0.0,
+      "S": 0.0
+    },
+    "response": "```json\n{\"D\": 0.0, \"V\": 0.6, \"K\": 0.0, \"S\": 0.0}\n```"
+  }
+]

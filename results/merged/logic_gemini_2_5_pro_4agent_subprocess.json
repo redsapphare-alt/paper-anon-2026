@@ -1,0 +1,240 @@
+{
+  "domain": "logic",
+  "model": "gemini-2.5-pro",
+  "agent_count": 4,
+  "total_questions": 1500,
+  "successful": 0,
+  "correct": 0,
+  "accuracy": 0,
+  "elapsed_time": 423.9197599887848,
+  "num_workers": 5,
+  "checkpoint_batch": 5,
+  "timestamp": "2026-05-01T22:45:46.517943",
+  "results": [
+    {
+      "question_id": "moral_scenarios_test_894",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05968451499939,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_669",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.06258177757263,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_617",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.0664746761322,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_1",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.06610870361328,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_326",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.06751561164856,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_107",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05711245536804,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "logical_fallacies_test_155",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05966830253601,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_44",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.06124448776245,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_53",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.07299041748047,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_509",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.21738362312317,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_327",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.12685680389404,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "logical_fallacies_test_42",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.15600895881653,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "logical_fallacies_test_62",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.23673915863037,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_90",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.22953915596008,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_436",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 117.76616859436035,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_383",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.05713868141174,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "philosophy_test_89",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.69308090209961,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "philosophy_test_2",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.10755968093872,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "logical_fallacies_test_5",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.335291147232056,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_105",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 65.07504940032959,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_11",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.07334303855896,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_31",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.074761152267456,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "formal_logic_test_69",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 60.090495347976685,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_767",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 114.3734827041626,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    },
+    {
+      "question_id": "moral_scenarios_test_57",
+      "success": false,
+      "error": "Subprocess timeout after 60s",
+      "elapsed_time": 115.00252509117126,
+      "agent_count": 4,
+      "model": "gemini-2.5-pro",
+      "domain": "logic"
+    }
+  ]
+}

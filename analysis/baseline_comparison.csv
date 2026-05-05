@@ -1,0 +1,9 @@
+domain,model,K,alpha,N_true_binary,pred_K_rule,pred_alpha_rule,pred_logreg_KVDS
+legal,claude_sonnet_4_6,0.8000000000000002,0.8783333333333333,1,1,1,1
+legal,gpt_4o,0.8000000000000002,0.5636666666666666,1,1,1,1
+logic,claude_sonnet_4_6,0.5,0.18,2,2,2,2
+logic,gpt_4o,0.5,0.2136054421768707,2,2,2,2
+long_context,claude_sonnet_4_6,0.1,0.0332594235033259,2,2,2,2
+long_context,gpt_4o,0.1,0.007760532150776,2,2,2,2
+medical,claude_sonnet_4_6,0.8833333333333333,,2,1,2,1
+medical,gpt_4o,0.8833333333333333,0.285,1,1,2,2

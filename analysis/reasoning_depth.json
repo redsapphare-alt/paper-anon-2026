@@ -1,0 +1,244 @@
+{
+  "_meta": {
+    "description": "Average length of reasoning text the model generated (per single agent). Proxy for cognitive depth required by the task.",
+    "caveat": "reasoning field present mainly in GPT-4o files; absent in many Claude files. Domain comparison should use only domains where multiple models agree.",
+    "normalization": "cognitive_depth_normalized = (mean - min) / (max - min) across domains using 1-agent averages."
+  },
+  "domain_baseline": {
+    "medical": {
+      "1agent_avg_reasoning_chars": 202.73413169727345,
+      "1agent_avg_reasoning_tokens_est": 50.0,
+      "all_agents_avg_reasoning_chars": 351.36706584863674,
+      "n_models_with_1agent": 3,
+      "cognitive_depth_normalized": 0.9133707309713126
+    },
+    "legal": {
+      "1agent_avg_reasoning_chars": 19.533711615487316,
+      "1agent_avg_reasoning_tokens_est": 4.0,
+      "all_agents_avg_reasoning_chars": 379.8762540633646,
+      "n_models_with_1agent": 1,
+      "cognitive_depth_normalized": 0.03810384902786386
+    },
+    "code": {
+      "1agent_avg_reasoning_chars": 220.86633663366337,
+      "1agent_avg_reasoning_tokens_est": 55.0,
+      "all_agents_avg_reasoning_chars": 430.21658415841586,
+      "n_models_with_1agent": 1,
+      "cognitive_depth_normalized": 1.0
+    },
+    "logic": {
+      "1agent_avg_reasoning_chars": 15.647619047619047,
+      "1agent_avg_reasoning_tokens_est": 3.0,
+      "all_agents_avg_reasoning_chars": 378.77295776051005,
+      "n_models_with_1agent": 1,
+      "cognitive_depth_normalized": 0.019537471705676514
+    },
+    "long_context": {
+      "1agent_avg_reasoning_chars": 11.55826859045505,
+      "1agent_avg_reasoning_tokens_est": 2.0,
+      "all_agents_avg_reasoning_chars": 377.8782549304192,
+      "n_models_with_1agent": 1,
+      "cognitive_depth_normalized": 0.0
+    }
+  },
+  "per_cell": {
+    "code/gpt_4o/1agent": {
+      "mean": 220.86633663366337,
+      "median": 181.0,
+      "p25": 101,
+      "p75": 314,
+      "p95": 500,
+      "max": 500,
+      "n": 1010
+    },
+    "code/gpt_4o/2agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 970
+    },
+    "code/gpt_4o/3agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 1000
+    },
+    "code/gpt_4o/4agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 1000
+    },
+    "legal/gpt_4o/1agent": {
+      "mean": 19.533711615487316,
+      "median": 9.0,
+      "p25": 9,
+      "p75": 9,
+      "p95": 106,
+      "max": 274,
+      "n": 2996
+    },
+    "legal/gpt_4o/2agent": {
+      "mean": 499.9713046379713,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 2997
+    },
+    "legal/gpt_4o/3agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 2988
+    },
+    "legal/gpt_4o/4agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 2987
+    },
+    "logic/gpt_4o/1agent": {
+      "mean": 15.647619047619047,
+      "median": 9.0,
+      "p25": 9,
+      "p75": 9,
+      "p95": 9,
+      "max": 500,
+      "n": 1470
+    },
+    "logic/gpt_4o/2agent": {
+      "mean": 499.4442119944212,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 1434
+    },
+    "logic/gpt_4o/3agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 1451
+    },
+    "logic/gpt_4o/4agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 429
+    },
+    "long_context/gpt_4o/1agent": {
+      "mean": 11.55826859045505,
+      "median": 9,
+      "p25": 9,
+      "p75": 9,
+      "p95": 9,
+      "max": 500,
+      "n": 901
+    },
+    "long_context/gpt_4o/2agent": {
+      "mean": 499.9547511312217,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 884
+    },
+    "long_context/gpt_4o/3agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 867
+    },
+    "long_context/gpt_4o/4agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 852
+    },
+    "medical/gemini-2_5-pro/1agent": {
+      "mean": 288.58575063613233,
+      "median": 500.0,
+      "p25": 9,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 3930
+    },
+    "medical/gemini_2_5_pro/1agent": {
+      "mean": 286.53192584963955,
+      "median": 500.0,
+      "p25": 9,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 7768
+    },
+    "medical/gpt_4o/1agent": {
+      "mean": 33.08471860604847,
+      "median": 9,
+      "p25": 9,
+      "p75": 9,
+      "p95": 182,
+      "max": 500,
+      "n": 4993
+    },
+    "medical/gpt_4o/2agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 4975
+    },
+    "medical/gpt_4o/3agent": {
+      "mean": 500,
+      "median": 500.0,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 4962
+    },
+    "medical/gpt_4o/4agent": {
+      "mean": 500,
+      "median": 500,
+      "p25": 500,
+      "p75": 500,
+      "p95": 500,
+      "max": 500,
+      "n": 4921
+    }
+  }
+}

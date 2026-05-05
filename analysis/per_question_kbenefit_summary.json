@@ -1,0 +1,58 @@
+{
+  "n_total": 350,
+  "spearman_K_benefit_2_1": {
+    "rho": -0.2118813574409631,
+    "p": 6.463707259214884e-05
+  },
+  "quintile_summary": [
+    {
+      "K_quintile": 0,
+      "n": 153,
+      "K_mean": 0.11666666666666665,
+      "benefit_mean": 0.11764705882352941,
+      "benefit_std": 0.4282949130070774,
+      "benefit_se": 0.034625591475351124
+    },
+    {
+      "K_quintile": 1,
+      "n": 63,
+      "K_mean": 0.503968253968254,
+      "benefit_mean": 0.14285714285714285,
+      "benefit_std": 0.5034443575988877,
+      "benefit_se": 0.06342802710311084
+    },
+    {
+      "K_quintile": 2,
+      "n": 81,
+      "K_mean": 0.7999999999999999,
+      "benefit_mean": -0.20987654320987653,
+      "benefit_std": 0.5638273091717899,
+      "benefit_se": 0.06264747879686555
+    },
+    {
+      "K_quintile": 3,
+      "n": 53,
+      "K_mean": 0.8716981132075472,
+      "benefit_mean": -0.03773584905660377,
+      "benefit_std": 0.47887143573130503,
+      "benefit_se": 0.06577805047097045
+    }
+  ],
+  "logistic_harm": {
+    "intercept": -3.521598010044487,
+    "slope_K": 2.5957516765914668
+  },
+  "logistic_improvement": {
+    "intercept": -1.3506638882955877,
+    "slope_K": -1.1914748066973053
+  },
+  "per_domain_model_rho": {
+    "legal/claude_sonnet_4_6": 0.1747367265663608,
+    "legal/gpt_4o": -0.016535432857082144,
+    "logic/claude_sonnet_4_6": -0.1414645123119868,
+    "logic/gpt_4o": -0.03105505973665825,
+    "long_context/claude_sonnet_4_6": 0.062431420373889664,
+    "long_context/gpt_4o": 0.03104123431540227,
+    "medical/gpt_4o": 0.01564045025653808
+  }
+}
