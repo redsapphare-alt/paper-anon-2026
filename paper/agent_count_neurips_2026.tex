@@ -52,18 +52,7 @@ The natural follow-up is two-fold: (a)~\emph{why} does the same protocol produce
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{figures/fig0_teaser_drawio.pdf}
-\caption{\textbf{Overview of our argument.} \protect\circled{1} We evaluate four diverse NLP
-tasks (medical~QA, legal classification, formal logic, long-context QA) characterised by
-their knowledge concentration $K$. \protect\circled{2} All tasks use the same centralised
-multi-agent protocol: $N$ agents independently produce answers, which are aggregated by a
-deterministic majority vote (no inter-agent debate). \protect\circled{3} Despite the
-identical protocol, accuracy curves diverge: \emph{high-$K$} tasks (medical, legal) decrease
-monotonically with $N$ while \emph{low-$K$} tasks (logic, long-context) show an inverted-U
-peaking at $N{=}2$. \protect\circled{4} We attribute this to knowledge concentration: when the
-answer concentrates in narrow expert knowledge, additional agents add noise; when information
-is distributed, two agents collaborate productively. \protect\circled{5} A simple
-$K$-threshold rule ($N^{*}{=}1$ if $K{\geq}0.6$ else $N^{*}{=}2$) predicts the optimal agent
-count for $7$ of $8$ trustable (domain $\times$ model) cells (87.5\%, leave-one-domain-out CV).}
+\caption{\textbf{Overview of our argument.} (\textbf{Top}) The conventional ``more agents is all you need'' recipe~\citep{li2024moreagents} predicts monotone gains with $N$; on knowledge-bound NLP we find the opposite (legal/GPT-4o $-32.6$pp at $N{=}4$). (\textbf{Middle}) Six (domain $\times$ model) cells under one fixed sampling-and-vote protocol. The four \emph{main} cells (legal/GPT-4o, legal/Claude, medical/GPT-4o, logic/GPT-4o, long-context/GPT-4o) and the two \emph{tier-2} OOD cells (math, reasoning on GPT-4o) span monotone-decreasing, flat, inverted-U, and saturated shapes; the largest single positive $\Delta$ in our data is $+9.1$pp on reasoning/GPT-4o at $N{=}2$. (\textbf{Bottom}) Each task is placed on the knowledge-concentration $K$ axis (squares mark tier-2). The threshold rule $N^{*}{=}1$ if $K{\geq}0.6$ else $N^{*}{=}2$ matches $7/8$ main-benchmark cells under leave-one-domain-out CV ($87.5\%$); the boundary inequality $r > \alpha(1{-}p)/(1{-}\alpha)$ (\S\ref{sec:mechanism}) gives an exact help-or-hurt sign from a small paired pilot.}
 \label{fig:teaser}
 \end{figure}
 
