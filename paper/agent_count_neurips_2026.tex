@@ -98,7 +98,7 @@ Figure~\ref{fig:curves} plots accuracy versus agent count for the four trustable
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{figures/fig1_curves_by_domain.pdf}
-\caption{Accuracy as a function of agent count, by task domain and base model. Shaded bands are bootstrap $95\%$ CIs. Code is shown for completeness but excluded from headline analysis (\S\ref{sec:contamination}). Both base models exhibit monotone decreasing curves on legal, an inverted-U at $N=2$ on logic and long context, and a flat or weakly decreasing curve on medical (modulo missing data on Claude/1-agent). Domain titles include $K$ (knowledge concentration, see \S\ref{sec:features}).}
+\caption{Accuracy as a function of agent count, by task domain and base model (main 4 trustable domains; code/HumanEval excluded after the empty-prediction matching bug, \S\ref{sec:contamination}). Shaded bands are bootstrap $95\%$ CIs. Both base models exhibit monotone decreasing curves on legal, an inverted-U at $N=2$ on logic and long context, and a flat or weakly decreasing curve on medical (modulo missing data on Claude/1-agent). Domain titles include $K$ (knowledge concentration, see \S\ref{sec:features}).}
 \label{fig:curves}
 \end{figure}
 
