@@ -545,22 +545,22 @@ Pooled across $250$ paired-item judgements per axis: $V$ $r=0.835$ (MAE $0.046$)
 
 \begin{table}[h]
 \centering
-\caption{Trustable (domain $\times$ model) cells used in the headline analysis. Accuracy at each agent count, with observed peak agent count and curve shape. Bootstrap $95\%$ CIs are over $2{,}000$ resamples of the question-level outcomes per cell.}
+\caption{Trustable (domain $\times$ model) cells used in the headline analysis. Accuracy at each agent count, with observed peak agent count and curve shape. Bootstrap $95\%$ CIs are over $2{,}000$ resamples of the question-level outcomes per cell. medical/Claude/1-agent and logic/GPT-4o/4-agent are re-run from a contaminated/partial earlier collection (full $5{,}000$ and $1{,}500$ items respectively).}
 \label{tab:trustable}
-\begin{tabular}{ll cccc cc}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{l@{\hskip 8pt}l c c c c c l}
 \toprule
 \textbf{Domain} & \textbf{Model} & $\mathrm{acc}_{1}$ & $\mathrm{acc}_{2}$ & $\mathrm{acc}_{3}$ & $\mathrm{acc}_{4}$ & \textbf{Peak} & \textbf{Shape} \\
 \midrule
 legal         & GPT-4o      & $0.564$ & $0.440$ & $0.342$ & $0.238$ & $1$ & decreasing \\
 legal         & Claude~4.6  & $0.878$ & $0.777$ & $0.724$ & $0.720$ & $1$ & decreasing \\
 medical       & GPT-4o      & $0.285$ & $0.258$ & $0.265$ & $0.258$ & $1$ & flat \\
-medical       & Claude~4.6  & $0.254$ & $0.190$ & $0.229$ & $0.250$ & $4$ & flat (near-saturated) \\
+medical       & Claude~4.6  & $0.254$ & $0.190$ & $0.229$ & $0.250$ & $4$ & near-saturated \\
 logic         & GPT-4o      & $0.214$ & $0.386$ & $0.248$ & $0.417$ & $4$ & non-monotone \\
 logic         & Claude~4.6  & $0.180$ & $0.223$ & $0.203$ & $0.197$ & $2$ & inverted-U \\
 long\_context & GPT-4o      & $0.008$ & $0.029$ & $0.002$ & $0.010$ & $2$ & inverted-U \\
 long\_context & Claude~4.6  & $0.033$ & $0.197$ & $0.074$ & $0.016$ & $2$ & inverted-U \\
 \bottomrule
-\multicolumn{8}{l}{\footnotesize medical/Claude/1-agent and logic/GPT-4o/4-agent re-run from a contaminated/partial earlier collection; full $5{,}000$ and $1{,}500$ items respectively.}\\
 \end{tabular}
 \end{table}
 
